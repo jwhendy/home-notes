@@ -1,0 +1,19 @@
+
+
+* Tech
+** Screencasting
+- ffcast2 via someone on arch works alright, thought it seems that ffmpeg by itself might
+  work fine. ffcast2 works great by default, but without sound. After all the options
+  needed to provide to ffmpeg for sound, it's unclear what advantage ffcast2
+  offers. https://github.com/lolilolicon/FFcast2
+- freeseer: sounds quite promising. https://github.com/fosslc/freeseer
+- istanbul
+- wiki comparison: http://en.wikipedia.org/wiki/Comparison_of_screencasting_software
+- gtk record-my-desktop
+- ffmpeg
+  - ubuntu forums tutorial: http://ubuntuforums.org/showthread.php?t=1392026
+  - page where I found how to sync audio: http://www.kkoncepts.net/node/69
+  - another helpful walkthrough: http://forums.freebsd.org/showthread.php?t=23826
+  - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec
+    mpeg2video -sameq -async 1 test.mpeg=code=  
+  
