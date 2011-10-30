@@ -18,5 +18,131 @@
     mpeg2video -sameq -async 1 test.mpeg=code=  
 
   
+* Obconf from Larrson
+# Tint2 config file
+# For information on manually configuring tint2 see http://code.google.com/p/tint2/wiki/Configure
+# To use this as default tint2 config: save as $HOME/.config/tint2/tint2rc
+
+panel_items = LTSBC
+
+# Background definitions
+# ID 1
+rounded = 0
+border_width = 1
+background_color = #000000 60
+border_color = #FFFFFF 5
+
+# ID 2
+rounded = 0
+border_width = 0
+background_color = #000000 40
+border_color = #FFFFFF 40
+
+# ID 3
+rounded = 5
+border_width = 0
+background_color = #000000 5
+border_color = #FFFFFF 60
+
+# Panel
+panel_monitor = all
+panel_position = top center horizontal
+panel_size = 100% 26
+panel_margin = 0 0
+panel_padding = 0 0 0
+panel_dock = 0
+wm_menu = 0
+panel_layer = normal
+panel_background_id = 1
+
+# Panel Autohide
+autohide = 0
+autohide_show_timeout = 0.3
+autohide_hide_timeout = 2
+autohide_height = 2
+panel_layer = top
+strut_policy = follow_size
+
+#Launchers
+#launcher_icon_theme = Faenza-Dark
+#launcher_padding = 2 0 2
+#launcher_background_id = 0
+#launcher_icon_size = 24
+#launcher_item_app = ~/.config/tint2/settings.desktop
+
+# Taskbar
+taskbar_mode = multi_desktop
+taskbar_padding = 2 2 0
+taskbar_background_id = 0
+taskbar_active_background_id = 0
+
+# Tasks
+urgent_nb_of_blink = 5
+task_icon = 0
+task_text = 1
+task_centered = 1
+task_maximum_size = 140 35
+task_padding = 10 2
+task_background_id = 0
+task_active_background_id = 2
+task_urgent_background_id = 2
+task_iconified_background_id = 3
+
+# Task Icons
+task_icon_asb = 70 0 0
+task_active_icon_asb = 100 0 0
+task_urgent_icon_asb = 100 0 0
+task_iconified_icon_asb = 70 0 0
+
+# Fonts
+task_font = Liberation Sans 10
+task_font_color = #FFFFFF 60
+task_active_font_color = #FFFFFF 80
+task_urgent_font_color = #FFFFFF 80
+task_iconified_font_color = #FFFFFF 60
+font_shadow = 0
+
+# System Tray
+systray = 1
+systray_padding = 2 0 2
+systray_sort = ascending
+systray_background_id = 0
+systray_icon_size = 24
+systray_icon_asb = 70 0 0
+
+# Clock
+time1_format = %a %d %b - %H:%M
+time1_font = Liberation Sans 10
+clock_font_color = #FFFFFF 63
+clock_padding = 6 0
+clock_background_id = 0
+
+# Tooltips
+tooltip = 0
+tooltip_padding = 2 2
+tooltip_show_timeout = 0.7
+tooltip_hide_timeout = 0.3
+tooltip_background_id = 1
+tooltip_font = sans 10
+tooltip_font_color = #000000 80
+
+# Mouse
+mouse_middle = none
+mouse_right = close
+mouse_scroll_up = iconify
+mouse_scroll_down = toggle
+
+# Battery
+battery = 1
+battery_low_status = 15
+battery_low_cmd = notify-send "battery low"
+battery_hide = 98
+bat1_font = Liberation Sans 8
+bat2_font = sans 6
+battery_font_color = #FFFFFF 63
+battery_padding = 1 0
+battery_background_id = 0
+
+# End of config
 
 * todo email arizona atheist when responses from coming out
