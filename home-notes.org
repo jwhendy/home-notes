@@ -16,4 +16,7 @@
   - another helpful walkthrough: http://forums.freebsd.org/showthread.php?t=23826
   - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec
     mpeg2video -sameq -async 1 test.mpeg=code=  
+
   
+
+* todo email arizona atheist when responses from coming out
