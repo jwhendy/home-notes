@@ -17,6 +17,10 @@
   - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec
     mpeg2video -sameq -async 1 test.mpeg=code=  
 
+** IR controlled LEDs and Arduino
+- Inventables: http://www.inventables.com/technologies/smart-infrared-transmitter-ctrlm
+- CtrlM demo: http://www.youtube.com/watch?v=3fSsRGN1ip0
+- Arduino: http://www.arduino.cc/
   
 * Obconf from Larrson
 # Tint2 config file
