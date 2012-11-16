@@ -1,4 +1,5 @@
-
+#+setupfile: ~/org/aux/setupfile.org
+#+options: num:t todo:t
 
 * Tech
 ** Screencasting
@@ -14,8 +15,7 @@
   - ubuntu forums tutorial: http://ubuntuforums.org/showthread.php?t=1392026
   - page where I found how to sync audio: http://www.kkoncepts.net/node/69
   - another helpful walkthrough: http://forums.freebsd.org/showthread.php?t=23826
-  - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec
-    mpeg2video -sameq -async 1 test.mpeg=code=  
+  - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec mpeg2video -sameq -async 1 test.mpeg=code=  
 
 ** IR controlled LEDs and Arduino
 - Inventables: http://www.inventables.com/technologies/smart-infrared-transmitter-ctrlm
@@ -149,4 +149,338 @@ battery_background_id = 0
 
 # End of config
 
-* todo email arizona atheist when responses from coming out
+* Scotch
+- 60 for Aberlour
+- 50 for Ardbeg 10
+- 75 for Glendronach
+- 47 for Compass Box (France44 had it for 37 but appears to have sold out)
+
+
+| Scotch            | Chicago Lake | Syrdyks | France 44 | Haskells | Merwins |
+|-------------------+--------------+---------+-----------+----------+---------|
+| Aberlour A'bunadh | -            | *60*    | 70        |       63 |      69 |
+| Ardbeg 10         | 50           | 50      | 50        |     *42* |      47 |
+| Glendronach       | -            | -       | -         |       90 |    *75* |
+| Peat Monster      | 44           | 55      | -         |       60 |      47 |
+
+* Libary meeting rooms
+** Augsburg Park
+- 7100 Nicollet Ave., Richfield
+- Closes Mon at 8p
+- Meeting room (5-60)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=100
+  - Screen, easel, podium
+  - Avail: July 23 (6:30-8p)
+** Edina
+- 5280 Grandview Square, Edina
+- Closes Mon at 8p
+- Conference room (1-15)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=168
+  - White board
+  - Avail: July 9/23 (6:30-8p)
+- Meeting room (10-75)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=111
+  - Screen, white board, sink
+  - Avail: June 4, July 9/23 (6:30-8p)
+
+** Golden Valley
+- 830 Winnetka Ave. N., Golden Valley
+- Closes Mon at 8p
+- Meetin room (10-70)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=113
+  - Screen
+  - Avail: July 9/23 (6:30-8p)
+
+** Oxboro
+- 8801 Portland Ave. S., Bloomington
+- Closes Mon at 8p
+- Meeting room (10-80)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=113
+  - Tables/chairs, podium, screen
+  - Avail: May 21, June 4, July 9/23 (6:30-8p)
+** Penn Lake
+- 8800 Penn Ave. S., Bloomington
+- Closes Mon at 8p
+- Meeting room (10-80)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=140
+  - Table, podium, screen
+  - Avail: July 9/23 (6:30-8p)
+** Southdale
+- 7001 York Ave. S., Edina
+- Closes Mon at 9p
+- Ethyl Berry (15-49)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=151
+  - Screen, podium, kitchen, 13 tables
+  - Avail: June 4, July 9 (6:30-9p)
+- Helen Young (15-49)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=152
+  - Tables, large white wall might work for projector, chairs
+  - Avail: July 9
+- Public conference room (3-10)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=153
+  - Central table surrounded by chairs, maybe could project on wall
+  - Avail: May 21, June 4, July 9/23 (6:30-9p)
+- Full meeting room (15-195)
+  - *This appears to be the Ethyl Berry and Helen Young rooms combined*
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=150
+
+* PMT Script
+
+I'm John Henderson in 3M's Automotive Aftermarket Division. Most of my life is hilarious,
+but today I'd like to talk about something serious: male baldness as a result of
+participating in a study for 3M Medical's prototype pre-operative shaver. This is no
+laughing matter.
+
+As an innovative engineer, however, I know there's a solution for everything. Thanks to
+3M's recently launched PMT, or Automotive Precision Masking Tape if you're not into the
+whole brevity thing, we're going to fix this chrome dome right up.
+
+Thankfully, PMT utilizes a smooth Washi paper backing so we won't have to deal with any of
+those unsightly built up paint edges that other tapes leave behind on bald heads. PMT also
+features excellent adhesive wet out properties for low removal force. This means I
+get a look that's a killer with the ladies... without killing my scalp.
+
+Well, I think we'll get right down to it. I'm here with PMT lead developer and precision
+masker, Jeff Schwab to demo the raw power and versatility of PMT.
+
+[Starts masking]
+
+Hey Jeff, leave me some sideburns, will you? I don't want to look like a weirdo.
+
+[Paint]
+
+With today's advanced paint systems, don't try and cut corners on the bake cycle.
+
+[Hairdry/demask]
+
+Well, there you have it. Another win for 3M's line of automotive masking solutions. Thanks for
+joining us and next time you're looking for an automotive masking tape, choose PMT. It'll
+really put some hair on your head.
+
+[Show before/after screenshot]
+* Anniversary Plan						     :export:
+** Friday
+*** Schedule
+| Time    | Event                 |
+|---------+-----------------------|
+| 3:30p   | leave home            |
+| 4p      | renewal of vows @ SPS |
+| 5:00p   | head to Alma          |
+| 5:30p   | reservation @ Alma    |
+| 7:15p   | head to comedy sportz |
+| 7:30-8p | get situated          |
+| 8p      | comedy sportz         |
+| -       | head to Phipps        |
+
+*** Alma from SPS -- 15 min + traffic
+- 94 W to exit 235B for Huron
+- R/continue on Huron
+- L on SE University
+- R on Oak
+- Continue on 4th St
+- L on 5th Ave
+- L on University
+- 528 SE University
+- *Notes:*
+  - Park in parking lot in back (R off of Univ)
+  - Otherwise, look for parking on Univ or 6th Ave
+  - Confirmation #: 2051052379
+
+\newpage
+#+begin_center
+*Alma*
+#+attr_latex: width=16cm, placement=[H]
+[[./pics/alma.png]]
+#+end_center
+
+*** Comedy Sportz from Alma -- 10 min
+- SE on University (back the way you came)
+- R onto 35 W (just after 8th Ave)
+- Exit 17B for 94 W
+- Exit 231B for Hennepin/Lyndale
+- L at fork, follow signs for Hennepin S
+- 3001 Hennepin
+- *Notes*
+  - Can't tell if parking lot
+  - Try parking on Hennepin, Lagoon, or Lake
+  - Might be parking ramp on Grand & Lake
+
+\newpage
+#+begin_center
+*Comedy Sportz*
+#+attr_latex: width=16cm, placement=[H]
+[[./pics/comedy-sportz.png]]
+#+end_center
+
+*** Phipps from Comedy Sportz -- 35 min
+- Hennepin N (back the way you came)
+- 94 E
+- Exit 1 for WI-35/2nd St
+- R on Myrtle
+- L on 3rd St (park on 3rd)
+- 1005 3rd St
+
+** Saturday
+*** Schedule
+
+| Time   | Event                  |
+|--------+------------------------|
+| 9:15a  | breakfast drop-off     |
+| 10:35a | leave for brick alley  |
+| 11a    | massage at brick alley |
+| 1p     | reve 324               |
+| 2:40p  | head to lift bridge    |
+| 3p     | lift bridge tour       |
+| -      | back to B&B to rest?   |
+| 4:30p  | knokes chocolates      |
+| -      | back to B&B to rest?   |
+| ~6p    | head to SCoB           |
+| 6-7p   | SCoB seating           |
+| 8p     | SCoB show              |
+| -      | return to Phipps       |
+
+*** Brick Alley from Phipps -- 15 min
+- 3rd -> Myrtle -> 2nd -> 94 W
+- exit 258 for MN-95 N/Stillwater
+- R on MN-95 N/St Croix Trail N/Main St
+- 421 Main St S
+
+*** Reve 324 from Brick Alley -- 2 min
+- N on Main St
+- 324 Main St S
+
+
+
+
+\newpage
+
+*** Lift Bridge from Reve 324 -- 7 min
+- S on Main St S to MN-36 W
+- R onto Washington
+- R onto Tower Drive
+- 1900 Tower Drive
+
+#+begin_center
+#+attr_latex: width=16cm, placement=[H]
+[[./pics/lift-bridge.png]]
+#+end_center
+
+*** Knokes from Lift Bridge -- 20 min
+- W on Tower Dr
+- L on Washington Ave
+- L on MN-36 E to MN-95 S/St Croix (U-turn)
+- L onto 94 E
+- Exit 1 onto WI-35/2nd St
+- R onto Locust St
+- 220 Locust
+
+#+begin_center
+#+attr_latex: width=16cm, placement=[H]
+[[./pics/knokes.png]]
+#+end_center
+
+*** SCoB from Knokes -- 5 min
+- E on Locust (away from 2nd)
+- R on 3rd St
+- Continue on Laurel
+- R on 11th St (cross 94)
+- L on Crest View Dr/Service Rd
+- 1616 Crest View Dr
+- *Notes*
+  - In Best Western Hudson House Inn
+  - Dinner seating 6-7p; curtains at 8p
+
+** Sunday
+*** Schedule
+| Time  | Event              |
+|-------+--------------------|
+| 9:15a | breakfast drop-off |
+| 11a   | st. michaels       |
+| 12p   | home               |
+| -     | Amanda to Steph's  |
+| -     | pick up girls      |
+  
+*** St. Michaels
+- Directions (from Phipps)
+  - S on 3rd St (toward 94)
+  - L on Vine; church on right
+  - 1500 Vine
+
+** Todos
+*** done confirm massage at Brick Alley
+    :LOGBOOK:
+    - State "done"       from "wait"       [2012-11-16 Fri 13:41] \\
+      confirmed; pick type of massage day of.
+    - State "wait"       from "todo"       [2012-11-14 Wed 18:44] \\
+      reserved online [2012-11-14 Wed]; waiting for confirmation
+    :END:
+*** wait reserve Alma / confirm about flowers
+   :LOGBOOK:
+   - State "wait"       from "todo"       [2012-11-14 Wed 18:43] \\
+     reserved; need email confirmation. Call week of about flowers
+   :END:
+
+*** todo get keys @ phipps
+*** todo order flowers at Johnsons
+*** todo schedule tour at Lift Bridge
+*** todo reservation at Reve 324
+*** todo make packing list for Amanda
+** Contacts
+| Name        | Number         |
+|-------------+----------------|
+| Alma        | (612) 379-4909 |
+| Phipps      | (715) 386-0800 |
+| Brick Alley | (651) 430-8166 |
+| Reve 324    | (651) 342-1594 |
+
+* B&B research
+- Classic Rosewood Inn: 620 Ramsey Street, Hastings, MN 55033
+  - A couple available
+- Rivertown Inn: 306 West Olive Street, Stillwater, MN 55082
+  - Several available, though pretty price ($295)
+- Cover Park Manor: 15330 58th Street North, Stillwater, MN 55082
+  - Eh
+- Phipps Inn: 1005 3rd St,  Hudson,  WI  54016
+  - Looks really promising, especially Peacock
+
+** Plan
+- Nov 30
+  - 4p St. Thomas chapel
+  - 5:30/6p dinner at Mortons
+  - Comedy Sportz, 8p: http://www.comedysportztc.com/
+  - Head to B&B
+- Dec 1
+  - Lift Bridge?
+    - Saturdays 1-3p, pre-register: http://www.liftbridgebrewery.com/tours.aspx
+  - Antique store visiting?
+  - massage: http://www.brickalleymassage.com/The_Services.html
+  - knoke's chocolates: http://www.knokeschocolates.com/
+  - Guys on Ice dinner theater
+    - Website: http://www.stcroixoffbroadway.com/index.shtml
+- Dec 2
+  - Mass together?
+  - Brunch
+    - http://www.pierfivehundred.com/about-us/
+  - Home
+
+* Terminal blocks
+- DIN mount, 50cm, 35mm: [[http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043][link]]
+- 4 input terminal block: [[http://www.newark.com/wago/2001-1407/terminal-block-din-rail-4pos-22/dp/28K2006][link]]
+
+Wiring diagram would be like so with 6 terminal blocks
+
+| block -> | 1  | 2  | 3  |  4 |  5 |  6 |  7 |  8 |
+|----------+----+----+----+----+----+----+----+----|
+| jumpers  | +  | +  | -  |  - |  a |  a |  b | b  |
+| feed     | R1 | T1 | M2 | P2 | T2 | M1 | R2 | P1 |
+
+Key:
+- R: Valve /relay/
+- T: Thermostat
+- M: Valve /motor/
+- P: Recirculation /pump/
+
+Jumper all like symbols. This creates the following circuits:
+
++ -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
++ -> relay (R1/R2) -> pump (P1/P2) -> -
