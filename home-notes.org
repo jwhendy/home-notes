@@ -1,5 +1,6 @@
 #+setupfile: ~/org/aux/setupfile.org
-#+options: num:t todo:t
+#+options: num:t todo:t d:t
+#+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
 
 * Tech
 ** Screencasting
@@ -390,41 +391,7 @@ really put some hair on your head.
   - In Best Western Hudson House Inn
   - Dinner seating 6-7p; curtains at 8p
 
-** Sunday
-*** Schedule
-| Time  | Event              |
-|-------+--------------------|
-| 9:15a | breakfast drop-off |
-| 11a   | st. michaels       |
-| 12p   | home               |
-| -     | Amanda to Steph's  |
-| -     | pick up girls      |
-  
-*** St. Michaels
-- Directions (from Phipps)
-  - S on 3rd St (toward 94)
-  - L on Vine; church on right
-  - 1500 Vine
 
-** Todos
-*** done confirm massage at Brick Alley
-    :LOGBOOK:
-    - State "done"       from "wait"       [2012-11-16 Fri 13:41] \\
-      confirmed; pick type of massage day of.
-    - State "wait"       from "todo"       [2012-11-14 Wed 18:44] \\
-      reserved online [2012-11-14 Wed]; waiting for confirmation
-    :END:
-*** wait reserve Alma / confirm about flowers
-   :LOGBOOK:
-   - State "wait"       from "todo"       [2012-11-14 Wed 18:43] \\
-     reserved; need email confirmation. Call week of about flowers
-   :END:
-
-*** todo get keys @ phipps
-*** todo order flowers at Johnsons
-*** todo schedule tour at Lift Bridge
-*** todo reservation at Reve 324
-*** todo make packing list for Amanda
 ** Contacts
 | Name        | Number         |
 |-------------+----------------|
@@ -432,6 +399,31 @@ really put some hair on your head.
 | Phipps      | (715) 386-0800 |
 | Brick Alley | (651) 430-8166 |
 | Reve 324    | (651) 342-1594 |
+
+** Todos							   :noexport:
+*** todo get keys @ phipps
+*** todo make packing list for Amanda
+*** done confirm massage at Brick Alley
+    :LOGBOOK:
+    - State "done"       from "wait"       [2012-11-16 Fri 13:41] \\
+      confirmed; pick type of massage day of.
+    - State "wait"       from "todo"       [2012-11-14 Wed 18:44] \\
+      reserved online [2012-11-14 Wed]; waiting for confirmation
+    :END:
+*** done reserve Alma / confirm about flowers
+    CLOSED: [2012-11-29 Thu 12:26]
+   :LOGBOOK:
+   - State "wait"       from "todo"       [2012-11-14 Wed 18:43] \\
+     reserved; need email confirmation. Call week of about flowers
+   :END:
+
+*** done order flowers at Johnsons
+    CLOSED: [2012-11-29 Thu 12:26]
+*** done schedule tour at Lift Bridge
+    CLOSED: [2012-11-29 Thu 12:26]
+*** done reservation at Reve 324
+    CLOSED: [2012-11-29 Thu 12:26]
+
 
 * B&B research
 - Classic Rosewood Inn: 620 Ramsey Street, Hastings, MN 55033
@@ -465,7 +457,7 @@ really put some hair on your head.
 
 * Terminal blocks
 - DIN mount, 50cm, 35mm: [[http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043][link]]
-- 4 input terminal block: [[http://www.newark.com/wago/2001-1407/terminal-block-din-rail-4pos-22/dp/28K2006][link]]
+- 4 input terminal block: [[http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005][link]]
 
 Wiring diagram would be like so with 6 terminal blocks
 
@@ -484,3 +476,12 @@ Jumper all like symbols. This creates the following circuits:
 
 + -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
 + -> relay (R1/R2) -> pump (P1/P2) -> -
+* spark post
+
+Can you engineer a wedding anniversary? Why yes, I believe you can (see attached).
+
+My wife thinks we're just going out for dinner tomorrow night. In actuality, when she goes to hang out with a friend tonight (orchestrated by me), I'll be frantically packing bags for a bed and breakfast weekend split between Hudson and Stillwater. Taking a half-day tomorrow and will pick up the key/drop off the bags after work.
+
+Reservations made, flowers ordered to be dropped off at restaurant, various tickets printed, and, thanks to Org-mode, my master document for the weekend is ready to rock. Wish me luck!
+
+Thanks @JessicaVossKehl and @JenniferCook for the restaurant suggestion!
