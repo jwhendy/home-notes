@@ -23,6 +23,19 @@
 - CtrlM demo: http://www.youtube.com/watch?v=3fSsRGN1ip0
 - Arduino: http://www.arduino.cc/
   
+** Android apps
+- [[https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder][Gleeo time tracking]]
+- [[https://play.google.com/store/apps/details?id=com.devjockeys.projecttimelog][project time log]]
+- [[https://play.google.com/store/apps/details?id=ru.ikds.android.qtimerec][qTimeRec]]
+
+** idea generation software
+- [[http://www.eldos.com/vp/download-release.php][voxPopuli]]
+- [[https://github.com/BBYOpen/BBYIDX][bbyidx]]
+- [[http://www.useresponse.com/demo][useResponse]]
+- [[http://openmind.sourceforge.net/services.html][openMind]]
+- [[https://launchpad.net/ideatorrent][ideaTorrent]]
+- [[http://www.osqa.net/][osqa]]
+- [[http://stackoverflow.com/questions/1576935/open-source-alternative-to-uservoice-or-get-satisfaction][SO question inquiring about alternatives to UserVoice / Get Satisfaction]]
 * Obconf from Larrson
 # Tint2 config file
 # For information on manually configuring tint2 see http://code.google.com/p/tint2/wiki/Configure
@@ -476,12 +489,3 @@ Jumper all like symbols. This creates the following circuits:
 
 + -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
 + -> relay (R1/R2) -> pump (P1/P2) -> -
-* spark post
-
-Can you engineer a wedding anniversary? Why yes, I believe you can (see attached).
-
-My wife thinks we're just going out for dinner tomorrow night. In actuality, when she goes to hang out with a friend tonight (orchestrated by me), I'll be frantically packing bags for a bed and breakfast weekend split between Hudson and Stillwater. Taking a half-day tomorrow and will pick up the key/drop off the bags after work.
-
-Reservations made, flowers ordered to be dropped off at restaurant, various tickets printed, and, thanks to Org-mode, my master document for the weekend is ready to rock. Wish me luck!
-
-Thanks @JessicaVossKehl and @JenniferCook for the restaurant suggestion!
