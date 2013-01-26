@@ -1,0 +1,93 @@
+% Created 2012-12-08 Sat 09:44
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\usepackage{enumitem} \setlist{itemsep=0.05cm}
+\usepackage{tikz}
+\usetikzlibrary{circuitikz}
+\providecommand{\alert}[1]{\textbf{#1}}
+
+\title{home-notes}
+\author{John Hendy}
+\date{\today}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs Org-mode version 7.9.1}}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+\vspace*{1cm}
+
+\section{Terminal blocks \textbf{:export:}}
+\label{sec-1}
+
+\begin{itemize}
+\item DIN mount, 50cm, 35mm: \href{http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043}{link}
+\item 4 input terminal block: \href{http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005}{link}
+\end{itemize}
+
+Wiring diagram would be like so with 6 terminal blocks
+
+
+\begin{center}
+\begin{tabular}{llllllll}
+ block ->  &  1   &  2   &  3   &  4   &  5   &  6   &  7   \\
+\hline
+ jumpers   &  +   &  +   &  -   &  -   &  P1  &  P1  &  P1  \\
+ feed      &  T1  &  R1  &  M2  &  P2  &  R2  &  R2  &  R2  \\
+           &  T1  &  R1  &  M2  &      &  --  &  --  &  --  \\
+           &  T1  &  R1  &  M2  &      &  T2  &  T2  &  T2  \\
+           &      &      &      &      &  M1  &  M1  &  M1  \\
+\end{tabular}
+\end{center}
+
+
+
+Key:
+\begin{itemize}
+\item R: Valve \emph{relay}
+\item T: Thermostat
+\item M: Valve \emph{motor}
+\item P: Recirculation \emph{pump}
+\end{itemize}
+
+Jumper all like symbols. This creates the following circuits:
+
+\begin{itemize}
+\item -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
+\item -> relay (R1/R2) -> pump (P1/P2) -> -
+\end{itemize}
+
+\begin{tikzpicture}
+\draw (0,0) to[voltmeter] (2,0);
+\draw (0,0)--(0,2);
+
+\end{tikzpicture}
+\subsection{Documentation}
+\label{sec-1-1}
+
+
+\begin{itemize}
+\item \href{http://www.luxproducts.com/support/TX500b_Eng_WebManual.pdf}{Upstairs; LUX TX500b}
+\item \href{https://customer.honeywell.com/resources/techlit/TechLitDocuments/60-0000s/60-2133.pdf}{Valves, V8043E/F}
+\end{itemize}
+
+\end{document}
