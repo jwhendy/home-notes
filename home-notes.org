@@ -1,4 +1,4 @@
-
+#+setupfile: ~/org/aux/setupfile.org
 
 * Tech
 ** Screencasting
@@ -149,4 +149,112 @@ battery_background_id = 0
 
 # End of config
 
-* todo email arizona atheist when responses from coming out
+* Scotch
+- 60 for Aberlour
+- 50 for Ardbeg 10
+- 75 for Glendronach
+- 47 for Compass Box (France44 had it for 37 but appears to have sold out)
+
+
+| Scotch            | Chicago Lake | Syrdyks | France 44 | Haskells | Merwins |
+|-------------------+--------------+---------+-----------+----------+---------|
+| Aberlour A'bunadh | -            | *60*    | 70        |       63 |      69 |
+| Ardbeg 10         | 50           | 50      | 50        |     *42* |      47 |
+| Glendronach       | -            | -       | -         |       90 |    *75* |
+| Peat Monster      | 44           | 55      | -         |       60 |      47 |
+
+* Libary meeting rooms
+** Augsburg Park
+- 7100 Nicollet Ave., Richfield
+- Closes Mon at 8p
+- Meeting room (5-60)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=100
+  - Screen, easel, podium
+  - Avail: July 23 (6:30-8p)
+** Edina
+- 5280 Grandview Square, Edina
+- Closes Mon at 8p
+- Conference room (1-15)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=168
+  - White board
+  - Avail: July 9/23 (6:30-8p)
+- Meeting room (10-75)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=111
+  - Screen, white board, sink
+  - Avail: June 4, July 9/23 (6:30-8p)
+
+** Golden Valley
+- 830 Winnetka Ave. N., Golden Valley
+- Closes Mon at 8p
+- Meetin room (10-70)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=113
+  - Screen
+  - Avail: July 9/23 (6:30-8p)
+
+** Oxboro
+- 8801 Portland Ave. S., Bloomington
+- Closes Mon at 8p
+- Meeting room (10-80)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=113
+  - Tables/chairs, podium, screen
+  - Avail: May 21, June 4, July 9/23 (6:30-8p)
+** Penn Lake
+- 8800 Penn Ave. S., Bloomington
+- Closes Mon at 8p
+- Meeting room (10-80)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=140
+  - Table, podium, screen
+  - Avail: July 9/23 (6:30-8p)
+** Southdale
+- 7001 York Ave. S., Edina
+- Closes Mon at 9p
+- Ethyl Berry (15-49)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=151
+  - Screen, podium, kitchen, 13 tables
+  - Avail: June 4, July 9 (6:30-9p)
+- Helen Young (15-49)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=152
+  - Tables, large white wall might work for projector, chairs
+  - Avail: July 9
+- Public conference room (3-10)
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=153
+  - Central table surrounded by chairs, maybe could project on wall
+  - Avail: May 21, June 4, July 9/23 (6:30-9p)
+- Full meeting room (15-195)
+  - *This appears to be the Ethyl Berry and Helen Young rooms combined*
+  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=150
+
+* PMT Script
+
+I'm John Henderson in 3M's Automotive Aftermarket Division. Most of my life is hilarious,
+but today I'd like to talk about something serious: male baldness as a result of
+participating in a study for 3M Medical's prototype pre-operative shaver. This is no
+laughing matter.
+
+As an innovative engineer, however, I know there's a solution for everything. Thanks to
+3M's recently launched PMT, or Automotive Precision Masking Tape if you're not into the
+whole brevity thing, we're going to fix this chrome dome right up.
+
+Thankfully, PMT utilizes a smooth Washi paper backing so we won't have to deal with any of
+those unsightly built up paint edges that other tapes leave behind on bald heads. PMT also
+features excellent adhesive wet out properties for low removal force. This means I
+get a look that's a killer with the ladies... without killing my scalp.
+
+Well, I think we'll get right down to it. I'm here with PMT lead developer and precision
+masker, Jeff Schwab to demo the raw power and versatility of PMT.
+
+[Starts masking]
+
+Hey Jeff, leave me some sideburns, will you? I don't want to look like a weirdo.
+
+[Paint]
+
+With today's advanced paint systems, don't try and cut corners on the bake cycle.
+
+[Hairdry/demask]
+
+Well, there you have it. Another win for 3M's line of automotive masking solutions. Thanks for
+joining us and next time you're looking for an automotive masking tape, choose PMT. It'll
+really put some hair on your head.
+
+[Show before/after screenshot]
