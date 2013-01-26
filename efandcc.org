@@ -5,17 +5,142 @@
 
 
 * Cookie assignment
+** Exothermic reaction for "ovenless cookies"
+
+I thought it would be neat if cookies could be cooked without an oven, via an exothermic
+chemical reaction hot enough to bake the cookies in a double boiler or pressure cooker.
 
 I researched exothermic reactions for some time. In the end, I wasn't satisfied that any
 of them would be 1) common (wanted this to be something the "average Joe" could replicate
 without much of a shopping trip hassle), 2) safe for me, or 3) safe for the consumer of
-the cookie. In any case, here were some that came up:
-
-- Googling "common household exothermic reactions"
+the cookie. In any case, here were some that came up in googling "common household exothermic reactions:"
   - Yeast and H_{2}O_{2}[fn:1]
-  - 
+  - Water and acid or anhydrous salt[fn:2]
+  - Potassium permanganate and glycerin[fn:3]
+  - Aluminum foil and sodium hydroxide (Draino)[fn:3]
+  - Iron filings, salt, and H_{2}O_{2}[fn:3]
+  - Potato or blood and H_{2}O_{2} (can't re-find the site at the moment)
+
+In the end, I worried about these being either hazardous to myself or perhaps releasing
+gas that might absorb into the cookie. Some forums would relate the "ideal forumla" but
+then note that some alternative compounds might be created if not enough of one of the
+reactants was present.
+
+Probably not a good idea!
+
+** Alcoholic cookies!
+
+My beverage of choice is whisky :) Many food recipes feature alcohol as a cooking
+additive, but it cooks off. Could I get liquid alcohol into a cookie?
+
+Current IP investigation: googling "liquor filled cookies," "alcoholic cookies," "whisky
+filled cookies."
+- There were many examples of liquor filled pies, chocolate balls, Tiramisu, etc.[fn:4]
+- Same results at another site[fn:5]
+- Whisky-infused cherries in a cookie[fn:6]
+
+There were lots of other similar results, but none seemed to feature the combination of a
+cookie as the main dessert form and liquid, non-cooked-off whisky. Yay!
+
+I needed something to house the liquor. I originally thought of dental wax (trying to
+make two thin film circles into a pouch. Tapping my network yielded only lab-use only
+dental wax, so that was out. I also got a suggestion for cooking wax (thanks PJ!), but in
+reading a bit about this, I found out that paraffin is typically used and that the
+canning stuff you can get is not necessarily food-grade. That aside, I couldn't find any
+at Target or Rainbow anyway, so I fell back on chocolate.
+
+I made a test container to see if the alcohol would stay sealed overnight. It more or
+less did, though I got a leak. I couldn't tell if the chocolate itself dissolved enough
+to leak, or if trying to seal those rough-made cups had featured a pinhole of some
+sort. Inspecting the inside, it didn't look like much chocolate had softened/dissolved.
+
+As for the cookies themselves, I wanted them to be soft and chewy. Found some potential
+base recipes to work from. Top choices:
+- Googling "soft chocolate chip cookie" yielded [[http://allrecipes.com/recipe/award-winning-soft-chocolate-chip-cookies/][Award Winning Soft Chocolate Chip Cookies]]
+- Googline "moist chewy cookie recipe" yielded [[http://allrecipes.com/recipe/best-big-fat-chewy-chocolate-chip-cookie/][Best Big, Fat, Chewy Chocolate Chip Cookie]]
+
+Comparing the recipes (after normalizing to the same amount of flour)
+
+| *Inredient*     | *Award Winning* | *Big Fat* |
+|-----------------+-----------------+-----------|
+| Flour           | 2 cups          | 2 cups    |
+| Baking soda     | 0.89 tsp        | 0.5 tsp   |
+| Salt            | -               | 0.5 tsp   |
+| Butter          | 0.89 cups       | 0.75 cup  |
+| Brown sugar     | 0.67 cups       | 1 cup     |
+| White sugar     | 0.22 cups       | 0.5       |
+| Vanilla pudding | 1.51 oz         | -         |
+| Eggs            | 1.78            | 1         |
+| Egg yolk        | -               | 1         |
+| Vanilla extract | 0.89 tsp        | 1 Tbs     |
+| Chocolate chips | 1.78 cups       | 2 cups    |
+| Walnuts         | 0.89 cups       | -         |
+#+TBLFM: $2=$-1*(2/4.5)
+
+I considered using the book, /Ratio/, and even reserved it from the library the night of
+the class from my phone :) However, 1) it didn't come in time and 2) there were a
+reasonable amount of posts like [[http://www.slate.com/articles/life/food/2009/06/one_part_creativity_zero_parts_recipe.single.html][this one]] that suggested the book was a bit simplistic and
+that after the promise of a simple ratio and exlanation early on the in the book, the rest
+of the pages were filled with caveats and fine print. So... sticking to the above.
+
+After comparing, I had already gone shopping before finding these and don't have vanilla
+pudding, so we'll go with the /Big Fat/ cookie recipe. I needed some flavor pairing
+ideas, so I googled around. Various sites and forums suggested chocolate, which is good
+because I needed to use that anyway to hold the alcohol. Nuts also came up. Other than
+that, most hits were more about meal ideas like barbecue pork or steak -- not putting
+those in a cookie!
+
+I also had the idea to use cherries, as this is a typical Manhattan garnish. So, with the
+base recipe and all of the things I bought, it seemed like DOE time!
+
+| *Vanilla* | *Nuts*  | *Cherries* | *Bitters* |
+|-----------+---------+------------+-----------|
+|        1x | -       | -          | -         |
+|        1x | Pecans  | -          | -         |
+|        1x | Walnuts | -          | -         |
+|        1x | -       | Yes        | -         |
+|        1x | Pecans  | Yes        | -         |
+|        1x | Walnuts | Yes        | -         |
+|-----------+---------+------------+-----------|
+|        1x | -       | -          | Yes       |
+|        1x | Pecans  | -          | Yes       |
+|        1x | Walnuts | -          | Yes       |
+|        1x | -       | Yes        | Yes       |
+|        1x | Pecans  | Yes        | Yes       |
+|        1x | Walnuts | Yes        | Yes       |
+|-----------+---------+------------+-----------|
+|        2x | -       | -          | -         |
+|        2x | Pecans  | -          | -         |
+|        2x | Walnuts | -          | -         |
+|        2x | -       | Yes        | -         |
+|        2x | Pecans  | Yes        | -         |
+|        2x | Walnuts | Yes        | -         |
+|-----------+---------+------------+-----------|
+|        2x | -       | -          | Yes       |
+|        2x | Pecans  | -          | Yes       |
+|        2x | Walnuts | -          | Yes       |
+|        2x | -       | Yes        | Yes       |
+|        2x | Pecans  | Yes        | Yes       |
+|        2x | Walnuts | Yes        | Yes       |
+
+This should yield a decent start. Since the whisky inner container will be chocolate and
+the cookie halves will be sealed with chocolate, I decided to not actually use chocolate chips
+since I didn't know if they would affect my hopeful ability to seal the cookies
+(protruding chips, voids, etc.).
+
+
 
 
 * Footnotes
 
 [fn:1] [[http://www.sciencebob.com/blog/?tag=exothermic-reaction][Create Bubbles & Heat With Simple Chemistry]]
+
+[fn:2] [[http://antoine.frostburg.edu/chem/senese/101/thermo/faq/exothermic-endothermic-examples.shtml][What are some examples of exothermic and endothermic processes?]]
+
+[fn:3] [[http://www.sciencemadness.org/talk/viewthread.php?tid=7163][Exothermic reactions]]
+
+[fn:4] [[http://www.yummly.com/recipes/alcohol-cookies][Yummly results for "alcoholic cookies"]]
+
+[fn:5] [[http://www.ifood.tv/network/liquor_filled_chocolate/recipes][iFoodTV for "liquor filled chocolate"]]
+
+[fn:6] [[http://batchfromscratch.com/shop2/3/flypagetpl/shopproduct_details/11][Whiskey Iced Ginger Cherry]]
