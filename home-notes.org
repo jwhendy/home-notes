@@ -427,7 +427,7 @@ really put some hair on your head.
 *** done reservation at Reve 324
     CLOSED: [2012-11-29 Thu 12:26]
 
-
+    
 * B&B research
 - Classic Rosewood Inn: 620 Ramsey Street, Hastings, MN 55033
   - A couple available
@@ -647,3 +647,4 @@ Minus office
 - Dining :: 108 high, 165 x 147 (242 ft^2)
 - Living :: 108 high, 160 x 170 (256 ft^2)
 - Bath :: 57 high, 49 x 65 (45 ft^2)
+

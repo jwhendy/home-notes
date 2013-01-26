@@ -1,0 +1,21 @@
+#+setupfile: ~/org/aux/setupfile.org
+#+options: num:t todo:t d:t
+#+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
+#+latex_header: \usepackage{tikz}
+
+
+* Cookie assignment
+
+I researched exothermic reactions for some time. In the end, I wasn't satisfied that any
+of them would be 1) common (wanted this to be something the "average Joe" could replicate
+without much of a shopping trip hassle), 2) safe for me, or 3) safe for the consumer of
+the cookie. In any case, here were some that came up:
+
+- Googling "common household exothermic reactions"
+  - Yeast and H_{2}O_{2}[fn:1]
+  - 
+
+
+* Footnotes
+
+[fn:1] [[http://www.sciencebob.com/blog/?tag=exothermic-reaction][Create Bubbles & Heat With Simple Chemistry]]
