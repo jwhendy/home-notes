@@ -1,10 +1,18 @@
 #+setupfile: ~/org/aux/setupfile.org
-#+options: num:t todo:t d:t
+#+options: todo:t d:t
 #+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
 #+latex_header: \usepackage{tikz}
 
 
 * Cookie assignment
+
+For this assignment, I brainstormed a few ideas before settling on my "Manhattanookie."
+
+** Fun ways to eat cookies
+
+blah
+
+
 ** Exothermic reaction for "ovenless cookies"
 
 I thought it would be neat if cookies could be cooked without an oven, via an exothermic
@@ -128,7 +136,10 @@ the cookie halves will be sealed with chocolate, I decided to not actually use c
 since I didn't know if they would affect my hopeful ability to seal the cookies
 (protruding chips, voids, etc.).
 
+** Results
 
+At the last second, I decided to try two final attempts: one with the sealed inner
+container of chocolate/Manhattan, and one with some Manhattan mixed in.
 
 
 * Footnotes
@@ -144,3 +155,342 @@ since I didn't know if they would affect my hopeful ability to seal the cookies
 [fn:5] [[http://www.ifood.tv/network/liquor_filled_chocolate/recipes][iFoodTV for "liquor filled chocolate"]]
 
 [fn:6] [[http://batchfromscratch.com/shop2/3/flypagetpl/shopproduct_details/11][Whiskey Iced Ginger Cherry]]
+
+* Post html
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Cookie assignment</h2>
+<div id="text-1" class="outline-text-2">
+<p>For this assignment, I brainstormed a few ideas before settling on my "Manhattanookie." <strong>Note: </strong>Click on the pictures to enlarge, if you wish.</p>
+</div>
+<div id="outline-container-1-1" class="outline-3">
+<h3>Fun ways to eat cookies</h3>
+<div id="text-1-1" class="outline-text-3">
+<p>Here's some notes from my book illustrating some innovative consumption methods:</p>
+<p><a href="http://i.imgur.com/j4F0cgF.jpg"><img src="http://i.imgur.com/j4F0cgF.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/Wx0OgSw.jpg"><img src="http://i.imgur.com/Wx0OgSw.jpg" alt="" width="200px" /></a></p>
+</div>
+</div>
+<div id="outline-container-1-2" class="outline-3">
+<h3>Exothermic reaction for "ovenless cookies"</h3>
+<div id="text-1-2" class="outline-text-3">
+<p>I thought it would be neat if cookies could be cooked without an oven, via an exothermic chemical reaction hot enough to bake the cookies in a double boiler or pressure cooker.</p>
+<p><a href="http://i.imgur.com/86EkS2K.jpg"><img src="http://i.imgur.com/86EkS2K.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<p>I researched exothermic reactions for some time. In the end, I wasn't satisfied that any of them would be 1) common (wanted this to be something the "average Joe" could replicate without much of a shopping trip hassle), 2) safe for me, or 3) safe for the consumer of the cookie. In any case, here were some that came up in googling "common household exothermic reactions:"</p>
+<ul>
+<li>Yeast and H<sub>2</sub>O<sub>2</sub><sup><a class="footref" name="fnr-.1" href="http://#fn-.1">1</a></sup> </li>
+<li>Water and acid or anhydrous salt<sup><a class="footref" name="fnr-.2" href="http://#fn-.2">2</a></sup> </li>
+<li>Potassium permanganate and glycerin<sup><a class="footref" name="fnr-.3" href="http://#fn-.3">3</a></sup> </li>
+<li>Aluminum foil and sodium hydroxide (Draino)<sup><a class="footref" name="fnr-.3.2" href="http://#fn-.3">3</a></sup> </li>
+<li>Iron filings, salt, and H<sub>2</sub>O<sub>2</sub><sup><a class="footref" name="fnr-.3.3" href="http://#fn-.3">3</a></sup> </li>
+<li>Potato or blood and H<sub>2</sub>O<sub>2</sub> (can't re-find the site at the moment) </li>
+</ul>
+<p>I tried hydrogen peroxide and potatoes and road salt (calcium chloride), but they didn't really get warm. Seemed the safest thing to try, if any of the above!</p>
+<p><a href="http://i.imgur.com/pR5QtEz.jpg"><img src="http://i.imgur.com/pR5QtEz.jpg" alt="" width="200px" /></a></p>
+<ul>
+</ul>
+<p>In the end, I worried about these being either hazardous to myself or perhaps releasing gas that might absorb into the cookie. Some forums would relate the "ideal forumla" but then note that some alternative compounds might be created if not enough of one of the reactants was present.</p>
+<p>Probably not a good idea!</p>
+</div>
+</div>
+<div id="outline-container-1-3" class="outline-3">
+<h3>Alcoholic cookies!</h3>
+<div id="text-1-3" class="outline-text-3">
+<p>My beverage of choice is whisky, and for a mixed drink: Manhattans :) Many food recipes feature alcohol as a cooking additive, but it cooks off. Could I get liquid alcohol into a cookie?</p>
+<p>Current IP investigation: googling "liquor filled cookies," "alcoholic cookies," "whisky filled cookies."</p>
+<ul>
+<li>There were many examples of liquor filled pies, chocolate balls, Tiramisu, etc.<sup><a class="footref" name="fnr-.4" href="http://#fn-.4">4</a></sup> </li>
+<li>Same results at another site<sup><a class="footref" name="fnr-.5" href="http://#fn-.5">5</a></sup> </li>
+<li>Whisky-infused cherries in a cookie<sup><a class="footref" name="fnr-.6" href="http://#fn-.6">6</a></sup> </li>
+</ul>
+<p>There were lots of other similar results, but none seemed to feature the combination of a cookie as the main dessert form and liquid, non-cooked-off whisky. Yay!</p>
+<p>I needed something to house the liquor. I originally thought of dental wax (trying to make two thin film circles into a pouch. Tapping my network yielded only lab-use only dental wax, so that was out. I also got a suggestion for cooking wax (thanks PJ!), but in reading a bit about this, I found out that paraffin is typically used and that the canning stuff you can get is not necessarily food-grade. That aside, I couldn't find any at Target or Rainbow anyway, so I fell back on chocolate.</p>
+<p><a href="http://i.imgur.com/CfCmekd.jpg"><img src="http://i.imgur.com/CfCmekd.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/qJ9xFcX.jpg"><img src="http://i.imgur.com/qJ9xFcX.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<p>I made a test container to see if the alcohol would stay sealed overnight. It more or less did, though I got a leak. I couldn't tell if the chocolate itself dissolved enough to leak, or if trying to seal those rough-made cups had featured a pinhole of some sort. Inspecting the inside, it didn't look like the chocolate had softened/dissolved.</p>
+<p><a href="http://i.imgur.com/a3w5Hph.jpg"><img src="http://i.imgur.com/a3w5Hph.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/aXWqiOY.jpg"><img src="http://i.imgur.com/aXWqiOY.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/WeNowpo.jpg"><img src="http://i.imgur.com/WeNowpo.jpg" alt="" width="200px" /></a></p>
+<p><a href="http://i.imgur.com/CmEn58n.jpg"><img src="http://i.imgur.com/CmEn58n.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<p>As for the cookies themselves, I wanted them to be soft and chewy. Found some potential base recipes to work from. Top choices:</p>
+<ul>
+<li>Googling "soft chocolate chip cookie" yielded <a href="http://allrecipes.com/recipe/award-winning-soft-chocolate-chip-cookies/">Award Winning Soft Chocolate Chip Cookies</a> </li>
+<li>Googline "moist chewy cookie recipe" yielded <a href="http://allrecipes.com/recipe/best-big-fat-chewy-chocolate-chip-cookie/">Best Big, Fat, Chewy Chocolate Chip Cookie</a> </li>
+</ul>
+<p>Comparing the recipes (after normalizing to the same amount of flour)</p>
+<table border="2" cellspacing="0" cellpadding="6" frame="hsides" rules="groups">
+<colgroup><col class="left"></col><col class="left"></col><col class="left"></col> </colgroup> <thead> 
+<tr>
+<th class="left" scope="col"><strong>Inredient</strong></th><th class="left" scope="col"><strong>Award Winning</strong></th><th class="left" scope="col"><strong>Big Fat</strong></th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td class="left">Flour</td>
+<td class="left">2 cups</td>
+<td class="left">2 cups</td>
+</tr>
+<tr>
+<td class="left">Baking soda</td>
+<td class="left">0.89 tsp</td>
+<td class="left">0.5 tsp</td>
+</tr>
+<tr>
+<td class="left">Salt</td>
+<td class="left">-</td>
+<td class="left">0.5 tsp</td>
+</tr>
+<tr>
+<td class="left">Butter</td>
+<td class="left">0.89 cups</td>
+<td class="left">0.75 cup</td>
+</tr>
+<tr>
+<td class="left">Brown sugar</td>
+<td class="left">0.67 cups</td>
+<td class="left">1 cup</td>
+</tr>
+<tr>
+<td class="left">White sugar</td>
+<td class="left">0.22 cups</td>
+<td class="left">0.5</td>
+</tr>
+<tr>
+<td class="left">Vanilla pudding</td>
+<td class="left">1.51 oz</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="left">Eggs</td>
+<td class="left">1.78</td>
+<td class="left">1</td>
+</tr>
+<tr>
+<td class="left">Egg yolk</td>
+<td class="left">-</td>
+<td class="left">1</td>
+</tr>
+<tr>
+<td class="left">Vanilla extract</td>
+<td class="left">0.89 tsp</td>
+<td class="left">1 Tbs</td>
+</tr>
+<tr>
+<td class="left">Chocolate chips</td>
+<td class="left">1.78 cups</td>
+<td class="left">2 cups</td>
+</tr>
+<tr>
+<td class="left">Walnuts</td>
+<td class="left">0.89 cups</td>
+<td class="left">-</td>
+</tr>
+</tbody>
+</table>
+<p>I considered using the book, <em>Ratio</em>, and even reserved it from the library the night of the class from my phone :) However, 1) it didn't come in time and 2) there were a reasonable amount of posts like <a href="http://www.slate.com/articles/life/food/2009/06/one_part_creativity_zero_parts_recipe.single.html">this one</a> that suggested the book was a bit simplistic and that after the promise of a simple ratio and exlanation early on the in the book, the rest of the pages were filled with caveats and fine print. So&hellip; sticking to the above.</p>
+<p>After comparing, I had already gone shopping before finding these and don't have vanilla pudding, so we'll go with the <em>Big Fat</em> cookie recipe. I needed some flavor pairing ideas, so I googled around. Various sites and forums suggested chocolate, which is good because I needed to use that anyway to hold the alcohol. Nuts also came up. Other than that, most hits were more about meal ideas like barbecue pork or steak &ndash; not putting those in a cookie!</p>
+<p><a href="http://i.imgur.com/voUCpJF.jpg"><img src="http://i.imgur.com/voUCpJF.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<p>I also had the idea to use cherries, as this is a typical Manhattan garnish.  So, with the base recipe and all of the things I bought, it seemed like DOE time!</p>
+<p><a href="http://i.imgur.com/ucLPBhO.jpg"><img src="http://i.imgur.com/ucLPBhO.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<table border="2" cellspacing="0" cellpadding="6" frame="hsides" rules="groups">
+<colgroup><col class="right"></col><col class="left"></col><col class="left"></col><col class="left"></col> </colgroup> <thead> 
+<tr>
+<th class="right" scope="col"><strong>Vanilla</strong></th><th class="left" scope="col"><strong>Nuts</strong></th><th class="left" scope="col"><strong>Cherries</strong></th><th class="left" scope="col"><strong>Bitters</strong></th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td class="right">1x</td>
+<td class="left">-</td>
+<td class="left">-</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Pecans</td>
+<td class="left">-</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Walnuts</td>
+<td class="left">-</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Pecans</td>
+<td class="left">Yes</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Walnuts</td>
+<td class="left">Yes</td>
+<td class="left">-</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="right">1x</td>
+<td class="left">-</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Pecans</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Walnuts</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Pecans</td>
+<td class="left">Yes</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">1x</td>
+<td class="left">Walnuts</td>
+<td class="left">Yes</td>
+<td class="left">Yes</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="right">2x</td>
+<td class="left">-</td>
+<td class="left">-</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Pecans</td>
+<td class="left">-</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Walnuts</td>
+<td class="left">-</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Pecans</td>
+<td class="left">Yes</td>
+<td class="left">-</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Walnuts</td>
+<td class="left">Yes</td>
+<td class="left">-</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="right">2x</td>
+<td class="left">-</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Pecans</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Walnuts</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">-</td>
+<td class="left">Yes</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Pecans</td>
+<td class="left">Yes</td>
+<td class="left">Yes</td>
+</tr>
+<tr>
+<td class="right">2x</td>
+<td class="left">Walnuts</td>
+<td class="left">Yes</td>
+<td class="left">Yes</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>This should yield a decent start. Since the whisky inner container will be chocolate and the cookie halves will be sealed with chocolate, I decided to not actually use chocolate chips since I didn't know if they would affect my hopeful ability to seal the cookies (protruding chips, voids, etc.).</p>
+<p>Remember to wear side shields; I hear a dollop of brown sugar and egg yolks can really sting!</p>
+<p><a href="http://i.imgur.com/hv1ctYs.jpg"><img src="http://i.imgur.com/hv1ctYs.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<p>The master batch split into my primary DOE blocks (1/2x vanilla, yes/no bitters):</p>
+<p><a href="http://i.imgur.com/ZOhS6SI.jpg"><img src="http://i.imgur.com/ZOhS6SI.jpg" alt="" width="200px" /></a></p>
+<div>I played around with "molding" the cookies pre-baking, but the shapes come out no matter what... At least I discovered that making tall, skinny posts keeps the cookies thicker. I made the rest like that.</div>
+<div><a href="http://i.imgur.com/eCV3l3M.jpg"><img src="http://i.imgur.com/eCV3l3M.jpg" alt="" width="200px" /></a></div>
+<p>&nbsp;</p>
+</div>
+</div>
+<div id="outline-container-1-4" class="outline-3">
+<h3 id="sec-1-4">Results</h3>
+<div id="text-1-4" class="outline-text-3">
+<p>Following the DOE, I tasted!</p>
+<p><a href="http://i.imgur.com/jHN5Re4.jpg"><img src="http://i.imgur.com/jHN5Re4.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<p>At the last second, I decided to try two final attempts: one with the sealed inner container of chocolate/Manhattan, and one with some Manhattan mixed in to the dough and then cooked. The vermouth definitely didn't cook off well and left an odd taste, or at least that's what I think I tasted. Going with the sealed whisky after all!</p>
+<p>Here's the final sealed cookie:</p>
+<p><a href="http://i.imgur.com/R2SqQY5.jpg"><img src="http://i.imgur.com/R2SqQY5.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/w4gHpzZ.jpg"><img src="http://i.imgur.com/w4gHpzZ.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/Rrf19l5.jpg"><img src="http://i.imgur.com/Rrf19l5.jpg" alt="" width="200px" /></a><a href="http://i.imgur.com/1qUuijF.jpg"><img src="http://i.imgur.com/1qUuijF.jpg" alt="" width="200px" /></a></p>
+<p>&nbsp;</p>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes:</h2>
+<div id="text-footnotes">
+<p class="footnote"><sup><a class="footnum" name="fn-.1" href="http://#fnr-.1">1</a></sup> <a href="http://www.sciencebob.com/blog/?tag=exothermic-reaction">Create Bubbles &amp; Heat With Simple Chemistry</a></p>
+<p class="footnote"><sup><a class="footnum" name="fn-.2" href="http://#fnr-.2">2</a></sup> <a href="http://antoine.frostburg.edu/chem/senese/101/thermo/faq/exothermic-endothermic-examples.shtml">What are some examples of exothermic and endothermic processes?</a></p>
+<p class="footnote"><sup><a class="footnum" name="fn-.3" href="http://#fnr-.3">3</a></sup> <a href="http://www.sciencemadness.org/talk/viewthread.php?tid=7163">Exothermic reactions</a></p>
+<p class="footnote"><sup><a class="footnum" name="fn-.4" href="http://#fnr-.4">4</a></sup> <a href="http://www.yummly.com/recipes/alcohol-cookies">Yummly results for "alcoholic cookies"</a></p>
+<p class="footnote"><sup><a class="footnum" name="fn-.5" href="http://#fnr-.5">5</a></sup> <a href="http://www.ifood.tv/network/liquor_filled_chocolate/recipes">iFoodTV for "liquor filled chocolate"</a></p>
+<p class="footnote"><sup><a class="footnum" name="fn-.6" href="http://#fnr-.6">6</a></sup> <a href="http://batchfromscratch.com/shop2/3/flypagetpl/shopproduct_details/11">Whiskey Iced Ginger Cherry</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="date">&nbsp;</p>
+<p class="date">Date: 2013-01-26T23:31-0600</p>
+<p class="author">Author: John Henderson</p>
+<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.2 with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
+</div>
