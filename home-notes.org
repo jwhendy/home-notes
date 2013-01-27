@@ -648,3 +648,7 @@ Minus office
 - Living :: 108 high, 160 x 170 (256 ft^2)
 - Bath :: 57 high, 49 x 65 (45 ft^2)
 
+* Software
+** Learning d3
+- [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
+- [[http://enjalot.github.com/dot-enter/][Dashing d3 tutorial]]
