@@ -1,7 +1,6 @@
+#+setupfile: ~/org/aux/setupfile.org
 #+options: num:t todo:t d:t
 #+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
-#+latex_header: \usepackage{tikz}
-#+latex_header: \usetikzlibrary{circuitikz}
 
 * Tech
 ** Screencasting
@@ -24,19 +23,6 @@
 - CtrlM demo: http://www.youtube.com/watch?v=3fSsRGN1ip0
 - Arduino: http://www.arduino.cc/
   
-** Android apps
-- [[https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder][Gleeo time tracking]]
-- [[https://play.google.com/store/apps/details?id=com.devjockeys.projecttimelog][project time log]]
-- [[https://play.google.com/store/apps/details?id=ru.ikds.android.qtimerec][qTimeRec]]
-
-** idea generation software
-- [[http://www.eldos.com/vp/download-release.php][voxPopuli]]
-- [[https://github.com/BBYOpen/BBYIDX][bbyidx]]
-- [[http://www.useresponse.com/demo][useResponse]]
-- [[http://openmind.sourceforge.net/services.html][openMind]]
-- [[https://launchpad.net/ideatorrent][ideaTorrent]]
-- [[http://www.osqa.net/][osqa]]
-- [[http://stackoverflow.com/questions/1576935/open-source-alternative-to-uservoice-or-get-satisfaction][SO question inquiring about alternatives to UserVoice / Get Satisfaction]]
 * Obconf from Larrson
 # Tint2 config file
 # For information on manually configuring tint2 see http://code.google.com/p/tint2/wiki/Configure
@@ -273,7 +259,7 @@ joining us and next time you're looking for an automotive masking tape, choose P
 really put some hair on your head.
 
 [Show before/after screenshot]
-* Anniversary Plan
+* Anniversary Plan						     :export:
 ** Friday
 *** Schedule
 | Time    | Event                 |
@@ -469,19 +455,16 @@ really put some hair on your head.
     - http://www.pierfivehundred.com/about-us/
   - Home
 
-* Terminal blocks						     :export:
+* Terminal blocks
 - DIN mount, 50cm, 35mm: [[http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043][link]]
 - 4 input terminal block: [[http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005][link]]
 
 Wiring diagram would be like so with 6 terminal blocks
 
-| block -> | 1  | 2  | 3  | 4  | 5  | 6  | 7  |
-|----------+----+----+----+----+----+----+----|
-| jumpers  | +  | +  | -  | -  | P1 | P1 | P1 |
-| feed     | T1 | R1 | M2 | P2 | R2 | R2 | R2 |
-|          | T1 | R1 | M2 |    | -- | -- | -- |
-|          | T1 | R1 | M2 |    | T2 | T2 | T2 |
-|          |    |    |    |    | M1 | M1 | M1 |
+| block -> | 1  | 2  | 3  |  4 |  5 |  6 |  7 |  8 |
+|----------+----+----+----+----+----+----+----+----|
+| jumpers  | +  | +  | -  |  - |  a |  a |  b | b  |
+| feed     | R1 | T1 | M2 | P2 | T2 | M1 | R2 | P1 |
 
 Key:
 - R: Valve /relay/
@@ -493,171 +476,12 @@ Jumper all like symbols. This creates the following circuits:
 
 + -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
 + -> relay (R1/R2) -> pump (P1/P2) -> -
-<<<<<<< HEAD
-=======
+* spark post
 
-\begin{tikzpicture}
-\draw (0,0) to[voltmeter] (2,0);
-\draw (0,0)--(0,2);
+Can you engineer a wedding anniversary? Why yes, I believe you can (see attached).
 
-\end{tikzpicture}
+My wife thinks we're just going out for dinner tomorrow night. In actuality, when she goes to hang out with a friend tonight (orchestrated by me), I'll be frantically packing bags for a bed and breakfast weekend split between Hudson and Stillwater. Taking a half-day tomorrow and will pick up the key/drop off the bags after work.
 
-** Documentation
+Reservations made, flowers ordered to be dropped off at restaurant, various tickets printed, and, thanks to Org-mode, my master document for the weekend is ready to rock. Wish me luck!
 
-- [[http://www.luxproducts.com/support/TX500b_Eng_WebManual.pdf][Upstairs; LUX TX500b]]
-- [[https://customer.honeywell.com/resources/techlit/TechLitDocuments/60-0000s/60-2133.pdf][Valves, V8043E/F]]
-
-* Trim measurements
-** Baseboard
-
-*** Dining room
-
-|     raw | buffered | group |
-|---------+----------+-------|
-|     3.5 |        5 | g     |
-|      48 |       50 | h     |
-|     8.5 |       10 | b     |
-|      63 |       65 | g     |
-|     8.5 |       10 | b     |
-|     9.5 |       12 | a     |
-|      69 |       72 | a     |
-|      87 |       90 | b     |
-|      48 |       50 | e     |
-|      33 |       36 | a     |
-|---------+----------+-------|
-| *total* |      401 |       |
-   #+TBLFM: $2=vsum(@2..@-1)
-
-*** Living room
-
-|     raw | buffered | group |
-|---------+----------+-------|
-|      33 |       36 | h     |
-|      13 |       14 | g     |
-|       8 |       10 | c     |
-|       6 |        8 | f     |
-|      21 |     22.5 | d     |
-|      60 |     61.5 | d     |
-|      29 |       31 | f     |
-|      43 |       45 | f     |
-|      31 |       33 | h     |
-|      32 |       34 | e     |
-|     108 |      110 | c     |
-|---------+----------+-------|
-| *total* |      411 |       |
-   #+TBLFM: $2=vsum(@2..@-1)
-
-*** Groups
-
-- a :: 72 + 36 + 12 = 120
-- b :: 90 + 10 + 10 = 120
-- c :: 110 + 10 = 120
-- d :: 61.5 + 22.5 = 84
-- e :: 50 + 34 = 84
-- f :: 45 + 31 + 8 = 84
-- g :: 65 + 14 + 5 = 84
-- h :: 50 + 36 + 33 = 119 = 120
-- total :: 4 x 10' ; 4 x 7' = 68'
-
-** Trim
-*** Windows and doors (3.5")
-| raw | buffered | group |
-|-----+----------+-------|
-|  86 |     86.5 | a     |
-|  86 |     86.5 | b     |
-|  46 |       48 | e     |
-|  86 |       87 | c     |
-|  86 |       87 | d     |
-|  57 |     57.5 | f     |
-|  86 |       88 | h     |
-|  86 |       88 | i     |
-|  39 |       40 | g     |
-|  86 |       88 | j     |
-|  86 |       88 | k     |
-|  44 |       46 | e     |
-|-----+----------+-------|
-|  40 |       43 | e     |
-|  40 |       41 | g     |
-|  62 |     62.5 | f     |
-|  62 |       63 | g     |
-|  57 |     57.5 | a     |
-|  57 |     57.5 | b     |
-|  55 |       57 | c     |
-|  55 |       57 | d     |
-
-*** Windows (2.25")
-
-|  raw | buffered | group |
-|------+----------+-------|
-|   25 |       27 | l     |
-|   25 |       27 | m     |
-|   77 |       80 | l     |
-|   77 |       80 | m     |
-|   25 |       27 | n     |
-|   25 |       27 | o     |
-|   77 |       80 | n     |
-|   77 |       80 | o     |
-| 29.5 |       32 | p     |
-| 29.5 |       32 | q     |
-|   77 |       80 | p     |
-|   77 |       80 | q     |
-
-*** Groups
-- a :: 86.5 + 57.5 = 144
-- b :: 86.5 + 57.5 = 144
-- c :: 87 + 57 = 144
-- d :: 87 + 57 = 144
-- e :: 48 + 46 + 43 = 137 = 144
-- f :: 62.5 + 57.5 = 120
-- g :: 63 + 41 + 40 = 144
-- h :: 88 = 96
-- i :: 88 = 96
-- j :: 88 = 96
-- k :: 88 = 96
-
-- l :: 80 + 27 = 107 = 120
-- m :: 80 + 27 = 107 = 120
-- n :: 80 + 27 = 107 = 120
-- o :: 80 + 27 = 107 = 120
-- p :: 80 + 32 = 112 = 120
-- q :: 80 + 32 = 112 = 120
-- totals
-  - 3.5" :: 4 x 8', 1 x 10', 6 x 12'
-  - 2.25" :: 6 x 10'
-
-** Doors
-
-- Height (floor to top corner): 85in
-- Width (corner to corner): 39in
-- Doors: entry, dining/office x 2, dining/kitchen, office closet, entry
-  closet (55in wide)
-
-~1275in or ~108 ft
-
-** Grand Total
-
-| type    | length | cost/ft |   sub |
-|---------+--------+---------+-------|
-| base    |     90 |    1.55 | 139.5 |
-| door    |    108 |    1.40 | 151.2 |
-| window  |     70 |    1.40 |   98. |
-|---------+--------+---------+-------|
-| *total* |        |         | 388.7 |
-
-Minus office
-| type    | length | cost/ft |    sub |
-|---------+--------+---------+--------|
-| base    |     65 |    1.55 | 100.75 |
-| door    |     73 |    1.40 |  102.2 |
-| window  |     60 |    1.40 |    84. |
-|---------+--------+---------+--------|
-| *total* |        |         | 286.95 |
-#+TBLFM: $2=108-(((170+40)*2)/12)::$4=vsum(@2..@-1)
-
-** Walls
-
-- Kitchen :: 56 high, 165 x 160, really only two walls (126 ft^2) 
-- Dining :: 108 high, 165 x 147 (242 ft^2)
-- Living :: 108 high, 160 x 170 (256 ft^2)
-- Bath :: 57 high, 49 x 65 (45 ft^2)
->>>>>>> 9a68d497f78b4dd5a1ae07f6cc26c835ae8efb60
+Thanks @JessicaVossKehl and @JenniferCook for the restaurant suggestion!
