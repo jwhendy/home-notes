@@ -1,3 +1,4 @@
+#+setupfile: ~/org/aux/setupfile.org
 #+options: num:t todo:t d:t
 #+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
 #+latex_header: \usepackage{tikz}
@@ -273,6 +274,7 @@ joining us and next time you're looking for an automotive masking tape, choose P
 really put some hair on your head.
 
 [Show before/after screenshot]
+
 * Anniversary Plan
 ** Friday
 *** Schedule
@@ -438,7 +440,7 @@ really put some hair on your head.
 *** done reservation at Reve 324
     CLOSED: [2012-11-29 Thu 12:26]
 
-
+    
 * B&B research
 - Classic Rosewood Inn: 620 Ramsey Street, Hastings, MN 55033
   - A couple available
@@ -493,8 +495,6 @@ Jumper all like symbols. This creates the following circuits:
 
 + -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
 + -> relay (R1/R2) -> pump (P1/P2) -> -
-<<<<<<< HEAD
-=======
 
 \begin{tikzpicture}
 \draw (0,0) to[voltmeter] (2,0);
@@ -660,4 +660,9 @@ Minus office
 - Dining :: 108 high, 165 x 147 (242 ft^2)
 - Living :: 108 high, 160 x 170 (256 ft^2)
 - Bath :: 57 high, 49 x 65 (45 ft^2)
->>>>>>> 9a68d497f78b4dd5a1ae07f6cc26c835ae8efb60
+
+* Software
+** Learning d3
+- [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
+- [[http://enjalot.github.com/dot-enter/][Dashing d3 tutorial]]
+
