@@ -666,3 +666,27 @@ Minus office
 - [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
 - [[http://enjalot.github.com/dot-enter/][Dashing d3 tutorial]]
 
+** Evo apps
+APG, Binary clock widget, cam scanner, catch, clean master, doubletwist, dropbox, barcode
+scanner, event timer, github, gmail, hacker keyboard, i can't wake up, ingur for android,
+ldap client, linda manager, minimalistic text, mobileorg, notification toggle, nova
+launcher, real calc, socialcast, switchpro widget, timesheet, total commander, beautiful
+widgets, 
+
+bw themes
+- weather
+  - t_brushedinkwhite
+  - t_sketchy glowing
+  - vos-cm9 white
+- clock
+  - sense 4 black
+  - resa73_white4
+  - home
+  - resa73_white3
+  - glass
+  - xperiadigitial
+  - jelly bean clear
+  
+monocrhome nova icon theme
+
+holo light skin and holo immersion 
