@@ -664,7 +664,7 @@ Minus office
 * Software
 ** Learning d3
 - [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
-- [[http://enjalot.github.com/dot-enter/][Dashing d3 tutorial]]
+- [[http://www.dashingd3js.com/][Dashing d3 tutorial]]
 
 ** Learning python
 - [[http://mechanicalmooc.org/][A gentle introduction to python]]
