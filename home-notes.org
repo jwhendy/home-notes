@@ -665,6 +665,9 @@ Minus office
 ** Learning d3
 - [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
 - [[http://enjalot.github.com/dot-enter/][Dashing d3 tutorial]]
+- [[http://blog.visual.ly/creating-animations-and-transitions-with-d3-js/][animations and transitions]]
+- [[http://mbostock.github.com/d3/tutorial/bar-2.html][Bostock animated bar chart part 2]]
+- [[http://square.github.com/crossfilter/][related: crossfilter]]
 
 ** Learning python
 - [[http://mechanicalmooc.org/][A gentle introduction to python]]
