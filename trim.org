@@ -148,6 +148,7 @@
 - n :: 7
 - o :: 7
 - p :: 7
+
 * Doors
 
 - Height (floor to top corner): 85in
