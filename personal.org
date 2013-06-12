@@ -1,0 +1,729 @@
+#+AUTHOR:    John W. Henderson
+#+TITLE:    Misc
+#+OPTIONS:   toc:t TeX:t LaTeX:t H:4 tags:nil 
+#+STYLE:     <link rel="stylesheet" type="text/css" href="./aux/worg.css" />
+#+LATEX_HEADER: \usepackage[hmargin=2.5cm,vmargin=2.5cm]{geometry}
+#+LATEX_HEADER: \usepackage{mathpazo}
+
+
+* Time tracking
+** Table
+#+BEGIN: clocktable :maxlevel 3 :scope file :indent
+Clock summary at [2011-03-18 Fri 08:41]
+
+| Headline                                                | Time    |       |      |
+|---------------------------------------------------------+---------+-------+------|
+| *Total time*                                            | *44:45* |       |      |
+|---------------------------------------------------------+---------+-------+------|
+| Time tracking                                           | 44:45   |       |      |
+| \__ [2011-03-09 Wed]                                    |         | 10:30 |      |
+| \_____ dinner                                           |         |       | 0:45 |
+| \_____ watched music videos with Felicity/played guitar |         |       | 0:45 |
+| \_____ cleaned up                                       |         |       | 0:15 |
+| \_____ setup emacs/org-mode                             |         |       | 0:20 |
+| \_____ arch forum posting                               |         |       | 0:40 |
+| \_____ cribbage board                                   |         |       | 0:30 |
+| \_____ sleep                                            |         |       | 7:15 |
+| \__ [2011-03-10 Thu]                                    |         | 12:45 |      |
+| \_____ dinner                                           |         |       | 0:45 |
+| \_____ bath time for Felicity                           |         |       | 0:45 |
+| \_____ blog and troubleshoot orgmode                    |         |       | 1:15 |
+| \_____ clean up                                         |         |       | 0:45 |
+| \_____ cribbage board                                   |         |       | 4:00 |
+| \_____ sleep                                            |         |       | 5:15 |
+| \__ [2011-03-11 Fri]                                    |         |  7:30 |      |
+| \_____ cribbage board                                   |         |       | 0:30 |
+| \_____ helping mark's inlaws move                       |         |       | 2:30 |
+| \_____ cribbage board                                   |         |       | 4:30 |
+| \__ [2011-03-12 Sat]                                    |         |  9:30 |      |
+| \_____ talk with amanda                                 |         |       | 1:30 |
+| \_____ cribbage board                                   |         |       | 0:15 |
+| \_____ lunch                                            |         |       | 0:30 |
+| \_____ change picture dir names, upload to fb           |         |       | 0:45 |
+| \_____ talk with amanda                                 |         |       | 1:00 |
+| \_____ dinner and shopping                              |         |       | 4:00 |
+| \_____ internet                                         |         |       | 0:30 |
+| \_____ glee                                             |         |       | 1:00 |
+| \__ [2011-03-13 Sun]                                    |         |  4:30 |      |
+| \_____ cribbage board                                   |         |       | 2:00 |
+| \_____ cribbage board                                   |         |       | 2:30 |
+#+END
+
+
+** [2011-03-09 Wed]
+*** dinner 								:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Wed 18:15]--[2011-03-09 Wed 19:00] =>  0:45
+    :END:
+*** watched music videos with Felicity/played guitar			:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Wed 19:00]--[2011-03-09 Wed 19:45] =>  0:45
+    :END:
+*** cleaned up							      :chore:
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Wed 20:00]--[2011-03-09 Wed 20:15] =>  0:15
+    :END:
+*** setup emacs/org-mode					       :surf:
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Wed 20:15]--[2011-03-09 Wed 20:35] =>  0:20
+    :END:
+
+*** arch forum posting
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Wed 20:35]--[2011-03-09 Wed 21:15] =>  0:40
+    :END:
+*** cribbage board						       :wood:
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Thu 21:15]--[2011-03-09 Thu 21:45] =>  0:30
+    :END:
+*** sleep							      :sleep:
+    :LOGBOOK:
+    CLOCK: [2011-03-09 Thu 22:00]--[2011-03-10 Thu 05:15] =>  7:15
+    :END:
+
+** [2011-03-10 Thu]
+*** dinner								:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-10 Thu 18:15]--[2011-03-10 Thu 19:00] =>  0:45
+    :END:
+*** bath time for Felicity					      :chore:
+    :LOGBOOK:
+    CLOCK: [2011-03-10 Thu 19:00]--[2011-03-10 Thu 19:45] =>  0:45
+    :END:
+*** blog and troubleshoot orgmode 				       :surf:
+    :LOGBOOK:
+    CLOCK: [2011-03-10 Thu 19:45]--[2011-03-10 Thu 21:00] =>  1:15
+    :END:
+*** clean up							      :chore:
+    :LOGBOOK:
+    CLOCK: [2011-03-10 Thu 21:00]--[2011-03-10 Thu 21:45] =>  0:45
+    :END:
+*** cribbage board						       :wood:
+    CLOCK: [2011-03-10 Thu 22:00]--[2011-03-11 Fri 02:00] =>  4:00
+*** sleep							      :sleep:
+    :LOGBOOK:
+    CLOCK: [2011-03-11 Fri 02:00]--[2011-03-11 Fri 07:15] =>  5:15
+    :END:
+** [2011-03-11 Fri]
+*** cribbage board						       :wood:
+    :LOGBOOK:
+    CLOCK: [2011-03-11 Fri 18:30]--[2011-03-11 Fri 19:00] =>  0:30
+    :END:
+*** helping mark's inlaws move 					      :chore:
+     :LOGBOOK:
+     CLOCK: [2011-03-11 Fri 19:00]--[2011-03-11 Fri 21:30] =>  2:30
+     :END:
+*** cribbage board						       :wood:
+    :LOGBOOK:
+    CLOCK: [2011-03-11 Fri 21:30]--[2011-03-12 Sat 02:00] =>  4:30
+    :END:
+** [2011-03-12 Sat]
+*** talk with amanda							:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 11:30]--[2011-03-12 Sat 13:00] =>  1:30
+    :END:
+*** cribbage board						       :wood:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 13:30]--[2011-03-12 Sat 13:45] =>  0:15
+    :END:
+*** lunch								:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 13:45]--[2011-03-12 Sat 14:15] =>  0:30
+    :END:
+*** change picture dir names, upload to fb			       :surf:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 14:15]--[2011-03-12 Sat 15:00] =>  0:45
+    :END:
+*** talk with amanda							:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 15:00]--[2011-03-12 Sat 16:00] =>  1:00
+    :END:
+*** dinner and shopping							:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 17:00]--[2011-03-12 Sat 21:00] =>  4:00
+    :END:
+
+*** internet							       :surf:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 21:00]--[2011-03-12 Sat 21:30] =>  0:30
+    :END:
+*** glee								:fam:
+    :LOGBOOK:
+    CLOCK: [2011-03-12 Sat 22:00]--[2011-03-12 Sat 23:00] =>  1:00
+    :END:
+** [2011-03-13 Sun]
+*** cribbage board						       :wood:
+    :LOGBOOK:
+    CLOCK: [2011-03-13 Sun 07:30]--[2011-03-13 Sun 09:30] =>  2:00
+    :END:
+*** cribbage board						       :wood:
+    :LOGBOOK:
+    CLOCK: [2011-03-13 Sun 16:30]--[2011-03-13 Sun 19:00] =>  2:30
+    :END:
+
+** [2012-05-05 Sat]
+*** sleep
+    :LOGBOOK:
+    CLOCK: [2012-05-05 Sat 21:59]--[2012-05-06 Sun 08:00] => 10:01
+    :END:
+* Tasks
+** TODO [9/11] Cleanup for dinner
+- [ ] vacuum living room
+- [X] sweep all floors
+- [X] move stuff from buffet into office
+- [X] wash table cloth
+- [X] wash kitchen/dining room floor
+- [X] dust living room and dining room
+- [X] organize kitchen/pantry
+- [X] sweep bathroom floor
+- [X] wash toilet
+- [X] clean sink
+- [ ] fold clothes
+
+** TODO [0/7] Update account status
+- [ ] Sallie Mae
+- [ ] UAS (this is a check sent by Wells every month. It's not really auto so
+  we whould be able to just set up bill pay with Novation and be set)
+- [ ] AES
+- [ ] US Bank
+- [ ] Monitronics
+- [ ] Century Link
+- [ ] Vanden Heuvels if they do our taxes next year
+
+*** Manual (do nothing)
+- Verizon
+- Xcel
+- Right of way
+- St. Paul Water (SPRWS)
+- Garbage
+- SPO/CCR for tithe withdrawls, unless all done by check
+
+** TODO [3/16] Basement cleanup
+- [X] move out paint and shelf
+- [X] move out gift wrap and table
+- [X] move out back shelf
+- [ ] move freezer to center of room
+- [ ] disconnect dryer/washer; move away from walls
+- [ ] scrub walls with detergent (2Tbs/gal); rinse
+- [ ] spray with bleach (1:4 bleach:water); rinse well
+- [ ] wire brush or pressure wash
+- [ ] patch with hydraulic cement
+- [ ] wire brush/pressure wash again
+- [ ] perhaps apply cement bonding adhesive (Weld-O-Bond)
+- [ ] perhaps re-parge with lime mortar mix... maybe, maybe not. Perhaps sand mix;
+  sand + portland cement ([[http://newyorkrenovator.com/2009/06/parging-the-foundation-walls.html][link]])
+- [ ] run dehumidifier for a week or so
+- [ ] wire brush again
+- [ ] paint with dryloc (spray?)
+- [ ] paint with regular paint if desired
+*** Links
+- [[http://blackmold.awardspace.com/kill-remove-mold.html][killing mold]]
+** Archive							    :ARCHIVE:
+*** DONE [8/9] Cleaing <2010-03-27 Sat>				   :noexport:
+    CLOSED: [2010-05-10 Mon 02:21]
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2012-06-10 Sun 14:24
+    :END:
+    - [X] Floors
+      - [X] sweep or vacuum all hardwood/kitchen
+      - [X] wash hardwood floors
+      - [X] wash kitchen floor
+    - [X] send envelopes via post office
+    - [X] grease garage door beargings
+    - [X] clean upstairs bathrooom
+    - [X] wash dining room table
+    - [X] vacuum couches, rug, behind/under things
+    - [X] vacuum upstairs
+      - [X] vacuum back stairs
+      - [X] vacuum hallway
+      - [X] vacuum felicity's room
+      - [X] vacuum our room
+    - [X] finances
+    - [ ] ?: organize office
+
+*** DONE [3/3] Kebe wedding music <2010-04-20 Tue>		   :noexport:
+    CLOSED: [2010-07-05 Mon 00:36]
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2012-06-10 Sun 14:24
+    :END:
+   - [X] learn Polonaise
+     - [X] part 1
+     - [X] part 2
+     - [X] part 3
+   - [X] look at song list in Kebe's email
+   - [X] get out to St. Pats/Cedars with Kev to sound check
+     - Cindy Reckinger - creckinger@comcast.net - 612.709.4494
+
+* Woodworking
+** Bunk beds
+- [[http://www.houzz.com/modern-bunk-toddler-beds/p/1][Tons of bunk bed designs]]
+- [[http://pinterest.com/4lindadarlene/bunk-bed-designs/][Page of various designs]]
+- [[http://www.moderndecoratingideas.net/toddler-bunk-beds-space-saving-bed-for-children.html][Simple design with ladder]]
+- [[http://lumberjocks.com/projects/46467][Double over single with curved stairs (Amanda's fav)]]
+- [[http://lumberjocks.com/projects/46339][Nice twin over full]]
+- [[http://lumberjocks.com/projects/64993][Simple design]]
+- [[http://lumberjocks.com/projects/46340][Mission style nice design]]
+- [[http://lumberjocks.com/projects/46784][Twin over full mission style]]
+- [[http://lumberjocks.com/projects/36326][Nice through mortise/tenon example]]
+- 
+** Standing desk
+*** Cost estimate
+|           |     feet | legs | trestle |   top |
+|-----------+----------+------+---------+-------|
+| height    |        6 |   40 |       6 |    36 |
+| width     |       24 |    6 |      48 |    48 |
+| thickness |        3 |    2 |       2 |   1.5 |
+| qty       |        2 |    2 |       2 |     1 |
+|-----------+----------+------+---------+-------|
+| board ft  |      5.5 |    8 |    9.33 | 7.125 |
+|-----------+----------+------+---------+-------|
+| *total*   | *239.64* |      |         |       |
+#+TBLFM: $2=sum(@-1$2..@-1..$4)::$3=@-1*8::$4=@-1*8::$5=@-1*8
+* Arch Setup							   :noexport:
+** 32 bit chroot with Lotus Notes
+*** Follow instructions on [[http://wiki.archlinux.org/index.php/Install_bundled_32-bit_system_in_Arch64][Arch Wiki]] for setting up initial chroot
+- mkdir /opt/arch32
+- mkdir -p /opt/arch32/var/{cache/pacman/pkg,lib/pacman}
+- sed -e 's/x86\_64/i686/g' /etc/pacman.d/mirrorlist > /opt/arch32/mirrorlist
+- sed -e 's@/etc/pacman.d/mirrorlist@/opt/arch32/mirrorlist@g' /etc/pacman.conf > /opt/arch32/pacman.conf
+- pacman --root /opt/arch32 --cachedir
+  /opt/arch32/var/cache/pacman/pkg --config /opt/arch32/pacman.conf -Sy
+  - Or just put 'alias pacman32="pacman --root /opt/arch32
+    --cachedir /opt/arch32/var/cache/pacman/pkg --config
+    /opt/arch32/pacman.conf"' into ~/.bashrc
+  - From then on, pacman32 from 64 bit env will install to chroot
+- Create /etc/rc.d/arch32
+- chmod +x /etc/rc.d/arch32
+- add arch32 to daemons list in /etc/rc.conf
+- Create symlinks
+  - cd /opt/arch32
+  - ln -f /etc/passwd* .
+  - ln -f /etc/shadow* .
+  - ln -r /etc/group* .
+  - pacman32 -S sudo
+  - ln -f /etc/sudoers .
+  - ln -f /etc/rc.conf .
+  - ln -f /etc/resolv.conf .
+  - ln -f /etc/localtime .
+  - ln -f /etc/locale.gen .
+  - ln -f /etc/profile.d/locale.sh profile.d
+  - cp /etc/mtab .
+- For starters
+  - pacman32 -S base base-devel
+- Start script
+  - /etc/rc.d/arch32 start
+  - xhost +local:
+  - chroot /opt/arch32
+- Last setup
+  - /usr/sbin/locale-gen
+  - pacman -S ttf-bistream-vera ttf-ms-fonts
+  - uncomment a mirror in mirrorlist
+- Lotus Notes specific
+  - add to pacman.conf: 
+    - [archlinuxfr]
+    - Server = http://repo.archlinux.fr/i686
+    - pacman -Sy
+    - pacman -S yaourt
+  - yaourt -S rpm
+  - 
+
+** Openbox
+*** urxvt stuff
+- edit /usr/lib/urxvt/perl/tabbed and replace [NEW] with " + " and
+  alter some string lengths to reflect the loss of characters.
+**** Config
+Xft.dpi:		96
+Xft.antialias:		true
+Xft.rgba:		rgb
+Xft.hinting:		true
+Xft.hintstyle:		hintslight
+
+
+URxvt.font: xft:Droid Sans Mono Slashed:size=9
+#URxvt.font: xft:Inconsolata-g:size=9
+#URxvt.font: xft:DejaVu Sans Mono:size=9
+URxvt.perl-ext-common:	default,tabbed
+URxvt.scrollBar: false
+URxvt.termName: rxvt-unicode
+
+
+### color definitions ###
+
+# foreground, light grey
+URxvt.color0:    #C0C3C3
+
+# light red
+#URxvt.color1:    #e9897c
+
+# light blue, yaourt left highlights
+URxvt.color3:    #A39AFF
+
+# light blue, yaourt number hilts
+#URxvt.color4:    #736AFF
+
+# ??
+#URxvt.color2:    #736AFF
+#URxvt.color5:    #736AFF
+#URxvt.color6:    #736AFF
+#URxvt.color8:    #736AFF
+#URxvt.color9:    #f99286
+#URxvt.color15:    #ffffff
+
+# yaourt version numbers
+URxvt.color10:    #efefef
+
+# pale red, yaourt right highlights
+# devices
+URxvt.color11:    #e9897c
+
+# folders, light blue
+URxvt.color12:    #1994d1
+
+# yaourt repo name, default purple
+#URxvt.color13:    #ffffff
+
+# symlinks
+URxvt.color14:    #ffffff
+
+### end color defs ###
+
+URxvt.foreground: #C0C0C0
+URxvt.background: #000000
+URxvt.tabbed.tabbar-fg: 12
+URxvt.tabbed.tabbar-bg: -1
+URxvt.tabbed.tab-fg:    0
+URxvt.tabbed.tab-bg:    -1
+
+
+#URxvt*transparent:true
+#URxvt.background: rgba:3f00/3f00/3f00/dddd
+#URxvt.depth: 32
+#URxvt*geometry:124x24
+
+*** Conky
+**** Binary script
+Uses the [[http://www.fontspace.com/curtis-clark/moon-phases][moon-phases font]] to display hollow/filled circles.
+
+#+begin_src bash
+#! /bin/bash
+
+### strings for 0's and 1's
+# hex code for hollow circle
+# zero="\\xE2\\x97\\x8B"
+zero="@"
+
+# hex code for filled circle
+# one="\\xE2\\x97\\x8F"
+one="0"
+
+# command format:
+# binary.sh binary-slots hr/min
+# example: binary.sh 5 hr
+# example: binary.sh 6 min
+
+### variables
+exp=$(($1-1))
+time=0
+
+if [[ "$2" = hr ]]; then
+  time=`date +%H`
+elif [[ $2 = min ]]; then
+  time=`date +%M`
+else
+  exit
+fi    
+
+output=""
+
+# convert -> binary
+while [[ $exp -ge 0 ]]
+do
+  if [[ $time -ge 2**$exp ]]; then
+    time=$(( $time - 2**$exp ))
+    output="${output}${one}"
+  else
+    output="${output}${zero}"
+  fi
+  exp=$(( $exp - 1 ))
+done
+
+echo -e "${output}"
+#+end_src bash
+
+* C&G Loan Report
+** Introduction
+   The following is a summary of the financial status of the college
+   loan, payment history, and Verizon bills. Here is a description of the
+   methods used to arrive at the table below:
+   - All financial records were examined and the month, year, amount and
+     check number of all payments made were recorded
+   - The Verizon primary service charge, taxes, and governmental surcharges
+     were added and divided in half
+  - All data (texting) fees were excluded since John comprises the far
+    majority, if not all, of fees in that category
+  - In months with overages in calling, the situation was examined and
+    distributed to the party responsible. It was decided that C&G
+    would be responsible for two overage occurrences:
+  - Aug 2009: 318min for J&A vs. 467min for C&G
+  - Jan 2010: 308min for J&A vs. 518min for C&G
+
+** Summary Table
+   |     Year | Month | Verizon    | C&G        | Paid | Principle | Check Number |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | -     | -          | -          |    - |      3000 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | Jul   | -          | -          |  100 |      2900 |         1177 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | Aug   | -          | -          |  100 |      2800 |         1180 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | Sep   | -          | -          |  100 |      2700 |         1193 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | Oct   | -          | -          |  100 |      2600 |         1200 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | Oct   | -          | -          |  100 |      2500 |         1205 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2007 | Nov   | -          | -          |  100 |      2400 |         1220 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Jan   | -          | -          |  200 |      2200 |         2003 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Feb   | -          | -          |  100 |      2100 |         2015 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Mar   | -          | -          |  100 |      2000 |         2021 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Apr   | -          | -          |  100 |      1900 |         2033 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | May   | -          | -          |  100 |      1800 |         2037 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Jun   | -          | -          |  100 |      1700 |         2046 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Jul   | -          | -          |  100 |      1600 |         2050 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Aug   | -          | -          |  100 |      1500 |         2059 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Oct   | -          | -          |  100 |      1400 |         2070 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Oct   | -          | -          |  100 |      1300 |         2075 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Nov   | -          | -          |  100 |      1200 |         2079 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2008 | Dec   | -          | -          |  100 |      1100 |         2088 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Feb   | -          | -          |  200 |       900 |         2096 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Mar   | 194.28^{1} | 97.14      |  100 |       800 |         2099 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Apr   | 104.15     | 52.08      |  100 |       700 |         2108 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | May   | 105.91     | 52.96      |  100 |       600 |         2111 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Jun   | 106.00     | 53.00      |    - |       600 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Jul   | 110.16     | 55.08      |    - |       600 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Aug   | 112.17     | 94.34^{2}  |    - |       600 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Sep   | 107.33     | 53.67      |    - |       600 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Oct   | 107.11     | 53.56      |    - |       600 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Nov   | 107.19     | 53.60      |    - |       600 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2009 | Dec   | 106.92     | 53.46      |  200 |       400 |         1557 |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2010 | Jan   | 113.55     | 113.48^{3} |    - |       400 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2010 | Feb   | 94.63      | 47.32      |    - |       400 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2010 | Mar   | 94.85      | 47.43      |    - |       400 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   |     2010 | Apr   | 95.08      | 47.54      |    - |       400 |            - |
+   |----------+-------+------------+------------+------+-----------+--------------|
+   | *Totals* | -     | -          | 874.66     | 2600 |         - |            - |
+#+TBLFM: $4=vsum(@-1..@-20)::$5=vsum(@3..@35)::$6=@-1-$5
+
+*** Notes
+    ^{1}Mar 2009 marked the first billing cycle under J&A
+    ownership. Verizon double-bills (charges for two months' worth) when
+    one changes plan ownership.  We receive half of this charge when
+    service is canceled.\\ \\
+    I propose dividing your portion of that month in half so that things
+    are squared up as of now rather than needing to remember to send you
+    half of our reimbursement when it occurs. In other words, you
+    only owe 97.14/2 = 48.57 for Mar 2009\\ \\
+    ^{2}Overage was 38.25; 112.17/2 + 38.25 = 97.14 \\ \\
+    ^{3}Overage was 56.70; 113.55/2 + 56.70 = 113.48
+
+** Conclusion
+   Based on the financial record above:
+   - J&A owe C&G $400 of the remaining loan principle
+   - C&G owe J&A $874.66 in Verizon payments
+   - $48.57 is to be subtracted from C&G Verizon debt to satisfy Mar 2009
+     double billing
+   - *Balance Due:* $874.66 - $48.57 - $400.00 = $426.09 from C&G to J&A
+
+** Proposal for Satisfaction of Loan
+   As of 01 June 2010, I propose that the loan in the amount of
+   $3000.00 provided by Carl and Gena Henderson to John Henderson be
+   declared paid in full.
+* Wood expense tracking
+| Item           | Expense | Income |
+|----------------+---------+--------|
+| Coping saw     |      20 |        |
+| Coping blades  |       5 |        |
+| Backsaw/miter  |      25 |        |
+| Stanley miter  |      15 |        |
+| Frame wood     |       7 |        |
+| Fjel/Biel wood |      11 |        |
+| Frame clamp    |      15 |        |
+| Hand planes    |      15 |        |
+| Scraper        |       9 |        |
+| Finish         |      15 |        |
+| Fjelsted Board |         |    100 |
+| Sell table saw |         |     50 |
+|----------------+---------+--------|
+| Total          |     137 |    150 |
+|----------------+---------+--------|
+
+* Stat Refs
+- [[http://www.mayin.org/ajayshah/KB/R/index.html][R by Example]]
+- [[http://learnr.wordpress.com/][Learning R]]
+- [[http://zoonek2.free.fr/UNIX/48_R/all.html][Statistics with R]]
+
+* School Research
+** Active Consideration
+** [[http://www.cpa.charter.k12.mn.us/][Community of Peace Academy]]
+- 471 Magnolia (~Maryland & 35E)
+- Don't really know anything about. Amanda found out about it somehow.
+- Public (free)
+- Emailed [2012-05-20 Sun] for tour
+
+** [[http://www.cornerstonemontessori.net/][Cornerstone Montessori]]
+- 1611 Ames Ave (White Bear & Maryland)
+- Sharon Reed said they might be free
+- Emailed [2012-05-20 Sun] for tour/tuition info
+
+** [[http://crossroads.spps.org/home.html][Crossroads Elementary]]
+- 543 Front Ave (Dale between Minnehaha and Maryland)
+- Has 1/2 day kindergarten (not sure about pre-school)
+- Montessori? Not sure... Not much info on what exact program/curriculum they have
+- Did not email. Can't tell what they have and what they're doing.
+ 
+** [[http://edgcumbemontessori.com/][Edgecumbe Montessori]]
+- 2149 Edgcumbe (Edgecumbe & Snelling)
+- Emailed [2012-05-20 Sun] for tour/tuition
+
+** [[http://www.highlandparkmontessori.com/][Highland Park Montessori]]
+- 1550 Summit (Summit and Snelling)
+- Emailed [2012-05-20 Sun] for tour/tuition info
+
+** [[http://thelittleschoolsaintpaul.com/][Little School]]
+- 1795 Ford Parkway (Ford and Fairview)
+- Seems really cool. Nature-y, free, peaceful. Grow things and see the outside.
+- Not sure if they are Montessori or not
+- Emailed [2012-05-20 Sun] for tour/tuition info and to inquire if they are
+  Montessori based or what their program is based one
+
+** [[http://www.macdonaldmontessori.org/index.php][MacDonald Montessori]]
+- 175 Western Ave (Western & W 7th)
+- Pretty big (2-3 classrooms per age)
+- Felicity didn't interact as well as at Seton, but they were in session so might
+  have been shy since a bunch of kids were already around
+- Amanda didn't like the feel or teacher's atmosphere; felt unwelcome
+- Preschool/K: $239/mo for full time, $212/mo for 3 days/week
+
+** [[http://highlandvillagemontessorichildcare.com/default.aspx][Mano's Highland Village]]
+- 1882 Ford Parkway (Ford and Fairview)
+- Emailed [2012-05-20 Sun] for tour/tuition info
+
+** [[http://www.mvmontessori.org/][Mississippi Valley]]
+- 1575 Charlton (Charlton & Wentworth)
+- Emailed [2012-05-20 Sun] for tour info
+- Rates
+
+| Length                | Days per week | Cost/mo |
+|-----------------------+---------------+---------|
+| Morning (8:45-12p)    |             4 |     425 |
+| Morning (8:45-12p)    |             5 |     475 |
+| Afternoon K (12-3:15p |             5 |     380 |
+
+** [[http://www.setonmontessorimn.com/home][Seton Montessori]]
+- 149 Thompson (Thompson & Robert)
+- $320/mo for half day (8:15-11:45a)
+** [[http://www.sunnyhollow.com/][Sunny Hollow]]
+- 636 Mississippi River (Mississippi & ~Ford Pkwy)
+- $572/mo for half day
+- Emailed [2012-05-20 Sun] for tour info
+
+** [[http://woodburymontessori.com/][Woodbury Montessori School]]
+- 363 Winthrop (McKnight & Lower Afton)
+- ~5min from 3M
+- Emailed [2012-05-20 Sun] for tour/tuition info
+
+** No-Go
+*** [[http://chmschool.org/][Cathedral Hill]] (too expensive)
+- 325 Dayton Ave (Dayton & ~Western)
+- $695/mo for half day Children's House
+- Did not email (prob too expensive)
+*** [[http://jjhill.spps.org/][JJ Montesorri]] (full)
+- 998 Selby Ave (Selby & Lexington)
+- Public magnet school (free)
+- Emailed [2012-05-20 Sun] for tour
+- [2012-05-21 Mon] No more tours this year, but will resume in fall; email then
+
+*** [[http://www.miniapplemontessori.com/][MiniApple Montessori]] (full/too expensive)
+- 780 Helmo (10th & 694)
+- *Had 15 families on waiting list as of May 2012*. If interested, tour/apply earlier
+  for 2013.
+- Probably ~5min from 3M
+- $50 registration fee, $598/mo for morning half day
+
+*** [[http://nokomis.spps.org/][Nokomis Montessori]] (missed registration)
+- 985 Ruth St (Ruth & Stillwater Ave (E 7th))
+- *Registration deadline was Mar 9 2011*. If want to consider, tour/apply earlier
+  for 2013.
+- Public (free)
+- Mornning pre-K (9:30-12:15p), afternoon (1:15-4p)
+- Emailed [2012-05-20 Sun] for tour
+
+** Summary Table
+| School                         | Range         | $/mo    | Times        |
+|--------------------------------+---------------+---------+--------------|
+| Cathedral Hill                 | Close         | 695     | 8:30a-12:30p |
+| Community of Peace             | Far           | 0       | 7:45a-2:45p  |
+| Cornerstone Montessori         | Far           | Emailed | 8:00a-12:00p |
+| Crossroads Montessori          | Far           | 0       | 8:30a-11:15a |
+| Edgcumbe Montessori            | Mid           | Emailed | ?            |
+| Highland Park Montessori       | Mid           | Emailed | ?            |
+| JJ Montessori                  | Close         | Free    | ?            |
+| Little School                  | Mid           | Emailed | 8:00a-11:15a |
+| MacDonald Montessori           | Close         | 239     | ?            |
+| Mano's Highland Montessori^{1} | Mid           | Emailed | 7:00a-5:30p  |
+| MinniApple Montessori          | Close (to 3M) | 598     | 8:30a-11:30a |
+| Mississippi Valley^{2}         | Close         | 475     | 8:45a-12:00p |
+| Nokomis Montessori             | Close (to 3M) | Emailed | 9:30-12:15p  |
+| Seton Montessori               | Close         | 320     | 8:15a-11:45a |
+| Sunny Hollow                   | Far           | 572     | 8:30a-12:00p |
+| Woodbury Montessori            | Close (to 3M) | Emailed | ?            |
+
+^1 Not sure if half-day available
+
+^2 They have 3, 4 and 5 day half-day programs available for different rates. See
+[[*%5B%5Bhttp://www.mvmontessori.org/%5D%5BMississippi%20Valley%5D%5D][Mississippi Valley]] table
+
+* Quantified self
+- Diet tracking: http://www.myfitnesspal.com/
+- Mental testing: http://www.quantified-mind.com/session/new
+** Videos
+- Diabetes and exercise: http://vimeo.com/39308205
+- Biohacking handbook: http://vimeo.com/38690338
+- Smart phone brain monitor: http://vimeo.com/35842257
+- 20 year tracker (cognitive performance): http://vimeo.com/38945669
+- Quantifying with kids: http://vimeo.com/39308208
+
+
+* Goals
+- Be always calm/meta-aware/composed
+- Increase patience
+- Be kinder
+- Be early/feel like I have plenty of time to spare
+- 

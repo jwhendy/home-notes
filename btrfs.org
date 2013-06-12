@@ -1,0 +1,115 @@
+* Preparation
+This is dual boot, so I partitioned with Partition Wizard Home
+Edition and created three primary partitions:
+- shrunk Win 7 down to 40gb
+- unencrypted boot partition (64gb)
+- / (the rest, which was about 100gb)
+
+I booted into an Arch Linux install cd and let this run overnight
+
+#+begin_src sh
+dd if=/dev/urandom of=/dev/sda3 bs=1M
+#+end_src
+
+
+* Setting up the encrypted partition
+
+The [[https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS][Arch Linux Wiki]] has great instructions on this already, but you
+have to scan through a bunch of stuff that might not be relevant
+(various ways to use a keyfile or USB drive with encryption, for
+example), so here's the play by play.
+
+- Boot up
+- The recent install media I have defaults to zsh, so I change that:
+
+#+begin_src sh
+# SHELL=/bin/bash
+# /bin/bash
+#+end_src
+
+Load the dm module:
+
+#+begin_src
+# modprobe dm_mod
+#+end_src
+
+Create a LUKS encrypted partition:
+
+#+begin_src
+# cryptsetup -c aes-xts-plain -y -s 512 luksFormat /dev/sda3
+YES
+Enter LUKS passphrase: do it
+Verify passphrase: do it again
+#+end_src
+
+Open up the partition at =/dev/mapper/root=
+
+#+begin_src
+# cryptsetup luksOpen /dev/sda3 root
+#+end_src
+
+Done!
+
+* Create btrfs filesystem
+
+Update pacman and install btrfs-progs
+#+begin_src
+# pacman -Sy btrfs-progs
+#+end_src
+
+Create the filesystem. Make sure to use =/dev/mapper/root=, not
+=/dev/sda3=! Replace =label= with whatever you want to call your btree.
+#+begin_src
+# mkfs.btrfs -L label /dev/mapper/root
+#+end_src
+
+Mount it!
+#+begin_src
+# mkdir /broot
+# mount -o defaults,noatime /dev/mapper/root /broot
+#+end_src
+
+With the top level btree mounted, we can create an =__active= top
+level subvolume for our / to be. Then we mount /that/ where we plan
+to do the install:
+#+begin_src
+# btrfs subvolume create /broot/__active
+# mount -o defaults,noatime,subvol=__active /dev/mapper/root /mnt
+#+end_src
+
+* Install
+To install, we're going to need a =/boot= directory, which will be
+the unencrypted partition I've already got, so we create a directory
+and mount =/dev/sda2= there:
+#+begin_src
+# mkdir /mnt/boot
+# mount /dev/sda2 /mnt/boot
+#+end_src
+
+Now we can install! Pacman will fail with =error: failed to
+initialize alpm library...= if we don't create it's cache directories first.
+#+begin_src
+# mkdir -p /mnt/var/lib/pacman
+# pacamn -r /mnt -Sy base btrfs-progs [whatever else you want]
+#+end_src
+
+I add in =base-devel=, =wireless-tools=, and =net-tools= for now.
+
+
+* Packages
+openbox
+geeqie
+urxvt
+ncmpcpp
+mpd
+xorg-xinit
+xf86-input-mouse
+xf86-input-synaptics
+conky
+gimp
+r
+octave
+pcmanfm
+
+yaourt
+tint2

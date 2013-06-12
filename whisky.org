@@ -1,0 +1,490 @@
+#+OPTIONS:   toc:nil TeX:t LaTeX:t H:4 f:t todo:nil num:nil tags:nil
+#+LATEX_HEADER: \usepackage[hmargin=2cm,vmargin=2.5cm]{geometry}
+#+LATEX_HEADER: \usepackage{mathpazo}
+#+LATEX_HEADER: \hypersetup{urlcolor=blue,colorlinks=true,linkcolor=blue}
+#+latex_header: \usepackage{bookmark}
+#+latex_header: \usepackage{multirow}
+#+latex_header: \usepackage{rotating}
+#+latex_header: \usepackage{lscape}
+#+LATEX_HEADER: \setlength{\parskip}{0.5cm}
+#+LATEX_HEADER: \setlength{\parindent}{0cm}
+#+LATEX_HEADER: \setlength{\footnotesep}{0.3cm}
+#+BIND: org-export-latex-title-command ""
+
+
+* Whisky Reviews
+
+The following table summarizes region, bottling strength, ratings, and current
+prices. The ratings are out of 100 points and are compiled from several sources,
+listed as follows with corresponding notation formats:
+- *Ralfy:*[fn:1] During each whisky review Ralfy gives nose and taste comments and ends
+  the episode with a rating mark, which is included in the summary table. Following
+  the table, Ralfy's nose/tasting notes are provided for a number of whiskies. The
+  number of the review is provided for reference.
+- *MaltMatrix:*[fn:2] A summary of whisky ratings given by a panel of 18 experts who have
+  tasting experience anywhere from 200-2,000 single malts.[fn:3] Since the matrix
+  features a panel of diverse tastes, scores sometimes vary widely. Tastings have
+  also included many older bottlings that may not be the same as what is currently
+  available. Therefore, only bottlings after the year 2000 will be used. Ratings will be
+  in the format of "low-high/average (number of bottles rated)." For example, Ardbeg 10
+  has three listed bottlings after the year 2000 that were reviewed, with a low of 83
+  and a high of 91 and the three bottles having respective averages of 86, 87,
+  and 87. Thus the Ardbeg 10 rating based on the matrix would be: "83-91/87 (3)"
+- *Connosr:*[fn:4] This is a community/open reviewing site. Ratings probably vary
+  quite widely based on experience and taste, however it is a fairly comprehensive
+  site with lots of "layman ratings." Ratings will be given as low-high/average (number
+  of reviews). An example for Ardbeg 10 would be: "60-95/81 (25)". In this particular
+  case, there were ratings of 3 and 5; these are considered outliers and due to the
+  particular taste preferences of the reviewer (one can verify this in the comments
+  for each of these ratings. Ratings that low will be ignored.
+- *Whisky Advocate:*[fn:5] Ratings given by one or more of five Whisky Advocate veteran
+  writers, who the magazine claims are world whisky experts and experienced
+  reviewers. If more than one review exists, they will be separated by a slash (/).
+
+#+begin_latex
+\newpage
+\begin{landscape}
+#+end_latex
+
+** Summary Table
+
+#+begin_latex
+%\begin{sideways}
+\begin{center}
+\small
+\begin{longtable}{l|l|c|l|l|l|l|c|c|c|c|}
+\cline{2-11}
+& % blank
+  \multicolumn{2}{|c|}{\textbf{Info}} &
+  \multicolumn{4}{|c|}{\textbf{Ratings (out of 100)}} &
+  \multicolumn{4}{|c|}{\textbf{Prices}} \\
+\cline{2-11}
+& % blank
+\multicolumn{1}{|l|}{Region} &
+\multicolumn{1}{|c|}{\begin{sideways}ABV (\%)\end{sideways}} &
+
+% ratings
+  \begin{sideways}Ralfy\end{sideways} & 
+  \begin{sideways}MaltMatrix $\;$ \end{sideways} & 
+  \begin{sideways}Connosr\end{sideways} & 
+  \begin{sideways}Advocate\end{sideways} & 
+
+% prices
+  \begin{sideways}Merwin\end{sideways} & 
+  \begin{sideways}Surdyks\end{sideways} & 
+  \begin{sideways}Haskells\end{sideways} &
+  \begin{sideways}France44\end{sideways} \\
+\cline{1-11}
+
+\endhead
+
+\multicolumn{1}{|l|}{Aberlour A'bunadh} & Speyside & 60 &
+   91 & 76-93/87 (11) & 65-95/89 (30) & 90/90 & \$69 & \$60 & \$63 & - \\
+\multicolumn{1}{|l|}{Aberlour 12 DoubleCask} & Speyside & 60 &
+   - & 79-86/83 (1) & 50-90/74 (5) & 84 & \$40 & \$38 & \$45 & \$40\\
+\multicolumn{1}{|l|}{Aberlour 16 DoubleCask} & Speyside & 60 &
+   - & 77-90/83 (3) & 65-97/84 (6) & 90 & \$53 & \$60 & - & \$60\\
+\multicolumn{1}{|l|}{Amrut Fusion} & India & 50 &
+   88 & - & 75-95/85 (10) & 89 & \$60 & \$65 & - & \$65 \\
+\multicolumn{1}{|l|}{An Cnoc 12} & Speyside & 40 &
+   89/90 & 72-89/80 (6) & 78-86/81 (7) & - & \$32 & - & - & - \\
+\multicolumn{1}{|l|}{An Cnoc 16} & Speyside & 46 &
+   - & 76-88/81 (1) & 75-84/79 (4) & - & \$49 & - & - & - \\
+\multicolumn{1}{|l|}{Ardbeg 10} & Islay & 46 &
+   90 & 83-92/87 (3) & 60-95/81 (25) & 93 & \$47 & \$50 & \$50 & -\\
+\multicolumn{1}{|l|}{Ardbeg Uigeadail} & Islay & 54.2 &
+   92 & 80-93/87 (3) & 80-99/90 (26) & 95 & \$68 & \$83 & \$90 & -\\
+
+
+\multicolumn{1}{|l|}{Balvenie 12 Doublewood} & Speyside & 40 &
+   83 & 72-88/81 (4) & 60-93/80 (25) & - & \$40 & - & \$43 & \$45 \\
+\multicolumn{1}{|l|}{Balvenie 12 Signature} & Speyside & 40 &
+   85 & 70-87/78 (1) & 60-88/79 (7) & 83 & \$55 & \$50 & - & - \\
+
+\multicolumn{1}{|l|}{Benriach 10 Curiositas} & Speyside & 40 &
+   - & 72-90/81 (2) & 74-86/77 (7) & 87 & \$55 & - & - & - \\
+\multicolumn{1}{|l|}{Benriach 12 Tawny Port} & Speyside & 46 &
+   - & 82-86/84 (1) & 84 (1) & 86 & \$65 & - & - & - \\
+\multicolumn{1}{|l|}{Benriach 15 Tawny Port} & Speyside & 46 &
+   - & 74-79/76 (1) & - & - & \$75 & - & - & - \\
+\multicolumn{1}{|l|}{Benriach 15 Arumaticus} & Speyside & 46 &
+   - & 80-84/82 (1) & 81 (2) & - & \$75 & - & - & - \\
+\multicolumn{1}{|l|}{Benriach 15 Pedro Ximenez} & Speyside & 52.3 &
+   - & 78-82/80 (1) & 87 (1) & 92 & \$100 & - & - & - \\
+\multicolumn{1}{|l|}{Benriach 15 Madiera} & Speyside & 46 &
+   - & 70-88/80 (2) & 83 (1) & - & \$75 & - & - & - \\
+\multicolumn{1}{|l|}{Benriach 16} & Speyside & 40 &
+   - & 70-88/80 (2) & 79-84/82 (3) & 83 & \$75 & - & - & - \\
+\multicolumn{1}{|l|}{Black Bottle} & Blend & 40 &
+   89 & 74-80/77 (1) & 65-95/78 (9) & - & \$20 & - & \$21 & \$16 \\
+\multicolumn{1}{|l|}{Bruichladdich Rocks} & Islay & 46 &
+   - & 70-86/81 (1) & 80-92/82 (3) & 78 & \$45 & \$50 & \$55 & - \\
+\multicolumn{1}{|l|}{Bruichladdich 12 2nd Ed.} & Islay & 46 &
+   - & 73-90/80 (1) & 67 (1) & 83 & \$55 & \$59 & \$65 & - \\
+\multicolumn{1}{|l|}{Bunnahabhain 12} & Islay & 46.3 &
+   91 & 72-89/81 (4) & 50-90/73 (9) & 87/89 & \$49 & \$42 & \$50 & \$50 \\
+\multicolumn{1}{|l|}{Bushmills Black Bush} & Irish Blend & 40 &
+   - & 63-80/72 (1) & 75-98/84 (10) & - & \$27 & \$30 & - & - \\
+
+\multicolumn{1}{|l|}{Caol Ila 12} & Islay & 43 &
+   89 & 69-90/83 (4) & 50-92/83 (16) & 88 & \$49 & \$50 & \$57 &\$55 \\
+\multicolumn{1}{|l|}{Compass Box Asyla} & Misc Blend & 40 &
+   - & 74-87/82 (2) & 72-80/83 (2) & 88 & \$50 & - & - & - \\
+\multicolumn{1}{|l|}{Compass Box Peat Monster} & Islay/Highland Blend & 46 &
+   - & 58-98/84 (2) & 81-90/85 (3) & 92/94 & \$47 & - & - & \$37 \\
+\multicolumn{1}{|l|}{Compass Box Oak Cross} & Highland Blend & 43 &
+   - & 71-88/80 (1) & 70-80/81 (3) & 83 & \$39 & - & - & \$44 \\
+\multicolumn{1}{|l|}{Compass Box Hedonism} & Highland Blend & 43 &
+   - & - & 73-86/80 (2) & 87 & \$83 & - & - & \$85 \\
+\multicolumn{1}{|l|}{Compass Box Spice Tree} & Highland Blend & 46 &
+   - & 50-90/83 (1) & 80-89/86 (8) & 84 & \$57 & - & - & \$40 \\
+\multicolumn{1}{|l|}{Connemara Peated Single Malt} & Ireland & 40 &
+   - & 73-87/81 (4) & 76-81/79 (4) & - & \$39 & \$44 & - & \$45 \\
+\multicolumn{1}{|l|}{Connemara Cask Strength} & Ireland & 60 &
+   - & 73-92/83 (4) & 92-93/90 (2) & 85 & \$63 & \$62 & - & - \\
+\multicolumn{1}{|l|}{Cragganmore 12} & Speyside & 43 &
+   - & 71-85/80 (3) & 75-85/79 (8) & - & \$40 & \$43 & \$42 & \$45 \\
+
+\multicolumn{1}{|l|}{Dalmore 12} & Highlands & 40 &
+   - & 76-82/79 (3) & 75-94/84 (10) & 84 & \$37 & - & \$44 & \$40 \\
+\multicolumn{1}{|l|}{Dalmore 15} & Highlands & 40 &
+   - & 80-85/82 (1) & 80-86/84 (4) & 88 & \$65 & - & \$90 & - \\
+\multicolumn{1}{|l|}{Dalmore Gran Reserva} & Highlands & 40 &
+   - & 76-82/79 (3) & 75-80/78 (2) & 84 & \$55 & \$60 & \$65 & - \\
+\multicolumn{1}{|l|}{Dalwhinnie 15} & Highlands & 43 &
+   90 & 69-83/78 (2) & 40-88/72 (12) & - & \$45 & \$47 & \$46 & \$50 \\
+
+\multicolumn{1}{|l|}{Edradour 10} & Highlands & 40 &
+   90 & 35-80/62 (3) & 70-95/81 (6) & - & \$52 & - & \$52 & \$50 \\
+
+\multicolumn{1}{|l|}{Glen Moray 12} & Speyside & 40 &
+   - & 72-72/72 (1) & - & 81 & \$27 & \$27 & \$29 & \$28 \\
+\multicolumn{1}{|l|}{Glen Moray 16} & Speyside & 40 &
+   - & 72-78/75 (1) & 91 (1) & - & \$45 & - & - & - \\
+\multicolumn{1}{|l|}{Glendronach 15} & Speyside & 46 &
+   90 & 74-86/82 (2) & 80-89/83 (6) & 93 & \$75 & - & \$90 & - \\
+\multicolumn{1}{|l|}{Glenfarclas 105} & Speyside & 60 &
+   - & 72-90/85 (3) & 70-90/83 (7) & - & - & - & \$81 & - \\
+\multicolumn{1}{|l|}{Glenfarclas 10} & Speyside & 40 &
+   89 & 78-84/80 (2) & 62-75/71 (4) & - & \$45 & - & \$45 & - \\
+\multicolumn{1}{|l|}{Glenfarclas 12} & Speyside & 43 &
+   - & 72-88/82 (3) & 85-87/84 (3) & - & \$45 & \$50 & \$49 & - \\
+\multicolumn{1}{|l|}{Glenfarclas 17} & Speyside & 43 &
+   - & 75-89/84 (1) & 84-90/86 (3) & - & \$85 & - & - & - \\
+\multicolumn{1}{|l|}{Glenlivet 15 French Oak} & Speyside & 40 &
+   - & 77-86/80 (1) & 55-85/75 (5) & 90 & \$45 & \$41 & \$42 & \$50 \\
+\multicolumn{1}{|l|}{Glenlivet 18} & Speyside & 43 &
+   - & 70-85/80 (3) & 65-89/82 (8) & - & \$75 & \$80 & \$73 & \$85 \\
+\multicolumn{1}{|l|}{Glenlivet 16 Nadurra} & Speyside & 57.7 &
+   87 & 72-90/84 (3) & 75-90/84 (10) & 90 & \$50 & - & - & - \\
+\multicolumn{1}{|l|}{Glenmorangie 10} & Highlands & 40 &
+   87 & 73-82/78 (1) & 65-94/82 (12) & 93 & \$35 & - & \$40 & \$33 \\
+\multicolumn{1}{|l|}{Glenmorangie 18} & Highlands & 43 &
+   - & 72-88/83 (4) & 85-90/86 (3) & 89 & \$80 & \$80 & \$96 & \$85 \\
+\multicolumn{1}{|l|}{Glenmorangie Astar} & Highlands & 57.1 &
+   - & 81-88/84 (1) & 85-85/89 (2) & 93 & \$74 & \$80 & \$77 & \$75 \\
+\multicolumn{1}{|l|}{Glenmorangie Finealta} & Highlands & 46 &
+   - & - & 86 (1) & 88 & \$80 & - & \$86 & \$60 \\
+\multicolumn{1}{|l|}{Glenmorangie Lasanta} & Highlands & 46 &
+   - & 79-85/80 (1) & 55-96/77 (7) & 79 & \$45 & \$50 & \$50 & \$50 \\
+\multicolumn{1}{|l|}{Glenmorangie Nectar} & Highlands & 46 &
+   - & 68-86/81 (1) & 60-100/87 (12) & 89 & \$70 & \$76 & \$86 & \$75 \\
+\multicolumn{1}{|l|}{Glenmorangie Quinta} & Highlands & 46 &
+   - & 71-86/78 (1) & 70-95/82 (8) & 87 & \$48 & \$50 & \$50 & \$50 \\
+
+
+\multicolumn{1}{|l|}{Hazelburn 8} & Campbeltown & 46 &
+   - & 72-89/82 (2) & 60-81/70 (3) & 84 & - & - & - & - \\
+\multicolumn{1}{|l|}{Hazelburn 12} & Campbeltown & 46 &
+   88 & - & 87 (1) & 87 & - & - & - & - \\
+\multicolumn{1}{|l|}{Highland Park 12} & Islands & 43 &
+   88 & 73-86/82 (4) & 60-100/82 (27) & - & \$50 & \$43 & \$43 & \$35 \\
+\multicolumn{1}{|l|}{Highland Park 15} & Islands & 43 &
+   - & 78-84/82 (1) & 81 (1) & 90 & \$57 & - & \$66 & \$70 \\
+\multicolumn{1}{|l|}{Highland Park 18} & Islands & 43 &
+   - & 70-92/85 (7) & 85-100/89 (17) & - & \$100 & \$110 & \$120 & \$110 \\
+
+\multicolumn{1}{|l|}{Isle of Arran 10} & Islands & 46 &
+   89 & 78-85/81 (1) & 75-95/80 (7) & 81 & \$45 & -  & \$49 & - \\
+\multicolumn{1}{|l|}{Isle of Arran 14} & Islands & 46 &
+   - & - & 80-85/82 (4) & - & \$79 & -  & - & - \\
+\multicolumn{1}{|l|}{Isle of Jura 10} & Islands & 40 &
+   - & 69-83/76 (2) & 40-85/68 (4) & - & - & \$33  & - & \$40 \\
+\multicolumn{1}{|l|}{Isle of Jura 16} & Islands & 40 &
+   - & 71-89/76 (1) & 88 (1) & 86 & - & \$55  & - & - \\
+\multicolumn{1}{|l|}{Isle of Jura Superstition} & Islands & 43 &
+   - & 61-84/76 (2) & 75-91/82 (9) & 86 & \$40 & \$44 & - & \$40 \\
+\multicolumn{1}{|l|}{Isle of Skye 8} & Islands & 43 &
+   85 & - & - & 84 & \$27 & -  & - & \$28 \\
+\multicolumn{1}{|l|}{Johnnie Walker Black} & Blend & 40 &
+   86 & - & 75-90/81 (6) & - & \$37 & \$38 & \$37 & \$38 \\
+\multicolumn{1}{|l|}{Johnnie Walker Green} & Blend & 43 &
+   89 & 68-84/77 (1) & 75-92/85 (6) & 89 & \$57 & \$55 & \$74 & \$75 \\
+
+\multicolumn{1}{|l|}{Lagavulin 12} & Islay & 56.5 &
+   91 & 80-94/87 (6) & 81-93/88 (5) & 90/95 & \$69 & - & - & \$100 \\
+\multicolumn{1}{|l|}{Lagavulin 16} & Islay & 43 &
+   90 & 80-92/87 (5) & 75-100/89 (32) & 94 & \$67 & \$73 & \$74 & \$70 \\
+\multicolumn{1}{|l|}{Longrow 10} & Campbeltown & 46 &
+   85 & 70-90/85 (4) & - & 82 & ~\$90 & - & - & - \\
+\multicolumn{1}{|l|}{Longrow CV} & Campbeltown & 46 &
+   85 & 75-89/81 (1) & 70-82/85 (9) & - & \$62 & \$55 & - & - \\
+
+\multicolumn{1}{|l|}{Oban 14} & Highlands & 43 &
+   - & 71-88/80 (3) & 60-87/76 (7) & - & \$60 & \$63 & \$60 & \$55 \\
+\multicolumn{1}{|l|}{Old Pulteney 12} & Highlands & 40 &
+   - & 67-89/79 (6) & 40-88/74 (12) & 87 & \$32 & - & - & - \\
+\multicolumn{1}{|l|}{Old Pulteney 17} & Highlands & 46 &
+   - & 73-90/80 (3) & 86-90/87 (3) & 87 & \$74 & - & - & - \\
+
+\multicolumn{1}{|l|}{Redbreast 12} & Ireland & 40 &
+   - & 67-89/82 (1) & 55-95/83 (12) & 96 & \$39 & \$39 & - & \$38 \\
+\multicolumn{1}{|l|}{Redbreast 15} & Ireland & 46 &
+   - & 82-89/85 (1) & 81 (1) & 92 & \$73 & - & - & - \\
+
+\multicolumn{1}{|l|}{Springbank 10} & Campbeltown & 46 &
+   86 & 75-87/81 (3) & 70-98/83 (10) & 84/85/88 & \$45 & \$70 & \$59 & - \\
+\multicolumn{1}{|l|}{Springbank 15} & Campbeltown & 46 &
+   86 & 74-90/82 (4) & 70-95/82 (5) & 86 & \$90 & \$80 & \$100 & - \\
+
+\multicolumn{1}{|l|}{Talisker 10} & Islands & 43 &
+   89 & 78-92/85 (7) & 75-97/82 (24) & 90 & \$50 & \$50 & \$49 & \$50 \\
+\multicolumn{1}{|l|}{Teacher's Highland Cream} & Blend & 40 &
+   88 & - & 70-91/76 (3) & - & \$20 & - & \$21 & \$20 \\
+\multicolumn{1}{|l|}{Tomatin 12} & Speyside & 40 &
+   - & 69-83/80 (3) & 70-86/74 (4) & 79/80 & \$25 & \$24 & \$28 & \$28 \\
+\multicolumn{1}{|l|}{Tomatin 15} & Speyside & 43 &
+   - & - & 76 (1) & 83 & - & \$43 & - & \$40 \\
+\multicolumn{1}{|l|}{Tomatin 18} & Speyside & 43 &
+   - & 71-89/83 (2) & 75-87/80 (3) & 87/88 & \$55 & - & \$68 & - \\
+
+\multicolumn{1}{|l|}{Yamazaki 12} & Japan & 43 &
+   - & 74-88/80 (2) & 73-98/79 (7) & - & \$43 & - & \$45 & \$46 \\
+\multicolumn{1}{|l|}{Yamazaki 12} & Japan & 43 &
+   - & 75-90/85 (2) & 86-92/89 (4) & 93 & \$115 & - & \$125 & \$130 \\
+
+\cline{1-11}
+
+
+\cline{1-10}
+\end{longtable}
+\normalsize
+\end{center}
+%\end{sideways}
+#+end_latex
+
+#+begin_latex
+\newpage
+\end{landscape}
+#+end_latex
+
+** Ralfy's Single Malt Review Notes
+A compilation of single malt notes from Ralfy.[fn:6] His nose, taste,
+and some other miscellaneous tidbits from each review episode are provided. The
+number of the review is listed for reference.
+
+- Aberlour A'bunadh (Review 3)
+  - /Nose:/ Medicinal sherry, lots of fruit, dried fruit, rum-like intensity.
+  - /Taste:/ Hugely flavorsome, intense sherry malty syrup, toffee mocha, rum, herbal
+    absinthy, cough mixture from heaven.
+  - /Misc:/ Has never run across an Aberlour that wasn't good.
+- Amrut Fusion (Review 225)
+  - /Nose:/ Soft but substantial barley, soft root, almondy yeast, nuttiness,
+    cinnamon, apples, roasted mixed nuts, saw dust, mild malt vinnegar, mild honeyed
+    citrus, cumquat, apricot.
+  - /Taste:/ Young intense, spirity, heat but not much burn, honey and soft fruits,
+    spices, apricot, sweet exotic wood, vanilla, red cola, licorice, hint of sea
+    salt, mace, coriander.
+  - /Misc:/ Indian whisky. First Indian whisky that surpassed European
+    standards. Not chill-filtered, probably no caramel or not much. Thinks well of
+    Amrut in general. Rapid fade in the finish. Sounds a little hesitant on this one
+    in its youth. Not exceptional, but good.
+- Ancnoc 12 Year (Reviews 129 and 148)
+  - /Nose:/ Fresh honeyed barley, hints of citrus and lemon rind, waft of peat,
+    vanilla bourbon oak.
+  - /Taste:/ Barley arrives honey, then big thunderclap of pepper and sourness,
+    licorice, bitter oak, dry vanilla, and taste holds and holds. Lemon and
+    grapefruit rind, wifts of slightly unripe banana.
+  - /Misc:/ Used to be calld Knockdhu, but it was getting confused with
+    Knockando.  One of his favorite Speysides. No caramel. Highly recommends the 13
+    and 16 year variants as well.
+- Ardbeg 10 Year (Review 28)
+  - /Nose:/ Big peat smoke bomb, creamy, vanilla, buttery cream, white pepper,
+    brinyness, medicinal, bonfires in autumn.
+  - /Taste:/ Peat rush, toffee, mint, wood resin, eucalyptus, charcoal, bitter
+    marmelade, maple, salt, iodine, stewed tea, myhrr, myrtle, sea water.
+  - /Misc:/ No chill-filteration, no caramel
+- Ardbeg Uigeadail (Review 29)
+  - /Nose:/ None given.
+  - /Taste:/ Woody, complex. Nothing else given. Just says that it's so complex it
+    leaves you behind trying to figure out what's going on, and that's a very good
+    thing with whisky.
+  - /Misc:/ Sherry influence, cask strength at 12 years. Speaks very, very
+    highly of this whisky.
+- Bunnahabhain 12 Year (Review 150)
+  - /Nose:/ Complex nutty creaminess, banana, dusty cinnamon, syrupy soft vanilla,
+    slight icing sugar, sherry.
+  - /Taste:/ Lovely fresh clean sherry, dried treco, nutmeg, corriander, salty
+    finish, lovely quality finish.
+  - /Misc:/ Very positive. No chill-filtration, no caramel. Least peaty of the
+    Islays. One of his favorite standard Islays.
+- Caol Ila 12 Year (Review 94)
+  - /Nose:/ Apples, pears, fine aged white wine, reisling, brininess, delicate
+    intensity, bonfires, autumnal, sweet slightly oily nature.
+  - /Taste:/ Fire infused warming glow, apple smoke, peat and white port,
+    sweetness/dryness together, citrus, spicy.
+  - /Misc:/ Less well known (compared to Ardbeg, Laphroaig, and Lagavulin), but
+    not lacking in character. Largest distillery in Islay region. Independent bottler;
+    no chill-filteration, no caramel. One of his favorites. Recommends bottling at
+    cask strength (and there is a version at cask that he said is amazing).
+- Dalwhinnie 15 Year (Review 150)
+  - /Nose:/ Honeyed sea salt Glenlivet, rich barley sugar, fudge, citrus.
+  - /Taste:/ Understated complex rounded sweetness with touch of bitterness. Tea,
+    lemon, lemon rind, grapefruit rind, heather honey, summer meadow honey.
+  - /Misc:/ Doesn't think it should be overlooked. Highest distillery in Scotland.
+- Glendronach 15 Revival
+  - /Nose:/ Jack Daniels, soft woods, citrus, aromatic spices, dried fruit, herbal,
+    sherry.
+  - /Taste:/ Sweet and sour, toffee malt, tannins, walnut, dark chocolate, raisins,
+    mint, menthol, salty, beautiful mouth coat, savory, tea, coco, floral.
+  - /Misc:/ Probably no chill filtration and no caramel. Aloroso sherry cask
+    maturation. 
+- Glenfarclas 10 Year (Review 202)
+  - /Nose:/ Sweetness, golden syrup, substantial, fresh syruppy, grappa, soft cherry,
+    herbal, banana cream, vanilla.
+  - /Taste:/ Sweet arrival of cough mixture, herbal lozenges, good clean quality,
+    cherry stones, herbal sour, complex interesting clean. 
+  - /Misc:/ Good entry level single malt. Doesn't think there's any caramel added.
+- Glenfarclas 15 (Review 202)
+  - /Nose:/ Sherry, sweet and clean, phenol, a bit like Glenfiddich, brown sugar,
+    orange peel, raisins, nutmeg, cough sweets, floral notes, baked banana, toffee.
+  - /Taste:/ Rich, big cream sherry, tanninic, tea arrival, cherry stones, almond,
+    American whiskey, cola, menthol, mint, pine, aromatic note (woody Angnostura)
+    bitters, cough sweets, sweet and sour.
+  - /Misc:/ A lot going on. Producing fairly consistent bottles. Substantial
+    Speysider. Largest stills in Speyside. Only see a 17 year around ($85 at Merwin).
+- Glenfarclas 30 (Review 200)
+  - /Nose:/ Treeco toffee, mocha, dried fruit, dried raisins, floral spirit, touch of
+    pine and chamfer, very complex.
+  - /Taste:/ Raisin, minty, chamfer, eucalyptus, more mint, youthfulness.
+  - /Misc:/ Family owned, independent distillery. Classic Speyside signature. Not
+    much/any peat. Same family has had the distillery since 1865. Only see a 25 year
+    around ($140 at Merwin).
+- Glenmorangie 10 Year (Review 21)
+  - /Nose:/ Spiced malt, rose, cinnamon, violet, buttercup, floral, vanilla creams,
+    creme toffee, not a lot of peat. 
+  - /Taste:/ All spice, mixed woods, slightly bitter, a little peat, citrus,
+    lemon/lime rind, punchy finish.
+  - /Misc:/ Best selling single malt in Scotland. Very complex at a young
+    age. Doesn't think the older versions are any better.
+- Hazelburn 12 Year (Review 180)
+  - /Nose:/ Creamy, barley sugar and vanilla, oak, complex fruit, intense, delicate,
+    port, tawny port, sherry, bananas, tea, rum.
+  - /Taste:/ Vanilla, creamy grain, sweet and sour, big oak, fruity, boiled sweets,
+    coconut, peach stones, saltiness, toffee apples.
+  - /Misc:/ A bit rare right now. Unpeated triple distilled. No chill-filtration and
+    no caramel added. Distilled by Springbank.
+- Isle of Arran 10 Year (Review 199)
+  - /Nose:/ Dry wood, saw dust (in a nice way), rice vinegar, vanilla, sherbety,
+    coffee, lemon rind, fresh fruit, floral, ozone, sea salt, complex.
+  - /Taste:/ Barley sugar, vanilla sugar, white sweeter wine, lemon soufle, creme brulet,
+    delicate fresh wood vanilla, aromatic, fragrant floral, white fruits, and a touch
+    of nuts (walnut and almond), sweet eggs.
+  - /Misc:/ Independent bottler. No caramel, non chill-filtered. At 10 years, shows
+    character, but would have given it another year or two.
+- Lagavulin 12 Year Cask Strength (Review 92)
+  - /Nose:/ Lovely barley citris, honey notes, bitter tea, intensely flavored smokey
+    tea, beautifully interwoven, rose.
+  - /Taste:/ Steady delivery, rose hip, plenty of peat and smoke, fresh, matured,
+    complexity, bright spice notes.
+  - /Misc:/ Very high quality. Michael Jackson, whisky expert, wrote very highly
+    of it as "the best of Islay." Interestingly, rated higher than Lagavulin 16.
+- Longrow 10 (Review 179)
+  - /Misc:/ Peated whisky, but not Islay. More similar to Connemara peated Irish
+    Whisky than other Islays like Lagavulin or Laphroaig. Recommends adding water and
+    letting sit for 10min before nosing/tasting. Distilled by Springbank.
+- Springbank 10 (Review 178)
+  - /Misc:/ Not recommended for beginners. Give it a while with water to sit. No
+    chill-filtration and no caramel. Challenging/complex whisky.
+
+
+* Bits and Pieces
+** Ralfy's Recommended Lists					   :noexport:
+- /Single Malts (Review 48):/ Ardmore, Old Poultney 12, Glenmorangie 10: 87/100, Ben
+  Nevis: hard to find, Aberlour A'bunadh, Ardbeg
+
+- Older Whiskies (Review 49)
+  - Glengoyne 17
+  - Springbank Madeira wood
+  - Ancnoc 16
+  - Highland Park 18: Won best whisky of the year award a few years ago. Sweet arrival,
+    dry finish.
+  - Lagavulin Double Matured: Sherry finish, very good.
+
+- Islays (Review 50)
+  - Bunnahabhain 12: 12 is oldest one needs. Primary in Black Bottle
+  - Bruchladdich: Resurrection dram is recommended. Standard bottling.
+  - Caol Ila 12: main used in Johnnie Walker
+  - Ardbeg Uigeadail: Cannot go wrong. One of the finest moments in contemporary whisky.
+  - Laphroaig Cask Strength
+
+- Blended Whiskies (Review 47)
+  - Johnnie Walker Black: 86/100
+  - Teacher's Highland Cream: mostly Ardmore single malt. 88/100
+  - Isle of Skye 8: small distillery; people who handle the barrels are the ones who make
+    the decisions (a good thing). 85/100
+  - Black Bottle: amazing whisky for the price. One of the best crafted/handled. 89/100
+  - Monkey Shoulder
+
+- /Irish Whisky (Review 119):/ Bushmills, Jameson Crested Ten, Redbreast 12, Green
+  Spot, Tyrconnell 15, Connemara
+
+- /World Whiskies (Review 224):/ Hibiki 12 (Japan blended whisky), Amrut Fusion
+  (Bangalore, India), Bains (South Africa), Mackmyra (Sweden), Nikka Pure Malt (Japen
+  blended) 
+
+- /Independent Scotch Malts (Review 194):/ GlenDronach 15 Revival, Springbank Single
+  Cask, Glengoyne 12, BenRiach 21, Isle of Arran
+
+** Local Liquor Stores with Online Prices
+- /Merwin Liquors:/ [fn:7] By far the easiest to search. Scotch -> Single Malts ->
+  View All and then Ctrl+F the page for the item of interest.
+- /Surdyk's:/ [fn:8] Not nearly as easy to search. Sometimes it works, other times
+  the search results in a "There has been a problem" message. Second best selection
+  compared to Merwin.
+- /Haskell's:/ [fn:9] Also big selection and very searchable.
+- /France 44:/ [fn:10] Decent selection and definitely worth price checking
+* Cost
+| Whisky      |   Cost |
+|-------------+--------|
+| Compass box |  46.98 |
+| Aberlour    |  69.05 |
+| Ardbeg 10   |  45.99 |
+| Uigeadail   |  67.98 |
+| Bottles     |  47.31 |
+|-------------+--------|
+| Total       | 277.31 |
+| Per person  |  69.33 |
+#+TBLFM: $2=vsum(@-1/4
+* Footnotes
+
+[fn:1] Ralfy's WhiskyMarks: http://www.whiskymarks.blogspot.com/
+
+[fn:6] Ralfy's malt reviews: http://www.whiskyreviews.blogspot.com/
+
+[fn:4] Whisky Connosr: http://www.connosr.com/
+
+[fn:2] WhiskyFun malt matrix: http://www.whiskyfun.com/MaltManiacsMatrix.pdf
+
+[fn:3] MaltManiacs review panel member credentials:
+  http://www.maltmaniacs.org/ADHD/credentials.html
+
+[fn:5] Review section of the Malt Advocate site: http://www.maltadvocate.com/whisky_reviews.asp
+
+[fn:7] http://www.shopmerwins.com/
+
+[fn:8] http://www.surdyks.com
+
+[fn:9] http://www.haskells.com
+
+[fn:10] http://www.france44.com/

@@ -1,0 +1,146 @@
+#+options: toc:nil 
+#+latex_header: \usepackage{mathpazo}
+#+latex_header: \usepackage[vmargin=2.5cm, hmargin=2.5cm]{geometry}
+
+* TODO [0/4] bathroom
+- [ ] sand door trim
+- [ ] finish door trim
+- [ ] buff sink
+- [ ] paint closet door
+* [0/11] dining room
+- [ ] paint ceiling
+- [ ] mask ceiling
+- [ ] trim room
+- [ ] paint room
+- [ ] door wood for office
+- [ ] sand/finish kitchen/office door wood
+- [ ] assemble kitchen/office door frames
+- [ ] touch up kitchen door wood
+- [ ] paint baseboard heat covers
+- [ ] get handle for slide door
+
+* TODO [0/5] cove
+- [ ] paint cove
+- [ ] figure out what to do with bench
+  - exposed 2x4's?
+  - front decorative edge piece to protect drywall
+  - hinged sides?
+  - inlays?
+  - border piece around back that will fit with window trim?
+- [ ] cut bench wood
+- [ ] finish bench wood
+- [ ] attach
+
+* TODO [0/13] living room
+- [ ] spackle living room
+- [ ] paint ceiling
+- [ ] mask ceiling
+- [ ] paint heater covers
+- [ ] make columns and attach drywall
+- [ ] spackle and sand
+- [ ] buy arch wood
+- [ ] finish arch wood
+- [ ] attach arch wood
+- [ ] final spackle (tape and corners) of arch
+- [ ] trim room
+- [ ] paint room
+
+* TODO [0/10] entry way
+- [ ] spackle entry way
+- [ ] prime entry way
+- [ ] get wet saw
+- [ ] cut new tiles
+- [ ] remove old tile grout
+- [ ] put in tiles
+- [ ] regrout tiles
+* Washer/dryers
+
+** Washers
+
+#+latex: \small
+| Make      | Model     | Price (L/HD) | Size | Rating (L/HD) | N (L/HD) | Steam | Warranty |  CR |
+|-----------+-----------+--------------+------+---------------+----------+-------+----------+-----|
+| Whirlpool | WFW94HEAW | 1079/-       |  4.3 | 4.5/-         | 93/-     | X     | 1yr      | 87* |
+| LG        | WM2650HWA | 809/727      |  3.6 | 4.9/4.7       | 113/213  | X     | 1yr      |  85 |
+| LG        | WM3470HWA | 999/988      |    4 | 4.8/4.7       | 82/267   | X     | 1yr      |  84 |
+| LG        | WM3070HWA | -/899        |  3.7 | -/4.7         | -/64     | X     |          |  87 |
+#+latex: \normalsize
+*Note:* Highest CR rating for any washwer was 90.
+
+** Matching Dryers
+
+#+latex: \small
+| Make      | Model     | Lowes    | HD       | Size | R L (g/e) | N L (g/e) | R HD (g/e) | N HD (g/e) | CR (g/e) |
+|-----------+-----------+----------+----------+------+-----------+-----------+------------+------------+----------|
+| Whirlpool | WFW94HEAW |          |          |  7.3 |           |           |            |            |          |
+| LG        | WM2650HWA | 889/809  | 799/727  |  7.3 | 4.8/4.8   | 13/50     | 4.3/4.8    | 30/84      | 76/76    |
+| LG        | WM3470HWA | 1099/999 | 1078/988 |  7.3 | 5/4.9     | 11/31     | 4.8/4.7    | 46/83      | 79/79    |
+| LG        | WM3070HWA | -        | 989/899  |  7.3 | -         | -         | 4.8/4.9    | 5/26       | -        |
+#+latex: \normalsize
+
+*Note:* Highest CR rating of any dryer (gas or electric) was 79.
+
+
+** Notes
+- Whirlpool WFW94HEAW: 6/93 reviews are 3 stars or less and for
+  complaints about holes in clothes, cycle time, a water problem of
+  some sort, and a bad bearing. Not bad. HD doesn't carry that model,
+  but the reviews are much, much lower for the Whirlpools they do
+  carry (3.9/72, 2.7/19, and 3.6/17)
+- LG2650 paired dryer gets not so hot reviews on reliability with the
+  gas, but the electric has 85 reviews and 4.8/5 average. Odd.
+- LG3070 has 4.8 (gas, n=5) and 4.9 (elec, n=26) reviews on dryers (HD).
+- LG3470 has 5.0 (gas, n=11) and 4.9 (elec, n=31) reviews on dryers
+  (Lowes), and 4.8 (gas, n=46) and 4.7 (elec, n=83) at HD. 
+
+In general, LG was featured quite heavily in the top rated washers via
+Consumer Reports, however the only local place they're sold appears
+to be Sears, which has a much smaller sample size for the ratins
+(~20-30). LG, in contrast, has some 4-500 reviews for various models
+from Lowes/HD ratings alone, and they are unbelievably high (4.8-4.9).
+
+Looking at HD, there were a lot of lower (< 4.0, reasonable N)
+ratings for Whirlpool, whereas all the ~3.5 f^{3} LGs (4 of them)
+weren't lower than 4.5, with sample sizes of 64, 213, 267,
+and 349. Impressive.
+
+** References
+- [[http://applianceassistant.com/news/washerBrandReliability.php][reliability ratings]]: not sure where they get their data, but LG,
+  Whirlpool, and Frigidaire are the best rated for front load washer
+  reliability (9-11% major repair rate).
+
+- [[http://www.warnersstellian.com/washer-buying-guide#capacity][size needed for queen/king sized comforter]]
+
+
+#+begin_quote 
+As a rule of thumb, to accomodate a king-sized comforter, a washer
+capacity of 3.8 cu. ft. (IEC) or greater is required. For a
+queen-sized comforter, approximately 3.5 cu. ft. (IEC) or more is
+needed. 
+#+end_quote
+
+- [[http://www.theworldofwashers.com/2009/03/lowdown-on-capacity-frontload-washers.html][size guide]]: says 2.9 DOE = 3.5 IEC, 3.3 DOE = 4.2 IEC. So, 3.6 f^3
+  should be plenty for big loads (> 4.2).
+
+
+Bosch clip conf. number: 13058617
+* Lenovo
+** Keyboard bag
+- longest: keyboard icon screws and leftmost corner screw from the
+  bottom (with front toward you)
+- shortest ones: two holding thin sheet metal to fan chassis, don't
+  remember where third goes
+- two next shortest: front corners of black border piece
+- longer one: right one from the corner from bottom with front facing
+  you
+
+** display
+- two in wireless card (gray cord on right)
+- some in sheet metal shield
+- two long ones in base
+- remove speaker on left, two random cords taped on left side halfway
+  down
+
+** References
+- [[http://www.youtube.com/watch?v=UTZds3NpTOc][youtube vid]]
+- [[http://tim.id.au/laptops/lenovo/thinkpad%20t400%20r400.pdf][manual]]
