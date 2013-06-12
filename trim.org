@@ -20,23 +20,6 @@
 
 ** Living room
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 |     raw | buffered | group |
 |---------+----------+-------|
 |      33 |       36 | h     |
@@ -104,7 +87,6 @@
 | entry arch |  99 |          |       |
 | entry arch |  99 |          |       |
 | entry arch |  99 |          |       |
-
 
 
 ** Windows (2.25")
