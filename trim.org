@@ -58,7 +58,7 @@
 | front d    |   36 |       44 | j     |
 | closet     |   80 |       84 | o     |
 | closet     |   80 |       84 | p     |
-| closet     |   49 |       57 | e / h |
+| closet     |   49 |       57 | h     |
 | office     |   82 |       86 | a     |
 | office     |   82 |       86 | b     |
 | office     |   32 |       40 | g     |
@@ -70,7 +70,7 @@
 | connie     | 32.5 |       40 | g     |
 | connie     | 53.5 |       62 | e     |
 | connie     | 53.5 |       62 | f     |
-| front lawn | 45.5 |       54 | h  /e |
+| front lawn | 45.5 |       54 | e     |
 | front lawn | 45.5 |       54 | i     |
 | front lawn | 46.5 |       55 | f     |
 | front lawn | 46.5 |       55 | i     |
