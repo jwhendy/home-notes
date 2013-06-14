@@ -37,6 +37,19 @@
 | *total* |      411 |       |
    #+TBLFM: $2=vsum(@2..@-1)
 
+
+** Bathroom hall
+
+| raw | buffered | group |
+|-----+----------+-------|
+|  63 |       64 | i     |
+|  51 |       52 | j     |
+|  13 |       14 | j     |
+|  22 |       23 | i     |
+|  16 |       17 | j     |
+
+
+
 ** Groups
 
 - a :: 72 + 36 + 12 = 120
@@ -47,47 +60,61 @@
 - f :: 45 + 31 + 8 = 84
 - g :: 65 + 14 + 5 = 84
 - h :: 50 + 36 + 33 = 119 = 120
+- i :: 64 + 23 = 87 = 96
+- j :: 52 + 17 + 14 = 83 = 96
 - total :: 4 x 10' ; 4 x 7' = 68'
 
 * Trim
 ** Windows and doors (3.5")
-|            |  raw | buffered | group |
-|------------+------+----------+-------|
-| front d    | 80.5 |       84 | m     |
-| front d    | 80.5 |       84 | n     |
-| front d    |   36 |       44 | j     |
-| closet     |   80 |       84 | o     |
-| closet     |   80 |       84 | p     |
-| closet     |   49 |       57 | h     |
-| office     |   82 |       86 | a     |
-| office     |   82 |       86 | b     |
-| office     |   32 |       40 | g     |
-| kitchen    |   83 |       88 | c     |
-| kitchen    |   83 |       88 | d     |
-| kitchen    | 32.5 |       41 | h     |
-|------------+------+----------+-------|
-| connie     | 32.5 |       40 | g     |
-| connie     | 32.5 |       40 | g     |
-| connie     | 53.5 |       62 | e     |
-| connie     | 53.5 |       62 | f     |
-| front lawn | 45.5 |       54 | e     |
-| front lawn | 45.5 |       54 | i     |
-| front lawn | 46.5 |       55 | f     |
-| front lawn | 46.5 |       55 | i     |
-|------------+------+----------+-------|
-| din arch   |   60 |          |       |
-| din arch   |   60 |          |       |
-| din arch   |   97 |          |       |
-| din arch   |   97 |          |       |
-| din arch   |   97 |          |       |
-| din arch   |   97 |          |       |
-| entry arch |   74 |          |       |
-| entry arch |   74 |          |       |
-| entry arch |   99 |          |       |
-| entry arch |   99 |          |       |
-| entry arch |   99 |          |       |
-| entry arch |   99 |          |       |
-
+|            |  raw | buffered | group |   |
+|------------+------+----------+-------+---|
+| front d    | 80.5 |       84 | m     |   |
+| front d    | 80.5 |       84 | n     |   |
+| front d    |   36 |       44 | v     |   |
+| closet     |   80 |       84 | o     |   |
+| closet     |   80 |       84 | p     |   |
+| closet     |   49 |       57 | s     | x |
+| office     |   82 |       86 | 96    |   |
+| office     |   82 |       86 | 96    |   |
+| office     |   32 |       40 | 96    |   |
+| kitchen    |   83 |       88 | 96    |   |
+| kitchen    |   83 |       88 | 96    |   |
+| kitchen    | 32.5 |       41 | v     |   |
+|------------+------+----------+-------+---|
+| connie     | 32.5 |       40 | t     |   |
+| connie     | 32.5 |       40 | u     |   |
+| connie     | 53.5 |       62 | 96    |   |
+| connie     | 53.5 |       62 | 96    |   |
+| front lawn | 45.5 |       54 | t     |   |
+| front lawn | 45.5 |       54 | u     |   |
+| front lawn | 46.5 |       55 | q     |  x |
+| front lawn | 46.5 |       55 | r     |  x |
+|------------+------+----------+-------+---|
+| din arch   |   54 |       63 | 96    |   |
+| din arch   |   54 |       63 | 96    |   |
+| din arch   |   94 |       99 | a     |   |
+| din arch   |   94 |       99 | b     |   |
+| din arch   |   94 |       99 | c     |   |
+| din arch   |   94 |       99 | d     |   |
+| entry arch |   67 |       75 | 96    |   |
+| entry arch |   67 |       75 | 96    |   |
+| entry arch | 94.5 |      100 | h     |   |
+| entry arch | 94.5 |      100 | j     |   |
+| entry arch | 94.5 |      100 | k     |   |
+| entry arch | 94.5 |      100 | l     |   |
+|------------+------+----------+-------+---|
+| bath       |   28 |       37 | s     |   |
+| bath       |   82 |       87 | i     |   |
+| bath       |   82 |       87 | 96    |   |
+| kitchen    |   30 |       39 | q     |   |
+| kitchen    |   82 |       87 | 96    |   |
+| kitchen    |   82 |       87 | 96    |   |
+| stair      |   30 |       39 | r     |   |
+| stair      |   82 |       87 | 96    |   |
+| stair      |   82 |       87 | 96    |   |
+| closet     |   22 |       31 | i     |   |
+| closet     |   80 |       85 | 96    |   |
+| closet     |   80 |       85 | 96    |   |
 
 ** Windows (2.25")
 
@@ -106,48 +133,42 @@
 |   77 |       80 | p     |
 |   77 |       80 | q     |
 
-** Groups
-- a :: 86.5 + 57.5 = 144
-- b :: 86.5 + 57.5 = 144
-- c :: 87 + 57 = 144
-- d :: 87 + 57 = 144
-- e :: 48 + 46 + 43 = 137 = 144
-- f :: 62.5 + 57.5 = 120
-- g :: 63 + 41 + 40 = 144
-- h :: 88 = 96
-- i :: 88 = 96
-- j :: 88 = 96
-- k :: 88 = 96
-
-- l :: 80 + 27 = 107 = 120
-- m :: 80 + 27 = 107 = 120
-- n :: 80 + 27 = 107 = 120
-- o :: 80 + 27 = 107 = 120
-- p :: 80 + 32 = 112 = 120
-- q :: 80 + 32 = 112 = 120
-- totals
-  - 3.5" :: 4 x 8', 1 x 10', 6 x 12'
-  - 2.25" :: 6 x 10'
-
 
 ** Reworked groups
 
-- a :: 86 = 120
-- b :: 86 = 120
-- c :: 88 = 120
-- d :: 88 = 120 
-- e :: 62 + 54 = 116 = 120
-- f :: 62 + 55 = 117 = 120
-- g :: 40 + 40 + 40 = 118 = 120 (take > 120 for this)
-- h :: 41 + 57 = 98 = 120
-- i :: 54 + 55 = 109 = 120
-- j :: 44 = 120
-- k :: extra!
-- l :: extra!
+- a :: 99 = 120
+- b :: 99 = 120
+- c :: 99 = 120
+- d :: 99 = 120 
+- e :: 120
+- f :: 120
+- g :: 120 
+- h :: 100 = 120
+- i :: 87 + 31 = 118 = 120
+- j :: 100 = 120
+- k :: 100 = 120
+- l :: 100 = 120
 - m :: 7
 - n :: 7
 - o :: 7
 - p :: 7
+- q :: 55 + 39 = 94 = 96
+- r :: 55 + 39 = 94 = 96
+- s :: 57 + 37 = 94 = 96
+- t :: 54 + 40 = 94 = 96
+- u :: 54 + 40 = 94 = 96
+- v :: 44 + 41 = 85 = 96
+
+If no hallway, 7 x 8' lengths not needed and rearrange these:
+- i :: 55 + 57 = 112 = 120
+- q :: 55 = 96
+- r :: -
+- s :: -
+
+9 x 8' lengths in trim required for hallway; 2 x 8' baseboard. Total
+hallway cost: $202.4
+
+Arches will require: 15 x 8': $276
 
 * Doors
 
@@ -184,3 +205,12 @@ Minus office
 - Dining :: 108 high, 165 x 147 (242 ft^2)
 - Living :: 108 high, 160 x 170 (256 ft^2)
 - Bath :: 57 high, 49 x 65 (45 ft^2)
+* Doorway pieces required:
+
+- Entry way sides: 95 x 5.25 (2)
+- Entry way top: 67 x 5.25
+- Dining room top: 55 x 6.5
+
+Office is covered with pieces in garage; just get one planed to 3/4
+- Office sides: 4.5, 4 x 82 (3/4") 
+- Office top: 5 x 30 (1")
