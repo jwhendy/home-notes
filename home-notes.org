@@ -861,3 +861,22 @@ During my interview from AAD, one manager asked me a question like, "Overall, wh
 greatest desire" or something like that. Huge, open-ended question that caused me pause
 for a split second. After that split-second was up, my near-instantaneous response was, "I
 want to know everything."
+
+* HTC EVO rom fiddling
+- SlimRom: can't stand that they make the unlock screen icon the slim logo. Really not
+  digging that and will never use Slim until I find out that's a changeable option.
+- PACman: bloated
+- JellyBAM: bloated and had an issue with a never-ending boot-up once
+- RootBox was buggy: pulled down settings bar and went to swipe from profiles to
+  settings/quick panel and it would freeze mid-rotate (you could see the icons, but they
+  never flattened out and came into view. They were rotated at an angle and pixelated).
+- [[http://forum.xda-developers.com/showthread.php?t=2420496][Bean Stalk 2.0]]: based on 4.3
+- [[http://www.evervolv.com/devices/jewel][Evervolv]]: has 4.3 roms as well as older
+- [[http://forum.xda-developers.com/showthread.php?t=2320329][Dirty Unicorn]]: talked about on Good and Evo by Paul pretty favorably. Here's a more
+  [[http://teamdirt.me/showthread.php?143-ROM-Team-D-I-R-T-Dirty-Unicorns-4-2-2&p=1237][official]] link
+- [[http://download.paranoidandroid.co/Developers/TLKruzze/gapps/][PA Gapps]]: suggested by [[http://gearburn.com/2013/08/cyanogenmod-10-2-review-flash-forward/][this guy]] in his review of CM 10.2 as being more "stock/intended"
+  somehow, but I'm not sure I follow. They supposedly install to /system instead of to the
+  internal SD, which is better for more "system" apps
+- [[http://goo.im/gapps/][Standard gapps]]: 20130812 for 4.2.2, 20130813 for 4.3
+- [[http://forum.xda-developers.com/showthread.php?t=2373565][Paranoid Android]]
+- [[http://forum.xda-developers.com/showthread.php?t=2215583][Carbon ROM]]
