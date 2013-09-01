@@ -865,7 +865,7 @@ want to know everything."
 * HTC EVO rom fiddling
 - SlimRom: can't stand that they make the unlock screen icon the slim logo. Really not
   digging that and will never use Slim until I find out that's a changeable option.
-- PACman: bloated
+- [[http://forum.xda-developers.com/showthread.php?t=2396173][PACman]]: bloated, but they came out with 4.3, so giving it a try. [[http://pac-rom.com/#Download][Official]] site.
 - JellyBAM: bloated and had an issue with a never-ending boot-up once
 - RootBox was buggy: pulled down settings bar and went to swipe from profiles to
   settings/quick panel and it would freeze mid-rotate (you could see the icons, but they
@@ -880,3 +880,5 @@ want to know everything."
 - [[http://goo.im/gapps/][Standard gapps]]: 20130812 for 4.2.2, 20130813 for 4.3
 - [[http://forum.xda-developers.com/showthread.php?t=2373565][Paranoid Android]]
 - [[http://forum.xda-developers.com/showthread.php?t=2215583][Carbon ROM]]
+- [[http://android.aokforums.com/rom-jewel-unofficial-4-2-2-aokp-031213-vt29.html][AOKP unofficial]]: up to 4.2.2 on 3/12/2013
+- [[http://lotk.net/forum/viewtopic.php?f=9&t=21][LOTK thread]] with a bunch of ROMS: unofficial AOKP, PACman, Liquid.
