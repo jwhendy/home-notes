@@ -1114,25 +1114,6 @@ Roms considered:
   - [[http://download.cyanogenmod.com/?device=jewel&type=stable][Downloads]]
 - 
 
-* Spark engineer post
-
-I find myself less and less focused on the degree I obtained. I honestly don't think it
-even matters, as I've found it's far more about the person I've become/am becoming than
-the textbooks on my shelves and understanding stress/strain and some advanced math.
-
-I'm a mechanical engineer by definition, but I think regardless of what, specifically, I
-do, my curiosity and desire to learn will allow me to do just about anything.
-
-I'm convinced that college (if it's doing it's job, and for STEM) is by far more about
-fostering curiosity, problem-solving approaches, testing hypotheses, and creativity than
-any mixed bag of specialized classes that make up what is known as "a degree." Throw in a
-healthy dose of social interaction, group problem solving, and communication, and you've
-got this guy's idealized "engineer."
-
-During my interview from AAD, one manager asked me a question like, "Overall, what's your
-greatest desire" or something like that. Huge, open-ended question that caused me pause
-for a split second. After that split-second was up, my near-instantaneous response was, "I
-want to know everything."
 
 * HTC EVO rom fiddling
 - SlimRom: can't stand that they make the unlock screen icon the slim logo. Really not
