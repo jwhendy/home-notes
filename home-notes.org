@@ -694,7 +694,279 @@ bw themes
   
 monocrhome nova icon theme
 
-holo light skin and holo immersion 
+holo light skin and holo immersion
+** ROMS
+
+About HALO: only seems to work if you have the HALO settings accessible somewhere. Can't
+just install the app and use it, it seems.
+
+Wants:
+- No PA custom app DPI/modes
+- Auto hide status bar to expand screen
+- PIE (maybe); HALO (maybe)
+- Some ROM/hardware settings
+- Clean/fast
+- Something like LMT
+
+*** BeanStalk
+**** Interface
+***** Launcher (looks like trebuchet settings)
+- Homescreen
+  - grid size
+  - # of home screens
+  - choose default screen
+  - Stretch screens - y/n
+  - Persistent search bar - y/n
+  - Hide icon labels - y/n
+  - Transition effect
+  - Scroll wallpaper - y/n
+  - Wallpaper quick render - y/n
+  - Wallpaper size (how many screens should span)
+  - Face side screens - y/n
+  - Show outlines - y/n
+  - Show page indicator
+  - Face indicator
+  - Indicator position
+- Drawer
+  - Orientation (which way it scrolls)
+  - Hidden apps (list)
+  - Remove hidden app shortcuts from homescreen?
+  - Remove hidden app widgets from homescreen?
+  - Swipe from apps to widgets without changing tabs?
+  - Transition effect
+  - Show page indicator
+  - Face indicator
+  - Indicator position
+- Dock
+  - Number of pages
+  - Default page
+  - Number of icons/columns
+  - Hide icon labels?
+  - Icon scale
+  - Show divider between dock/homescreen?
+- General
+  - Auto rotate screen?
+  - Lock home screen (shortcuts/folders in homescreen/dock/widget drawer)?
+  - Hide status bar to extend homescreen?
+  - Icon pack
+***** Lock screen
+- Background
+- Transparency
+- Screen security
+- Text color
+- Battery status (only when charging or always on)
+- cLock settings (clock/alarm, weather, calendar events)
+- Allow lockscreen rotation?
+- Enable all widgets?
+- Minimize lockscreen challenge?
+- Maximize widgets?
+- Widget carousel in portrait?
+- Camera widget?
+- Music control (player controls when music playing and locked)?
+- Slider shortcuts (change/rearrange)
+- Static lock screen shortcuts
+- Button actions
+***** Darlk Stalk (on/off)
+***** Themes (standard)
+***** System
+- General UI
+  - Widgets viewpager
+    - Add
+    - Style
+  - LCD Density
+  - ListView animation
+  - ListView Interpolator
+  - Use Alt Default App Grid?
+  - Custom carrier label
+  - Dual pane preferences (always/never/only landscape)
+  - Disable boot animation?
+  - Custom boot animation (pick from .zip file)
+- Status bar
+  - background
+  - notification icon opacity
+  - Clock and date
+    - Show clock
+    - Color
+    - Clock alignment
+    - AM/PM style
+    - Date
+    - Date style
+    - Date format
+  - Battery style
+    - Status style (icon, text, tons of icons)
+    - Circle color
+    - Circle animation
+    - Percentage text color
+    - Perentage text charging color
+    - Battery bar location/color/alignment/thickness/animation
+  - Signal style
+    - Text style
+    - Text color
+    - Wifi text style
+    - Wifi text color
+    - Hide signal bars?
+  - Show network speeds?
+    - Update frequency
+  - Breathing missed call?
+  - Breathing SMS?
+  - Auto-hide statusbar?
+  - Quick peek of statusbar?
+  - Brightness control sliding across status bar?
+  - Show Notification count?
+  - Do not disturb?
+- BeanStalk PIE
+  - Style/dimension
+  - Trigger options (where, size, gravity, thickness, disable on keyboard?)
+  - Buttons, second layer?, style
+  - Show background?
+  - Show snap points?
+  - Show status and clock?
+  - Hide redundant statusbar info?
+- HALO
+  - Policy: black or white list
+  - Hide after activity?
+  - Reverse gestures?
+  - Pause active app?
+  - Size
+  - Custom colors
+- Navigation bar
+  - Buttons
+  - Ring targets
+  - Style and dimensions
+  - Glow settings
+  - Menu location
+  - Menu visibility
+  - Show in landscape?
+- Quick settings
+  - Quick pulldown (which edge/off)
+  - Auto close when toggling?
+  - Floating window of tiles?
+  - Quick pulldown without notifications
+  - Quick setting style (tile background color, pressed bkgrnd col, text col, tiles/row,
+    scale in landscape?)
+  - Tiles and layout
+  - Sound modes
+  - Network modes
+  - Screen timeout modes
+  - Dynamic: alarm, bug report, IME changer, USB tether
+- Notification drawer
+  - Power widget?
+    - Widget butons
+    - Button order
+  - Always show settings button?
+  - Notification behavior (normal, never expand, always expand, old style)
+  - Notification shortcuts?
+    - Quantitty (number to display)
+    - Icon color
+    - Colorize app icons?
+    - Hide carrier label?
+  - Style (background, background if in landscape, transparency, notification row transparency
+  - Enable toggle colors?
+  - Enable toggle bar?
+  - Color for active icons?
+  - Color for inactive icons?
+  - Power widget behavior
+    - Close drawer on change?
+    - Hide scrollbar?
+    - Haptic feedback (use global setting, on/off)
+  - Brightness slider location (show/don't show)
+- Misc settings
+  - Keyboard/input methods
+    - Force Auto rotate if keyboard shown?
+    - Timeout for auto-rotate
+    - Disable fullscreen keyboard?
+    - Show enter key?
+  - Vibrate on expand?
+  - Low batter warning type
+  - Recents RAM bar (mode , colors)
+  - Recents RAM circle?
+  - Clear recents position
+- App sidebar: Enable, sort order, size, transparency, excluded apps
+- Power menu
+- cLock widget (clock/date, weather, calendar)
+- Notificaiton light
+  - On/off, default light, missed call or voicemail colors
+- Build.prop mods
+  - Wifi scan interval
+  - PM sleep mode (collapse, best, apps sleep, slow clock, wait for interrupt)
+  - Dalvic heapsize
+  - Max WM events per second
+  - Telephone ringer delay from incoming call to ring
+  - HSUPA upload speed hack
+  - Proximity sensor delay
+  - Build number
+  - 3G speed hack?
+  - Optimize TCP stack?
+  - GPU acceleration?
+- Gesture navigation: like LMT launcher
+  - Blacklist
+  - Set 4 zones (x/y start/end)
+  - Custom actions: expand notifications, toggle status bar, expand quick settings,
+    back, home, menu, launch app, quick app switch
+  - Capture touch events (stop touches in zones from reaching the application)
+  - Swipe distance
+- Hardware Keys
+  - Back key enabled?
+  - Meny key enabled?
+  - Home key enabled?
+  - Custom actions?
+    - Set custom actions for home/back/recent regular or long press
+    - Show 3-dot overflow menu in apps?
+**** Device
+***** Sound
+- Volumes
+- Ring mode, vol panel style, music effects, quiet hours, ringtone, vibrate?, ascending,
+  dial pad touch tones, screen lock sound, vibrate on touch, volume adjustment sound?, vol
+  rocker music controls, emergency tone, camera shutter sound, lock vol keys?, vibrate on
+  notification, vibrate during calls for notifications?, launch music app when headset
+  connected, safe volume, play sound when connect charger and/or vibrate and set sound
+***** Display
+- CRT animation and orientation
+- Brightness
+- Wallpaper
+- Allowable rotations
+- Sleep delay
+- Daydream
+- Font size
+- Wakup on home/volume/charge?
+***** Storage (standard)
+***** Battery (standard)
+***** Apps (standard)
+**** Personal
+***** Profiles (on/off)
+***** Location access (standard)
+***** Language/input
+- language
+- spell checker?
+- Inputs: Google: input language, auto capital, vibrate on keypress, sound on keypress,
+  popup on keypress, voice input key, block offensive, auto-correct?, show suggestions,
+  gesture typing?, floating preview?, show trail?, next-word suggestions, advanced
+  (contacts, double space period, lang switch, slide indicator, custom input, key popup
+  dismiss delay, long press delay, vibration duration, app icon?)
+- Selector notification
+- Vol key as cursor?
+- Voice search
+- TTS output
+***** Backup/reset
+**** System
+***** Permissions
+***** Date/time
+***** Accessibility
+***** Dev options
+Standard
+***** Super user
+Standard (allow, logs)
+***** Performance
+Looks like standard CM
+- Processor governor/clock speed (gov, min/max freq, set on boot - yes or no)
+- IO: IO sched and whether to set on boot
+- Mem manage: zRam (comnpress and how much), allow purging of assets
+- 16bit transparency
+- Surface improvement
+
+***** About BeanStalk
+***** About phone
+
 * EVO 4g s-off/unlock/root
 
 http://forum.xda-developers.com/showthread.php?t=2026938 helped unlock
