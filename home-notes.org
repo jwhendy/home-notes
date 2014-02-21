@@ -1130,6 +1130,16 @@ Roms considered:
 - [[http://www.thechineseteashop.com/gong-fu-cha.html][nice article]]
 - [[http://terebess.hu/english/yixing1.html][bunch on yixing pots]]
 
+** tea pot sources
+
+- [[http://www.avenue18.ca/TEAPOT/Tokoname.htm][Ave 18]]
+- [[http://www.yuuki-cha.com/teaware/japanese-teapots][Yuuki-Cha]]
+- [[http://www.o-cha.com/green-teas/teapots/][O-cha]] (only SS mesh style)
+- [[http://zentealife.com/tag/product/list/tagId/15/][Zen tea life]]
+- [[http://www.artisticnippon.com/product/tokoname/tokonameindex.htm][Artistic Nippon]]
+  - [[http://www.artisticnippon.com/product/tokoname/kenji/texturedteapot.html][nicked ovals]]
+  - [[http://www.artisticnippon.com/product/tokoname/koshin/marbleround.html][super clean]]
+  - [[http://www.artisticnippon.com/product/tokoname/houryu/kokudei_pinebarkteapot.html][pine bark texture]]
 * HTC EVO rom fiddling
 - SlimRom: can't stand that they make the unlock screen icon the slim logo. Really not
   digging that and will never use Slim until I find out that's a changeable option.
