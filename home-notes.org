@@ -1140,6 +1140,38 @@ Roms considered:
   - [[http://www.artisticnippon.com/product/tokoname/kenji/texturedteapot.html][nicked ovals]]
   - [[http://www.artisticnippon.com/product/tokoname/koshin/marbleround.html][super clean]]
   - [[http://www.artisticnippon.com/product/tokoname/houryu/kokudei_pinebarkteapot.html][pine bark texture]]
+
+- [[http://www.zencha.net/green_tea_pots.php][zencha]]
+- [[http://www.rishi-tea.com/product/ceramic-tea-mug-with-infuser-sky/ceramic-teapots][start simple]] with infuser cup?
+- [[http://www.hibiki-an.com/product_info.php/cPath/23/products_id/818][nice white]] kyusu that's glazed. simple. 
+- [[http://shop.samovarlife.com/Samovar-Wabi-Sabi-Teacup-p/1002wasa.htm][super nice stone cups]]
+- [[https://www.etsy.com/listing/179758238/whiskey-cups-set-of-2?ref=related-0][really nice]] other stone cups
+- [[https://www.etsy.com/listing/179222642/japanese-stoneware-teapot-indigo-blue?ref=sr_gallery_1&sref=sr_2b67284078d2090dd2159e25006e65f5076a9728b42d843e12a6cbbcfed55978_1393044718_14413911_teapot&sref2=MTc5MjIyNjQy%3AdGVhcG90%3AMTQ0MTM5MTE.%3AdGVhcG90IGphcGFuZXNl%3AdzA.%3AMTM5MzA0NDcxOA..%3AMjoxMzkzMDQ0NzE4OnM0MGpYaVNkekRBY3lqSGhhdHJkSWdQd2pHWl86NHctbjk5QWVVcHpTUURwQXE2blNTaXVOUktoUTozZTdkYWMwZmYxNmFiOGRiNTdkNGMxOWVhYTg4NmM3MjU2ZTkxYWY1%3Ab5e7a92baf3d75f24c8582d6bcc3436ea348903d&ga_search_query=teapot+japanese&ga_view_type=gallery&ga_ship_to=US&ga_search_type=all][stoneware teapot]] on etsy (blue, glazed, bamboo handle)
+- [[https://www.etsy.com/listing/154474284/electric-fired-teapot-with-built-in?ref=sr_gallery_32&ga_search_query=kyusu&ga_view_type=gallery&ga_ship_to=US&ga_search_type=all][stoneware]] teapot on etsy (black, speckled, built-in strainer)
+
+
+- comparison table
+
+| source     | size     | strain   | price | shipping | notes                                      |
+|------------+----------+----------+-------+----------+--------------------------------------------|
+| [[http://www.artisticnippon.com/product/tokoname/houryu/kokudei_pinebarkteapot.html][nippon]]     | 360/12.1 | ceramic  |    46 |       25 | black, shortish, red rim, straw pattern    |
+| [[http://www.artisticnippon.com/product/tokoname/koshin/marbleround.html][nippon]]     | 290/9.8  | ceramic  |    58 |       25 | eggplant looking, textured body/smooth top |
+| [[http://zentealife.com/kyusu-beehive.html][zentealife]] | 350/11.8 | ??       |    60 |        8 | shortish, beehive hex pattern              |
+| [[http://zentealife.com/teaware/type/teapots/kyusu-morimasa1.html][zentealife]] | 340/11.5 | ??       |    30 |        8 | pan looking, tight outer pattern           |
+| [[http://zentealife.com/teaware/type/teapots/kyusu-kosho2.html][zentealife]] | 300/10   | ceramic  |    60 |        8 | pretty classic, red rim, tight lines       |
+| [[http://www.o-cha.com/greenteateapot.html][o-cha]]      | 360/12   | ss swing |    41 |       10 | nicks in line around outside, shortish     |
+| [[http://www.o-cha.com/tokoname-teapot-16408.html][o-cha]]      | 270/9    | ss 270   |    29 |       10 | stone looking, red lines                   |
+
+
+- [[http://www.youtube.com/watch?v=y1AbiyzFMK4][vitamix vs. blendtec]]
+
+- [[http://shop.umamimart.com/products/sawa-teapot][Hakusan kyusu, light blue]], $49
+- [[http://www.lupiciausa.com/product_p/41400411.htm][Hakusan, white]], $49
+- [[http://www.outofgray.com/brand_hakusan-1.html][Out of Gray]] Hakusan stuff
+- [[http://www.common-webshop.com/artist/hakusan-porcelain][site with all hakusan]]
+- [[http://yunnansourcing.com/en/gaiwans/1559-cracked-celadon-gaiwan-for-gong-fu-tea-brewing-130ml.html][nice heavy gaiwan]]
+- [[http://yunnansourcing.com/en/strainers/145-naturalclaystrainerforgongfuchabrewingw-stand.html][stoneware strainer]]
+
 * HTC EVO rom fiddling
 - SlimRom: can't stand that they make the unlock screen icon the slim logo. Really not
   digging that and will never use Slim until I find out that's a changeable option.
