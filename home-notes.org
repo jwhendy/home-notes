@@ -1219,3 +1219,16 @@ Roms considered:
 - [[https://www.etsy.com/shop/AspenPottery][AspenPottery]]: one nice set of cups
 - [[https://www.etsy.com/shop/lorenhoward78][LorenHoward]]: nice mugs
 - [[https://www.etsy.com/shop/yezpottery][YezPottery]]: soap dispensers!
+* Notes on food
+- [[http://www.eatingwell.com/healthy_cooking/budget_cooking/the_best_foods_for_eating_well_on_a_budget][Eating well on a budget]] lists the lowest cost/healthiest foods by type
+  - Fruit: bananas, prunes, raisins, orange juice
+  - Vegetables: broccoli (frozen is cheaper), collards, romaine, mustard greens, parsley,
+    calabaza, carrots, tomato juice, potatoes
+  - Grains: Barley
+  - Fish: Perch, tuna, squid, whiting, silver hake (tuna/perch @ 1x/mo; mercury)
+  - Non-meat protein: black, black-eyed, chick, lentils, pinto, red kidney, eggs,
+    hazelnuts, peanuts, sunflower, walnuts
+  - Meat: Turkey
+- [[http://www.eatingwell.com/healthy_cooking/healthy_cooking_101_basics_and_techniques/12_superfoods_to_help_you_eat_healthy_for_1_or_less][Foods that cost less than $1/serving]] lists cheap superfoods: lentils, oats, kale,
+  almonds, tea, oranges, tuna (chunk light << white albacore wrt mercury), PB, apples,
+  eggs, carrots, sweet potatoes, cabbages
