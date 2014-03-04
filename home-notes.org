@@ -1,3 +1,4 @@
+#+LAST_MOBILE_CHANGE: 2014-03-01 21:01:22
 #+setupfile: ~/org/aux/setupfile.org
 #+options: num:t todo:t d:t
 #+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
@@ -418,7 +419,13 @@ really put some hair on your head.
 
 ** Todos							   :noexport:
 *** todo get keys @ phipps
+    :PROPERTIES:
+    :ID:       b4e5993a-d30a-4dab-807d-26868df75a97
+    :END:
 *** todo make packing list for Amanda
+    :PROPERTIES:
+    :ID:       d9594c66-573b-4a22-96e8-9bab444dd6ae
+    :END:
 *** done confirm massage at Brick Alley
     :LOGBOOK:
     - State "done"       from "wait"       [2012-11-16 Fri 13:41] \\
@@ -1219,3 +1226,6 @@ Roms considered:
 - [[https://www.etsy.com/shop/AspenPottery][AspenPottery]]: one nice set of cups
 - [[https://www.etsy.com/shop/lorenhoward78][LorenHoward]]: nice mugs
 - [[https://www.etsy.com/shop/yezpottery][YezPottery]]: soap dispensers!
+
+* Test
+stuff
