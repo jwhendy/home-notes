@@ -1,9 +1,104 @@
 #+LAST_MOBILE_CHANGE: 2014-03-01 21:01:22
 #+setupfile: ~/org/aux/setupfile.org
-#+options: num:t todo:t d:t
+#+options: todo:t d:t toc:nil num:nil H:1
+#+SELECT_TAGS:
 #+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
 #+latex_header: \usepackage{tikz}
-#+latex_header: \usetikzlibrary{circuitikz}
+
+* Camping list
+
+** Clothing
+*** hats (5)
+*** coats (5)
+*** snowsuit (1)
+*** gloves (5, buy for amanda)					 :export:rei:
+*** long underwear (2-5, buy for kids)				 :export:rei:
+*** tennis shoes (5)
+*** sandals (5)
+*** hiking boots (1)
+*** socks (n * 3, buy some nice ones all around)		 :export:rei:
+*** undershirts (n * 3)
+*** underwear (n * 3)
+*** rain coats (4)						 :export:rei:
+*** pants (n * [2-3], look at dickies/carhart)
+*** short sleeved shirts (n * 2)
+*** long sleeved shirts (n * 2)
+*** mid layer (n * 1)
+
+** Sleeping
+*** sleeping bags (4)
+*** pillows (4)
+*** sleeping pads (have 2, buy 2)				 :buy:rei:
+*** Heater
+
+** Cooking/eating
+*** Big water jug						 :buy:rei:
+*** Cookware
+*** Eat ware (check what have)					 :buy:rei:
+*** Dishcloth
+*** Dish tub?
+*** Castille soap for dish soap
+*** Kitchen knives
+*** Buck knife + rubbery buck knife
+*** Aero press
+*** Coffee
+*** Nalgene (2)
+*** Cooler
+*** Trash bags (5)
+*** Tea?
+*** Silverware
+
+** Food
+*** Peanut butter					     :buy:grocery:
+*** Apples						     :buy:grocery:
+*** Bread						     :buy:grocery:
+*** Lunch meat						     :buy:grocery:
+*** Cheese						     :buy:grocery:
+*** Trail mix, nuts, dried fruit			     :buy:grocery:
+*** Water
+*** Cans of stew/soup (4)				     :buy:grocery:
+*** Noodles + spaghetti sauce				     :buy:grocery:
+*** white rice						     :buy:grocery:
+*** Hot chocolate
+*** oatmeal						     :buy:grocery:
+*** raisins						     :buy:grocery:
+*** cinnamon
+*** agave syrup						     :buy:grocery:
+*** fruit and vegetables				     :buy:grocery:
+*** eggs
+*** rice milk
+
+** Activities
+*** games: apples to apples, catch phrase, cards, robot turtles
+*** bug spray							 :buy:rei:
+*** binoculars							 :buy:rei:
+*** camera
+*** outlet converter
+*** umbrella
+*** sunscreen (check)
+*** head lamp (1 more; get batteries)				 :buy:rei:
+*** various LED lights
+*** lantern?
+*** kid carrier(s)
+*** Ergo baby
+*** sun hat(s) - try them on
+*** Kelty pack
+*** hand warmer packs						 :buy:rei:
+*** various batteries (check stuff bringing)		    :buy:anywhere:
+*** propane refills (ask how many at REI)			 :buy:rei:
+
+** Bathing
+*** travel containers (?)
+*** towels (2)
+*** wash cloths (2)
+*** wipes (pack)
+*** [0/6] toiletries
+**** shampoo
+**** bar soap
+**** face wash
+**** toothpaste
+**** kid's toothpaste
+*** laundry soap
 
 * Tech
 ** Screencasting
@@ -20,16 +115,6 @@
   - page where I found how to sync audio: http://www.kkoncepts.net/node/69
   - another helpful walkthrough: http://forums.freebsd.org/showthread.php?t=23826
   - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec mpeg2video -sameq -async 1 test.mpeg=code=  
-
-** IR controlled LEDs and Arduino
-- Inventables: http://www.inventables.com/technologies/smart-infrared-transmitter-ctrlm
-- CtrlM demo: http://www.youtube.com/watch?v=3fSsRGN1ip0
-- Arduino: http://www.arduino.cc/
-  
-** Android apps
-- [[https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder][Gleeo time tracking]]
-- [[https://play.google.com/store/apps/details?id=com.devjockeys.projecttimelog][project time log]]
-- [[https://play.google.com/store/apps/details?id=ru.ikds.android.qtimerec][qTimeRec]]
 
 ** idea generation software
 - [[http://www.eldos.com/vp/download-release.php][voxPopuli]]
@@ -179,102 +264,6 @@ battery_background_id = 0
 | Ardbeg 10         | 50           | 50      | 50        |     *42* |      47 |
 | Glendronach       | -            | -       | -         |       90 |    *75* |
 | Peat Monster      | 44           | 55      | -         |       60 |      47 |
-
-* Libary meeting rooms
-** Augsburg Park
-- 7100 Nicollet Ave., Richfield
-- Closes Mon at 8p
-- Meeting room (5-60)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=100
-  - Screen, easel, podium
-  - Avail: July 23 (6:30-8p)
-** Edina
-- 5280 Grandview Square, Edina
-- Closes Mon at 8p
-- Conference room (1-15)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=168
-  - White board
-  - Avail: July 9/23 (6:30-8p)
-- Meeting room (10-75)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=111
-  - Screen, white board, sink
-  - Avail: June 4, July 9/23 (6:30-8p)
-
-** Golden Valley
-- 830 Winnetka Ave. N., Golden Valley
-- Closes Mon at 8p
-- Meetin room (10-70)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=113
-  - Screen
-  - Avail: July 9/23 (6:30-8p)
-
-** Oxboro
-- 8801 Portland Ave. S., Bloomington
-- Closes Mon at 8p
-- Meeting room (10-80)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=113
-  - Tables/chairs, podium, screen
-  - Avail: May 21, June 4, July 9/23 (6:30-8p)
-** Penn Lake
-- 8800 Penn Ave. S., Bloomington
-- Closes Mon at 8p
-- Meeting room (10-80)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=140
-  - Table, podium, screen
-  - Avail: July 9/23 (6:30-8p)
-** Southdale
-- 7001 York Ave. S., Edina
-- Closes Mon at 9p
-- Ethyl Berry (15-49)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=151
-  - Screen, podium, kitchen, 13 tables
-  - Avail: June 4, July 9 (6:30-9p)
-- Helen Young (15-49)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=152
-  - Tables, large white wall might work for projector, chairs
-  - Avail: July 9
-- Public conference room (3-10)
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=153
-  - Central table surrounded by chairs, maybe could project on wall
-  - Avail: May 21, June 4, July 9/23 (6:30-9p)
-- Full meeting room (15-195)
-  - *This appears to be the Ethyl Berry and Helen Young rooms combined*
-  - Link: http://www.hclib.org/pub/info/meetingrooms/Details.cfm?ID=150
-
-* PMT Script
-
-I'm John Henderson in 3M's Automotive Aftermarket Division. Most of my life is hilarious,
-but today I'd like to talk about something serious: male baldness as a result of
-participating in a study for 3M Medical's prototype pre-operative shaver. This is no
-laughing matter.
-
-As an innovative engineer, however, I know there's a solution for everything. Thanks to
-3M's recently launched PMT, or Automotive Precision Masking Tape if you're not into the
-whole brevity thing, we're going to fix this chrome dome right up.
-
-Thankfully, PMT utilizes a smooth Washi paper backing so we won't have to deal with any of
-those unsightly built up paint edges that other tapes leave behind on bald heads. PMT also
-features excellent adhesive wet out properties for low removal force. This means I
-get a look that's a killer with the ladies... without killing my scalp.
-
-Well, I think we'll get right down to it. I'm here with PMT lead developer and precision
-masker, Jeff Schwab to demo the raw power and versatility of PMT.
-
-[Starts masking]
-
-Hey Jeff, leave me some sideburns, will you? I don't want to look like a weirdo.
-
-[Paint]
-
-With today's advanced paint systems, don't try and cut corners on the bake cycle.
-
-[Hairdry/demask]
-
-Well, there you have it. Another win for 3M's line of automotive masking solutions. Thanks for
-joining us and next time you're looking for an automotive masking tape, choose PMT. It'll
-really put some hair on your head.
-
-[Show before/after screenshot]
 
 * Anniversary Plan
 ** Friday
@@ -448,37 +437,7 @@ really put some hair on your head.
     CLOSED: [2012-11-29 Thu 12:26]
 
     
-* B&B research
-- Classic Rosewood Inn: 620 Ramsey Street, Hastings, MN 55033
-  - A couple available
-- Rivertown Inn: 306 West Olive Street, Stillwater, MN 55082
-  - Several available, though pretty price ($295)
-- Cover Park Manor: 15330 58th Street North, Stillwater, MN 55082
-  - Eh
-- Phipps Inn: 1005 3rd St,  Hudson,  WI  54016
-  - Looks really promising, especially Peacock
-
-** Plan
-- Nov 30
-  - 4p St. Thomas chapel
-  - 5:30/6p dinner at Mortons
-  - Comedy Sportz, 8p: http://www.comedysportztc.com/
-  - Head to B&B
-- Dec 1
-  - Lift Bridge?
-    - Saturdays 1-3p, pre-register: http://www.liftbridgebrewery.com/tours.aspx
-  - Antique store visiting?
-  - massage: http://www.brickalleymassage.com/The_Services.html
-  - knoke's chocolates: http://www.knokeschocolates.com/
-  - Guys on Ice dinner theater
-    - Website: http://www.stcroixoffbroadway.com/index.shtml
-- Dec 2
-  - Mass together?
-  - Brunch
-    - http://www.pierfivehundred.com/about-us/
-  - Home
-
-* Terminal blocks						     :export:
+* Terminal blocks
 - DIN mount, 50cm, 35mm: [[http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043][link]]
 - 4 input terminal block: [[http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005][link]]
 
@@ -514,160 +473,6 @@ Jumper all like symbols. This creates the following circuits:
 - [[http://www.luxproducts.com/support/TX500b_Eng_WebManual.pdf][Upstairs; LUX TX500b]]
 - [[https://customer.honeywell.com/resources/techlit/TechLitDocuments/60-0000s/60-2133.pdf][Valves, V8043E/F]]
 
-* Trim measurements
-** Baseboard
-
-*** Dining room
-
-|     raw | buffered | group |
-|---------+----------+-------|
-|     3.5 |        5 | g     |
-|      48 |       50 | h     |
-|     8.5 |       10 | b     |
-|      63 |       65 | g     |
-|     8.5 |       10 | b     |
-|     9.5 |       12 | a     |
-|      69 |       72 | a     |
-|      87 |       90 | b     |
-|      48 |       50 | e     |
-|      33 |       36 | a     |
-|---------+----------+-------|
-| *total* |      401 |       |
-   #+TBLFM: $2=vsum(@2..@-1)
-
-*** Living room
-
-|     raw | buffered | group |
-|---------+----------+-------|
-|      33 |       36 | h     |
-|      13 |       14 | g     |
-|       8 |       10 | c     |
-|       6 |        8 | f     |
-|      21 |     22.5 | d     |
-|      60 |     61.5 | d     |
-|      29 |       31 | f     |
-|      43 |       45 | f     |
-|      31 |       33 | h     |
-|      32 |       34 | e     |
-|     108 |      110 | c     |
-|---------+----------+-------|
-| *total* |      411 |       |
-   #+TBLFM: $2=vsum(@2..@-1)
-
-*** Groups
-
-- a :: 72 + 36 + 12 = 120
-- b :: 90 + 10 + 10 = 120
-- c :: 110 + 10 = 120
-- d :: 61.5 + 22.5 = 84
-- e :: 50 + 34 = 84
-- f :: 45 + 31 + 8 = 84
-- g :: 65 + 14 + 5 = 84
-- h :: 50 + 36 + 33 = 119 = 120
-- total :: 4 x 10' ; 4 x 7' = 68'
-
-** Trim
-*** Windows and doors (3.5")
-| raw | buffered | group |
-|-----+----------+-------|
-|  86 |     86.5 | a     |
-|  86 |     86.5 | b     |
-|  46 |       48 | e     |
-|  86 |       87 | c     |
-|  86 |       87 | d     |
-|  57 |     57.5 | f     |
-|  86 |       88 | h     |
-|  86 |       88 | i     |
-|  39 |       40 | g     |
-|  86 |       88 | j     |
-|  86 |       88 | k     |
-|  44 |       46 | e     |
-|-----+----------+-------|
-|  40 |       43 | e     |
-|  40 |       41 | g     |
-|  62 |     62.5 | f     |
-|  62 |       63 | g     |
-|  57 |     57.5 | a     |
-|  57 |     57.5 | b     |
-|  55 |       57 | c     |
-|  55 |       57 | d     |
-
-*** Windows (2.25")
-
-|  raw | buffered | group |
-|------+----------+-------|
-|   25 |       27 | l     |
-|   25 |       27 | m     |
-|   77 |       80 | l     |
-|   77 |       80 | m     |
-|   25 |       27 | n     |
-|   25 |       27 | o     |
-|   77 |       80 | n     |
-|   77 |       80 | o     |
-| 29.5 |       32 | p     |
-| 29.5 |       32 | q     |
-|   77 |       80 | p     |
-|   77 |       80 | q     |
-
-*** Groups
-- a :: 86.5 + 57.5 = 144
-- b :: 86.5 + 57.5 = 144
-- c :: 87 + 57 = 144
-- d :: 87 + 57 = 144
-- e :: 48 + 46 + 43 = 137 = 144
-- f :: 62.5 + 57.5 = 120
-- g :: 63 + 41 + 40 = 144
-- h :: 88 = 96
-- i :: 88 = 96
-- j :: 88 = 96
-- k :: 88 = 96
-
-- l :: 80 + 27 = 107 = 120
-- m :: 80 + 27 = 107 = 120
-- n :: 80 + 27 = 107 = 120
-- o :: 80 + 27 = 107 = 120
-- p :: 80 + 32 = 112 = 120
-- q :: 80 + 32 = 112 = 120
-- totals
-  - 3.5" :: 4 x 8', 1 x 10', 6 x 12'
-  - 2.25" :: 6 x 10'
-
-** Doors
-
-- Height (floor to top corner): 85in
-- Width (corner to corner): 39in
-- Doors: entry, dining/office x 2, dining/kitchen, office closet, entry
-  closet (55in wide)
-
-~1275in or ~108 ft
-
-** Grand Total
-
-| type    | length | cost/ft |   sub |
-|---------+--------+---------+-------|
-| base    |     90 |    1.55 | 139.5 |
-| door    |    108 |    1.40 | 151.2 |
-| window  |     70 |    1.40 |   98. |
-|---------+--------+---------+-------|
-| *total* |        |         | 388.7 |
-
-Minus office
-| type    | length | cost/ft |    sub |
-|---------+--------+---------+--------|
-| base    |     65 |    1.55 | 100.75 |
-| door    |     73 |    1.40 |  102.2 |
-| window  |     60 |    1.40 |    84. |
-|---------+--------+---------+--------|
-| *total* |        |         | 286.95 |
-#+TBLFM: $2=108-(((170+40)*2)/12)::$4=vsum(@2..@-1)
-
-** Walls
-
-- Kitchen :: 56 high, 165 x 160, really only two walls (126 ft^2) 
-- Dining :: 108 high, 165 x 147 (242 ft^2)
-- Living :: 108 high, 160 x 170 (256 ft^2)
-- Bath :: 57 high, 49 x 65 (45 ft^2)
-
 * Software
 ** Learning d3
 - [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
@@ -678,301 +483,6 @@ Minus office
 
 ** Learning python
 - [[http://mechanicalmooc.org/][A gentle introduction to python]]
-** Evo apps
-APG, Binary clock widget, cam scanner, catch, clean master, doubletwist, dropbox, barcode
-scanner, event timer, github, gmail, hacker keyboard, i can't wake up, ingur for android,
-ldap client, linda manager, minimalistic text, mobileorg, notification toggle, nova
-launcher, real calc, socialcast, switchpro widget, timesheet, total commander, beautiful
-widgets, 
-
-bw themes
-- weather
-  - t_brushedinkwhite
-  - t_sketchy glowing
-  - vos-cm9 white
-- clock
-  - sense 4 black
-  - resa73_white4
-  - home
-  - resa73_white3
-  - glass
-  - xperiadigitial
-  - jelly bean clear
-  
-monocrhome nova icon theme
-
-holo light skin and holo immersion
-** ROMS
-
-About HALO: only seems to work if you have the HALO settings accessible somewhere. Can't
-just install the app and use it, it seems.
-
-Wants:
-- No PA custom app DPI/modes
-- Auto hide status bar to expand screen
-- PIE (maybe); HALO (maybe)
-- Some ROM/hardware settings
-- Clean/fast
-- Something like LMT
-
-*** BeanStalk
-**** Interface
-***** Launcher (looks like trebuchet settings)
-- Homescreen
-  - grid size
-  - # of home screens
-  - choose default screen
-  - Stretch screens - y/n
-  - Persistent search bar - y/n
-  - Hide icon labels - y/n
-  - Transition effect
-  - Scroll wallpaper - y/n
-  - Wallpaper quick render - y/n
-  - Wallpaper size (how many screens should span)
-  - Face side screens - y/n
-  - Show outlines - y/n
-  - Show page indicator
-  - Face indicator
-  - Indicator position
-- Drawer
-  - Orientation (which way it scrolls)
-  - Hidden apps (list)
-  - Remove hidden app shortcuts from homescreen?
-  - Remove hidden app widgets from homescreen?
-  - Swipe from apps to widgets without changing tabs?
-  - Transition effect
-  - Show page indicator
-  - Face indicator
-  - Indicator position
-- Dock
-  - Number of pages
-  - Default page
-  - Number of icons/columns
-  - Hide icon labels?
-  - Icon scale
-  - Show divider between dock/homescreen?
-- General
-  - Auto rotate screen?
-  - Lock home screen (shortcuts/folders in homescreen/dock/widget drawer)?
-  - Hide status bar to extend homescreen?
-  - Icon pack
-***** Lock screen
-- Background
-- Transparency
-- Screen security
-- Text color
-- Battery status (only when charging or always on)
-- cLock settings (clock/alarm, weather, calendar events)
-- Allow lockscreen rotation?
-- Enable all widgets?
-- Minimize lockscreen challenge?
-- Maximize widgets?
-- Widget carousel in portrait?
-- Camera widget?
-- Music control (player controls when music playing and locked)?
-- Slider shortcuts (change/rearrange)
-- Static lock screen shortcuts
-- Button actions
-***** Darlk Stalk (on/off)
-***** Themes (standard)
-***** System
-- General UI
-  - Widgets viewpager
-    - Add
-    - Style
-  - LCD Density
-  - ListView animation
-  - ListView Interpolator
-  - Use Alt Default App Grid?
-  - Custom carrier label
-  - Dual pane preferences (always/never/only landscape)
-  - Disable boot animation?
-  - Custom boot animation (pick from .zip file)
-- Status bar
-  - background
-  - notification icon opacity
-  - Clock and date
-    - Show clock
-    - Color
-    - Clock alignment
-    - AM/PM style
-    - Date
-    - Date style
-    - Date format
-  - Battery style
-    - Status style (icon, text, tons of icons)
-    - Circle color
-    - Circle animation
-    - Percentage text color
-    - Perentage text charging color
-    - Battery bar location/color/alignment/thickness/animation
-  - Signal style
-    - Text style
-    - Text color
-    - Wifi text style
-    - Wifi text color
-    - Hide signal bars?
-  - Show network speeds?
-    - Update frequency
-  - Breathing missed call?
-  - Breathing SMS?
-  - Auto-hide statusbar?
-  - Quick peek of statusbar?
-  - Brightness control sliding across status bar?
-  - Show Notification count?
-  - Do not disturb?
-- BeanStalk PIE
-  - Style/dimension
-  - Trigger options (where, size, gravity, thickness, disable on keyboard?)
-  - Buttons, second layer?, style
-  - Show background?
-  - Show snap points?
-  - Show status and clock?
-  - Hide redundant statusbar info?
-- HALO
-  - Policy: black or white list
-  - Hide after activity?
-  - Reverse gestures?
-  - Pause active app?
-  - Size
-  - Custom colors
-- Navigation bar
-  - Buttons
-  - Ring targets
-  - Style and dimensions
-  - Glow settings
-  - Menu location
-  - Menu visibility
-  - Show in landscape?
-- Quick settings
-  - Quick pulldown (which edge/off)
-  - Auto close when toggling?
-  - Floating window of tiles?
-  - Quick pulldown without notifications
-  - Quick setting style (tile background color, pressed bkgrnd col, text col, tiles/row,
-    scale in landscape?)
-  - Tiles and layout
-  - Sound modes
-  - Network modes
-  - Screen timeout modes
-  - Dynamic: alarm, bug report, IME changer, USB tether
-- Notification drawer
-  - Power widget?
-    - Widget butons
-    - Button order
-  - Always show settings button?
-  - Notification behavior (normal, never expand, always expand, old style)
-  - Notification shortcuts?
-    - Quantitty (number to display)
-    - Icon color
-    - Colorize app icons?
-    - Hide carrier label?
-  - Style (background, background if in landscape, transparency, notification row transparency
-  - Enable toggle colors?
-  - Enable toggle bar?
-  - Color for active icons?
-  - Color for inactive icons?
-  - Power widget behavior
-    - Close drawer on change?
-    - Hide scrollbar?
-    - Haptic feedback (use global setting, on/off)
-  - Brightness slider location (show/don't show)
-- Misc settings
-  - Keyboard/input methods
-    - Force Auto rotate if keyboard shown?
-    - Timeout for auto-rotate
-    - Disable fullscreen keyboard?
-    - Show enter key?
-  - Vibrate on expand?
-  - Low batter warning type
-  - Recents RAM bar (mode , colors)
-  - Recents RAM circle?
-  - Clear recents position
-- App sidebar: Enable, sort order, size, transparency, excluded apps
-- Power menu
-- cLock widget (clock/date, weather, calendar)
-- Notificaiton light
-  - On/off, default light, missed call or voicemail colors
-- Build.prop mods
-  - Wifi scan interval
-  - PM sleep mode (collapse, best, apps sleep, slow clock, wait for interrupt)
-  - Dalvic heapsize
-  - Max WM events per second
-  - Telephone ringer delay from incoming call to ring
-  - HSUPA upload speed hack
-  - Proximity sensor delay
-  - Build number
-  - 3G speed hack?
-  - Optimize TCP stack?
-  - GPU acceleration?
-- Gesture navigation: like LMT launcher
-  - Blacklist
-  - Set 4 zones (x/y start/end)
-  - Custom actions: expand notifications, toggle status bar, expand quick settings,
-    back, home, menu, launch app, quick app switch
-  - Capture touch events (stop touches in zones from reaching the application)
-  - Swipe distance
-- Hardware Keys
-  - Back key enabled?
-  - Meny key enabled?
-  - Home key enabled?
-  - Custom actions?
-    - Set custom actions for home/back/recent regular or long press
-    - Show 3-dot overflow menu in apps?
-**** Device
-***** Sound
-- Volumes
-- Ring mode, vol panel style, music effects, quiet hours, ringtone, vibrate?, ascending,
-  dial pad touch tones, screen lock sound, vibrate on touch, volume adjustment sound?, vol
-  rocker music controls, emergency tone, camera shutter sound, lock vol keys?, vibrate on
-  notification, vibrate during calls for notifications?, launch music app when headset
-  connected, safe volume, play sound when connect charger and/or vibrate and set sound
-***** Display
-- CRT animation and orientation
-- Brightness
-- Wallpaper
-- Allowable rotations
-- Sleep delay
-- Daydream
-- Font size
-- Wakup on home/volume/charge?
-***** Storage (standard)
-***** Battery (standard)
-***** Apps (standard)
-**** Personal
-***** Profiles (on/off)
-***** Location access (standard)
-***** Language/input
-- language
-- spell checker?
-- Inputs: Google: input language, auto capital, vibrate on keypress, sound on keypress,
-  popup on keypress, voice input key, block offensive, auto-correct?, show suggestions,
-  gesture typing?, floating preview?, show trail?, next-word suggestions, advanced
-  (contacts, double space period, lang switch, slide indicator, custom input, key popup
-  dismiss delay, long press delay, vibration duration, app icon?)
-- Selector notification
-- Vol key as cursor?
-- Voice search
-- TTS output
-***** Backup/reset
-**** System
-***** Permissions
-***** Date/time
-***** Accessibility
-***** Dev options
-Standard
-***** Super user
-Standard (allow, logs)
-***** Performance
-Looks like standard CM
-- Processor governor/clock speed (gov, min/max freq, set on boot - yes or no)
-- IO: IO sched and whether to set on boot
-- Mem manage: zRam (comnpress and how much), allow purging of assets
-- 16bit transparency
-- Surface improvement
-
-***** About BeanStalk
-***** About phone
 
 * EVO 4g s-off/unlock/root
 
@@ -1111,16 +621,6 @@ version was also less than it was after I took the latest OTA from Sprint.
 
 Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]] (actual downloads are [[http://themikmik.com/showthread.php?13192-RADIOS-RECOVERY-FLASHABLE-Jewel-Radio-Collection&p=220556&viewfull=1#post220556][here]]). 
 
-Roms considered:
-- JellyBam (AOSP)
-  - [[http://get.jellybam.com/jewel/][Downloads]]
-  - Instructions
-- Mean Bean
-  - [[http://forum.xda-developers.com/showthread.php?t=2048229][Instructions with download link]]
-- Cyanogenmod (stable)
-  - [[http://download.cyanogenmod.com/?device=jewel&type=stable][Downloads]]
-- 
-
 * tea stuff
 ** stovetop kettles
 
@@ -1185,28 +685,6 @@ Roms considered:
   - [[http://www.artisticnippon.com/product/arita/hakusan_porcelain/mistwhite.html][white mist]] at Artistic Nippon
 
 
-* HTC EVO rom fiddling
-- SlimRom: can't stand that they make the unlock screen icon the slim logo. Really not
-  digging that and will never use Slim until I find out that's a changeable option.
-- [[http://forum.xda-developers.com/showthread.php?t=2396173][PACman]]: bloated, but they came out with 4.3, so giving it a try. [[http://pac-rom.com/#Download][Official]] site.
-- JellyBAM: bloated and had an issue with a never-ending boot-up once
-- RootBox was buggy: pulled down settings bar and went to swipe from profiles to
-  settings/quick panel and it would freeze mid-rotate (you could see the icons, but they
-  never flattened out and came into view. They were rotated at an angle and pixelated).
-- [[http://forum.xda-developers.com/showthread.php?t=2420496][Bean Stalk 2.0]]: based on 4.3
-- [[http://www.evervolv.com/devices/jewel][Evervolv]]: has 4.3 roms as well as older
-- [[http://forum.xda-developers.com/showthread.php?t=2320329][Dirty Unicorn]]: talked about on Good and Evo by Paul pretty favorably. Here's a more
-  [[http://teamdirt.me/showthread.php?143-ROM-Team-D-I-R-T-Dirty-Unicorns-4-2-2&p=1237][official]] link
-- [[http://download.paranoidandroid.co/Developers/TLKruzze/gapps/][PA Gapps]]: suggested by [[http://gearburn.com/2013/08/cyanogenmod-10-2-review-flash-forward/][this guy]] in his review of CM 10.2 as being more "stock/intended"
-  somehow, but I'm not sure I follow. They supposedly install to /system instead of to the
-  internal SD, which is better for more "system" apps
-- [[http://goo.im/gapps/][Standard gapps]]: 20130812 for 4.2.2, 20130813 for 4.3
-- [[http://forum.xda-developers.com/showthread.php?t=2373565][Paranoid Android]]
-- [[http://forum.xda-developers.com/showthread.php?t=2215583][Carbon ROM]]
-- [[http://android.aokforums.com/rom-jewel-unofficial-4-2-2-aokp-031213-vt29.html][AOKP unofficial]]: up to 4.2.2 on 3/12/2013
-- [[http://lotk.net/forum/viewtopic.php?f=9&t=21][LOTK thread]] with a bunch of ROMS: unofficial AOKP, PACman, Liquid.
-
-
 * Etsy sites for nice glazed things
 
 - [[https://www.etsy.com/listing/179758238/whiskey-cups-set-of-2?ref=related-0][really nice]] stone cups
@@ -1240,37 +718,3 @@ Roms considered:
 - [[http://www.eatingwell.com/healthy_cooking/healthy_cooking_101_basics_and_techniques/12_superfoods_to_help_you_eat_healthy_for_1_or_less][Foods that cost less than $1/serving]] lists cheap superfoods: lentils, oats, kale,
   almonds, tea, oranges, tuna (chunk light << white albacore wrt mercury), PB, apples,
   eggs, carrots, sweet potatoes, cabbages
-* Discussion with Felicity
-During the car ride back from Whole Foods this evening, it was really interesting meander through a discussion about gasoline, limited crude oil supplies, and sustainability/conservation of natural resources to Felicity. If you have access to a five year old and haven't done it before, I highly recommend trying to explain *anything* of moderate complexity to them. It's pretty enlightening, and they're also pretty flipping smart (moreso than I would have expected). Best recollection of some finer moments:
-
-- Her: What happens when all the gas runs out?
-- Me: Well, no one will be able to drive anymore (also thinking, but not saying, "And we'll all be farmers and/or freeze in the winter since there might not be any artificial heat generation.")
-- Her: How will we get places?
-- Me: We'll have to walk or bike.
-- Her: Where?
-- Me: Anywhere! Sidewalks, roads, highways...
-- Her: But we'll get hit!
-- Me: Remember, no one will be driving, so no one can hit us.
-
-- Her: Why is the gas going to run out?
-- Me: Well, you know how mama makes hummus? Do you know where it comes from?
-- Her: Chick peas!
-- Me: That's right. So let's say you had 25 cans of chick peas and you really liked eating hummus. Once you ate hummus 25 times, we'd have used all the chick peas and couldn't make anymore.
-
-- Her: Where does gas come from then?
-- Me (Thinking "Awww, dammit, this is going to be tough..."): Well, let's see. A long, long, long time ago there were a bunch of plants that died. You know how bananas turn brown when they get old?
-- Her: Yeah 
-- Me: Well, the plants sort of got all nasty like that, and after they were rotten for a long time, they turned into something called crude oil. We have to look around and find it, and use a big drill to get it out of the ground, and then turn it into gas, kind of how we make hummus from chick peas. So, it's hard to find and there's only so much of it, which is why we'll run out one day. There's a lot of people trying to think about how we could get around in cars without gas.
-
-[Few minutes of silence]
-
-- Her: Can we run cars on batteries?
-- Me (after picking up jaw): Yes! There are lots of people trying to figure out how to run cars on batteries! But you need a lot of them and they're pretty heavy. The heavier something is, the more energy it takes to move it, so people are also trying to make cars lighter.
-- Her: How?
-- Me: Well, using things like plastic instead of metal.
-- Her: Where?
-- Me: Well, you know the outside of our van? Some cars have plastic on the outside instead of metal.
-- Her: What!?!? Plastic isn't as strong as metal!!!! It's not safe!!! How can they do that!?!? (She was seriously concerned about this issue).
-- Me (picked up jaw again as I didn't expect the strength comparison between two materials!): Well, they have metal inside the doors to keep it safe, but the outside part can be plastic.
-
-Anyway, there was a bunch more and this is long already... but the point is that it's pretty interesting and you find out more about how your child's mind works as well as what you either 1) clearly don't know (I probably should have just said so a few times instead of half-BS'ing my explanations...) or 2) definitely don't know well enough to explain to a child!
