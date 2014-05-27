@@ -720,3 +720,11 @@ Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]]
 - [[http://www.eatingwell.com/healthy_cooking/healthy_cooking_101_basics_and_techniques/12_superfoods_to_help_you_eat_healthy_for_1_or_less][Foods that cost less than $1/serving]] lists cheap superfoods: lentils, oats, kale,
   almonds, tea, oranges, tuna (chunk light << white albacore wrt mercury), PB, apples,
   eggs, carrots, sweet potatoes, cabbages
+* Camp stove stuff
+- [[http://packafeather.com/stove.html][feather lite]]
+- [[http://hikinghq.net/stoves/stove_compare.html][scientific testing]]
+- [[http://hikinghq.net/ionstove/about.htm][ion stove]]
+- [[http://flatcatgear.com/page3.php][flatcat gear]]
+- [[http://scottbryce.com/yaas_stove/][yaas]]
+- [[http://users.sisqtel.net/losthiker/pikastove/laminarflow.txt][laminar vs. turbulent]]
+- [[http://users.sisqtel.net/losthiker/pikastove/][pika stove]]
