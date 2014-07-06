@@ -1,4 +1,4 @@
-% Created 2012-12-08 Sat 09:44
+% Created 2014-05-13 Tue 04:49
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -7,87 +7,232 @@
 \usepackage{longtable}
 \usepackage{float}
 \usepackage{wrapfig}
-\usepackage{soul}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
 \usepackage{textcomp}
 \usepackage{marvosym}
 \usepackage{wasysym}
-\usepackage{latexsym}
 \usepackage{amssymb}
 \usepackage{hyperref}
 \tolerance=1000
+\usepackage[hmargin=2.5cm,vmargin=2.5cm]{geometry}
+\usepackage{mathpazo} \usepackage{paralist}
+\usepackage{enumitem}
+%\usepackage{comment}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes, positioning}
+\setlength{\parskip}{0.5cm} \setlength{\parindent}{0cm}
+\usepackage{lscape}
+\usepackage{booktabs}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
 \usepackage{enumitem} \setlist{itemsep=0.05cm}
 \usepackage{tikz}
-\usetikzlibrary{circuitikz}
-\providecommand{\alert}[1]{\textbf{#1}}
-
-\title{home-notes}
-\author{John Hendy}
+\author{John Henderson}
 \date{\today}
+\title{Camping list}
 \hypersetup{
-  pdfkeywords={},
+ pdfkeywords={},
   pdfsubject={},
-  pdfcreator={Emacs Org-mode version 7.9.1}}
-
+  pdfcreator={}}
 \begin{document}
 
 \maketitle
-
-\setcounter{tocdepth}{3}
-\tableofcontents
-\vspace*{1cm}
-
-\section{Terminal blocks \textbf{:export:}}
+\section*{Clothing}
 \label{sec-1}
-
 \begin{itemize}
-\item DIN mount, 50cm, 35mm: \href{http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043}{link}
-\item 4 input terminal block: \href{http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005}{link}
-\end{itemize}
-
-Wiring diagram would be like so with 6 terminal blocks
-
-
-\begin{center}
-\begin{tabular}{llllllll}
- block ->  &  1   &  2   &  3   &  4   &  5   &  6   &  7   \\
-\hline
- jumpers   &  +   &  +   &  -   &  -   &  P1  &  P1  &  P1  \\
- feed      &  T1  &  R1  &  M2  &  P2  &  R2  &  R2  &  R2  \\
-           &  T1  &  R1  &  M2  &      &  --  &  --  &  --  \\
-           &  T1  &  R1  &  M2  &      &  T2  &  T2  &  T2  \\
-           &      &      &      &      &  M1  &  M1  &  M1  \\
-\end{tabular}
-\end{center}
-
-
-
-Key:
-\begin{itemize}
-\item R: Valve \emph{relay}
-\item T: Thermostat
-\item M: Valve \emph{motor}
-\item P: Recirculation \emph{pump}
-\end{itemize}
-
-Jumper all like symbols. This creates the following circuits:
-
-\begin{itemize}
-\item -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
-\item -> relay (R1/R2) -> pump (P1/P2) -> -
-\end{itemize}
-
-\begin{tikzpicture}
-\draw (0,0) to[voltmeter] (2,0);
-\draw (0,0)--(0,2);
-
-\end{tikzpicture}
-\subsection{Documentation}
+\item hats (5)
 \label{sec-1-1}
-
-
-\begin{itemize}
-\item \href{http://www.luxproducts.com/support/TX500b_Eng_WebManual.pdf}{Upstairs; LUX TX500b}
-\item \href{https://customer.honeywell.com/resources/techlit/TechLitDocuments/60-0000s/60-2133.pdf}{Valves, V8043E/F}
+\item coats (5)
+\label{sec-1-2}
+\item snowsuit (1)
+\label{sec-1-3}
+\item gloves (5, buy for amanda)\hfill{}\textsc{export:rei}
+\label{sec-1-4}
+\item long underwear (2-5, buy for kids)\hfill{}\textsc{export:rei}
+\label{sec-1-5}
+\item tennis shoes (5)
+\label{sec-1-6}
+\item sandals (5)
+\label{sec-1-7}
+\item hiking boots (1)
+\label{sec-1-8}
+\item socks (n * 3, buy some nice ones all around)\hfill{}\textsc{export:rei}
+\label{sec-1-9}
+\item undershirts (n * 3)
+\label{sec-1-10}
+\item underwear (n * 3)
+\label{sec-1-11}
+\item rain coats (4)\hfill{}\textsc{export:rei}
+\label{sec-1-12}
+\item pants (n * [2-3], look at dickies/carhart)
+\label{sec-1-13}
+\item short sleeved shirts (n * 2)
+\label{sec-1-14}
+\item long sleeved shirts (n * 2)
+\label{sec-1-15}
+\item mid layer (n * 1)
+\label{sec-1-16}
 \end{itemize}
 
+\section*{Sleeping}
+\label{sec-2}
+\begin{itemize}
+\item sleeping bags (4)
+\label{sec-2-1}
+\item pillows (4)
+\label{sec-2-2}
+\item sleeping pads (have 2, buy 2)\hfill{}\textsc{buy:rei}
+\label{sec-2-3}
+\item Heater
+\label{sec-2-4}
+\end{itemize}
+
+\section*{Cooking/eating}
+\label{sec-3}
+\begin{itemize}
+\item Big water jug\hfill{}\textsc{buy:rei}
+\label{sec-3-1}
+\item Cookware
+\label{sec-3-2}
+\item Eat ware (check what have)\hfill{}\textsc{buy:rei}
+\label{sec-3-3}
+\item Dishcloth
+\label{sec-3-4}
+\item Dish tub?
+\label{sec-3-5}
+\item Castille soap for dish soap
+\label{sec-3-6}
+\item Kitchen knives
+\label{sec-3-7}
+\item Buck knife + rubbery buck knife
+\label{sec-3-8}
+\item Aero press
+\label{sec-3-9}
+\item Coffee
+\label{sec-3-10}
+\item Nalgene (2)
+\label{sec-3-11}
+\item Cooler
+\label{sec-3-12}
+\item Trash bags (5)
+\label{sec-3-13}
+\item Tea?
+\label{sec-3-14}
+\item Silverware
+\label{sec-3-15}
+\end{itemize}
+
+\section*{Food}
+\label{sec-4}
+\begin{itemize}
+\item Peanut butter\hfill{}\textsc{buy:grocery}
+\label{sec-4-1}
+\item Apples\hfill{}\textsc{buy:grocery}
+\label{sec-4-2}
+\item Bread\hfill{}\textsc{buy:grocery}
+\label{sec-4-3}
+\item Lunch meat\hfill{}\textsc{buy:grocery}
+\label{sec-4-4}
+\item Cheese\hfill{}\textsc{buy:grocery}
+\label{sec-4-5}
+\item Trail mix, nuts, dried fruit\hfill{}\textsc{buy:grocery}
+\label{sec-4-6}
+\item Water
+\label{sec-4-7}
+\item Cans of stew/soup (4)\hfill{}\textsc{buy:grocery}
+\label{sec-4-8}
+\item Noodles + spaghetti sauce\hfill{}\textsc{buy:grocery}
+\label{sec-4-9}
+\item white rice\hfill{}\textsc{buy:grocery}
+\label{sec-4-10}
+\item Hot chocolate
+\label{sec-4-11}
+\item oatmeal\hfill{}\textsc{buy:grocery}
+\label{sec-4-12}
+\item raisins\hfill{}\textsc{buy:grocery}
+\label{sec-4-13}
+\item cinnamon
+\label{sec-4-14}
+\item agave syrup\hfill{}\textsc{buy:grocery}
+\label{sec-4-15}
+\item fruit and vegetables\hfill{}\textsc{buy:grocery}
+\label{sec-4-16}
+\item eggs
+\label{sec-4-17}
+\item rice milk
+\label{sec-4-18}
+\end{itemize}
+
+\section*{Activities}
+\label{sec-5}
+\begin{itemize}
+\item games: apples to apples, catch phrase, cards, robot turtles
+\label{sec-5-1}
+\item bug spray\hfill{}\textsc{buy:rei}
+\label{sec-5-2}
+\item binoculars\hfill{}\textsc{buy:rei}
+\label{sec-5-3}
+\item camera
+\label{sec-5-4}
+\item outlet converter
+\label{sec-5-5}
+\item umbrella
+\label{sec-5-6}
+\item sunscreen (check)
+\label{sec-5-7}
+\item head lamp (1 more; get batteries)\hfill{}\textsc{buy:rei}
+\label{sec-5-8}
+\item various LED lights
+\label{sec-5-9}
+\item lantern?
+\label{sec-5-10}
+\item kid carrier(s)
+\label{sec-5-11}
+\item Ergo baby
+\label{sec-5-12}
+\item sun hat(s) - try them on
+\label{sec-5-13}
+\item Kelty pack
+\label{sec-5-14}
+\item hand warmer packs\hfill{}\textsc{buy:rei}
+\label{sec-5-15}
+\item various batteries (check stuff bringing)\hfill{}\textsc{buy:anywhere}
+\label{sec-5-16}
+\item propane refills (ask how many at REI)\hfill{}\textsc{buy:rei}
+\label{sec-5-17}
+\item watch
+\label{sec-5-18}
+\item swiss army knife
+\label{sec-5-19}
+\end{itemize}
+
+\section*{Bathing}
+\label{sec-6}
+\begin{itemize}
+\item travel containers (?)
+\label{sec-6-1}
+\item towels (2)
+\label{sec-6-2}
+\item wash cloths (2)
+\label{sec-6-3}
+\item wipes (pack)
+\label{sec-6-4}
+\item\relax [0/6] toiletries
+\label{sec-6-5}
+\begin{itemize}
+\item shampoo
+\label{sec-6-5-1}
+\item bar soap
+\label{sec-6-5-2}
+\item face wash
+\label{sec-6-5-3}
+\item toothpaste
+\label{sec-6-5-4}
+\item kid's toothpaste
+\label{sec-6-5-5}
+\end{itemize}
+\item laundry soap
+\label{sec-6-6}
+\end{itemize}
 \end{document}

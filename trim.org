@@ -37,19 +37,6 @@
 | *total* |      411 |       |   |
    #+TBLFM: $1=32-3.5::$2=vsum(@2..@-1)
 
-
-** Bathroom hall
-
-| raw | buffered | group |
-|-----+----------+-------|
-|  63 |       64 | i     |
-|  51 |       52 | j     |
-|  13 |       14 | j     |
-|  22 |       23 | i     |
-|  16 |       17 | j     |
-
-
-
 ** Groups
 
 - a :: 71 + 31 + 9.5 = 120
@@ -68,43 +55,43 @@ Hallway:
 
 * Trim
 ** Windows and doors (3.5")
-|            |  raw | buffered | group |   |
-|------------+------+----------+-------+---|
-| front d    | 80.5 |       84 | m     | - |
-| front d    | 80.5 |       84 | n     | - |
-| closet     |   80 |       84 | o     | - |
-| closet     |   80 |       84 | p     | - |
-| front d    |   36 |       44 | s-new | - |
-| closet     |   49 |       57 | e     | - |
-| office     |   82 |       86 | 96    | x |
-| office     |   82 |       86 | 96    | x |
-| office     |   32 |       40 | 96    | - |
-| kitchen    |   83 |       88 | 96    | x |
-| kitchen    |   83 |       88 | 96    | x |
-| kitchen    | 32.5 |       41 | s-new | - |
-|------------+------+----------+-------+---|
-| connie     | 32.5 |       40 | q-new | - |
-| connie     | 32.5 |       40 | r-new | - |
-| connie     | 53.5 |       62 | e     |   |
-| connie     | 53.5 |       62 | 96    |   |
-| front lawn | 45.5 |       54 | q-new |   |
-| front lawn | 45.5 |       54 | r-new |   |
-| front lawn | 46.5 |       55 | g     |   |
-| front lawn | 46.5 |       55 | f     |   |
-|------------+------+----------+-------+---|
-| din arch   |   94 |       99 | a     | x |
-| din arch   |   94 |       99 | b     | x |
-| din arch   |   94 |       99 | c     | x |
-| din arch   |   94 |       99 | d     | x |
-| entry arch | 94.5 |      100 | h     | x |
-| entry arch | 94.5 |      100 | j     | x |
-| din arch   |   54 |       63 | f     |   |
-| din arch   |   54 |       63 | g     |   |
-| entry arch |   67 |       75 | 96    |   |
-| entry arch |   67 |       75 | 96    |   |
-| entry arch | 94.5 |      100 | k     |   |
-| entry arch | 94.5 |      100 | l     |   |
-|------------+------+----------+-------+---|
+|            | l    |  raw | buffered | group     |   |
+|------------+------+------+----------+-----------+---|
+| front d    | df-l | 80.5 |       84 | m         |   |
+| front d    | df-r | 80.5 |       84 | n         |   |
+| front d    | df-t |   36 |       44 | s-new     |   |
+| closet     | dc-l |   80 |       84 | o         |   |
+| closet     | dc-r |   80 |       84 | p         |   |
+| closet     | dc-t |   49 |       57 | e         |   |
+| office     |      |   82 |       86 | 96        | x |
+| office     |      |   82 |       86 | 96        | x |
+| office     |      |   32 |       40 | 96        | x |
+| kitchen    |      |   83 |       88 | 96        | x |
+| kitchen    |      |   83 |       88 | 96        | x |
+| kitchen    |      | 32.5 |       41 | s-new (?) | x |
+|------------+------+------+----------+-----------+---|
+| connie     | wc-b | 32.5 |       40 | q-new     |   |
+| connie     | wc-t | 32.5 |       40 | r-new     |   |
+| connie     | wc-l | 53.5 |       62 | e         |   |
+| connie     | wc-r | 53.5 |       62 | 96        |   |
+| front lawn | wf-b | 45.5 |       54 | q-new     |   |
+| front lawn | wf-t | 45.5 |       54 | r-new     |   |
+| front lawn | wf-l | 46.5 |       55 | g         |   |
+| front lawn | wf-r | 46.5 |       55 | f         |   |
+|------------+------+------+----------+-----------+---|
+| din arch   |      |   94 |       99 | a         | x |
+| din arch   |      |   94 |       99 | b         | x |
+| din arch   |      |   54 |       63 | f         | x |
+| din arch   |      |   94 |       99 | c         | x |
+| din arch   |      |   94 |       99 | d         | x |
+| din arch   |      |   54 |       63 | g         | x |
+| entry arch |      | 94.5 |      100 | h         | x |
+| entry arch |      | 94.5 |      100 | j         | x |
+| entry arch |      |   67 |       75 | 96        | x |
+| entry arch |      |   67 |       75 | 96        |   |
+| entry arch |      | 94.5 |      100 | k         |   |
+| entry arch |      | 94.5 |      100 | l         |   |
+|------------+------+------+----------+-----------+---|
 
 44, 41, 40, 62, 62, 54, 55, 55, 40
 63, 63, 100, 100, 84, 84, 84, 84,
@@ -118,8 +105,8 @@ Hallway:
 - [X] d :: 63 + 40 = 101x
 - [ ] e :: 75 = 101
 - [ ] f :: 55 + 44 = 101 
-- [ ] g :: 55 + 41u = 101 
-- [ ] h :: 54 + 40u = 101
+- [X] g :: 55 + 41u = 101 
+- [X] h :: 54 + 40u = 101
 - [ ] i :: 62 = 101
 - [ ] j :: 62 = 101
 - [ ] k :: 100 = 101
@@ -130,7 +117,7 @@ Hallway:
 - [X] p :: 86 = 97x
 - [ ] q :: 54 + 40 = 95
 - [X] r :: 88 = 89x
-- [X] s :: 88 = 89x
+- [-] s :: 88 = 89x
 - [ ] t :: 84 = 88x
 - [ ] u :: 84 = 85x
 - [ ] :: 120x (knot and crack)
@@ -215,12 +202,6 @@ Minus office
 | *total* |        |         | 286.95 |
 #+TBLFM: $2=108-(((170+40)*2)/12)::$4=vsum(@2..@-1)
 
-* Walls
-
-- Kitchen :: 56 high, 165 x 160, really only two walls (126 ft^2) 
-- Dining :: 108 high, 165 x 147 (242 ft^2)
-- Living :: 108 high, 160 x 170 (256 ft^2)
-- Bath :: 57 high, 49 x 65 (45 ft^2)
 * Doorway pieces required:
 
 - Entry way sides: 95 x 5.25 (2)
