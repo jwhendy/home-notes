@@ -38,9 +38,194 @@
 - [[https://launchpad.net/ideatorrent][ideaTorrent]]
 - [[http://www.osqa.net/][osqa]]
 - [[http://stackoverflow.com/questions/1576935/open-source-alternative-to-uservoice-or-get-satisfaction][SO question inquiring about alternatives to UserVoice / Get Satisfaction]]
+
+** jumanji configuration
+
+jumanji settings
+| var                        | type   | value             | explanation                         |
+|----------------------------+--------+-------------------+-------------------------------------|
+| adblock                    | bool   | true              | Block ads                           |
+| auto-set-proxy             | bool   | true              | set proxyon initialization          |
+| close-window-with-last-tab | bool   | true              | Close window with last tab          |
+| download-dir               | string | "~/dl"            | Download directory                  |
+| download-command           | string | NULL              | Download command                    |
+| homepage                   | string | "http://pwmt.org" | Home page                           |
+| scroll-step                | int    | 40                | Scroll step                         |
+| zoom-step                  | int    | 10                | Zoom step                           |
+| save-session-at-exit       | bool   | true              | Save open tabs at exit              |
+| load-session-at-startup    | bool   | true              | Load the default session at startup |
+| focus-new-tabs             | bool   | true              | Focus newly open tabs               |
+
+
+webkit settings
+| var                         | type   | value        | explanation |
+|-----------------------------+--------+--------------+-------------|
+| auto-load-images            | bool   | true         |             |
+| auto-shrink-images          | bool   | true         |             |
+| cursive-font-family         | string | "serif"      |             |
+| default-encoding            | string | "iso-8859-1" |             |
+| default-font-family         | string | "sans-serif" |             |
+| default-font-size           | int    | 12           |             |
+| default-monospace-font-size | int    | 10           |             |
+| enable-caret-browsing       | bool   | false        |             |
+| enable-developer-extras     | bool   | false        |             |
+| enable-java-applet          | bool   | true         |             |
+| enable-page-cache           | bool   | false        |             |
+| enable-plugins              | bool   | true         |             |
+| enable-private-browsing     | bool   | false        |             |
+| enable-scripts              | bool   | true         |             |
+| enable-spell-checking       | bool   | false        |             |
+| enforce-96-dpi              | bool   | false        |             |
+| fantasy-font-family         | string | "serif"      |             |
+| full-content-zoom           | bool   | false        |             |
+| minimum-font-size           | int    | 5            |             |
+| monospace-font-family       | string | "monospace"  |             |
+| print-backgrounds           | bool   | true         |             |
+| resizeable-text-areas       | bool   | true         |             |
+| sans-serif-font-family      | string | "sans-serif" |             |
+| serif-font-family           | string | "serif"      |             |
+| spell-checking-languages    | string | NULL         |             |
+| user-agent                  | string | NULL         |             |
+| user-stylesheet-uri         | string | NULL         |             |
+
+
+default shortcuts (all for normal mode)
+| modifier | key   | combo | mode                     | action?         | alternative? |
+|----------+-------+-------+--------------------------+-----------------+--------------|
+|          | '     |       | sc_mark_evaluate         |                 |              |
+|          | d     |       | girara_sc_tab_close      |                 |              |
+|          | K     |       | girara_sc_tab_navigate   | GIRARA_NEXT     |              |
+|          | J     |       | girara_sc_tab_navigate   | GIRARA_PREVIOUS |              |
+|          |       | "gh"  | sc_goto_homepage         |                 |              |
+|          |       | "gH"  | sc_goto_homepage         | NEW_TAB         |              |
+|          |       | "gu"  | sc_goto_parent_directory |                 |              |
+|          |       | "gU"  | sc_goto_parent_directory | DEFAULT         |              |
+|          | f     |       | sc_hints                 |                 |              |
+|          | F     |       | sc_hints                 | NEW_TAB         |              |
+|          | /     |       | sc_focus_inputbar        |                 | "/"          |
+|          | ?     |       | sc_focus_inputbar        | APPEND_URL      | "?"          |
+|          | :     |       | sc_focus_inputbar        |                 | ":"          |
+|          | o     |       | sc_focus_inputbar        |                 | ":open       |
+|          | O     |       | sc_focus_inputbar        | APPEND_URL      | ":open       |
+|          | t     |       | sc_focus_inputbar        |                 | ":tabopen"   |
+|          | T     |       | sc_focus_inputbar        | APPEND_URL      | ":tabopen"   |
+|          | w     |       | sc_focus_inputbar        |                 | ":winopen"   |
+|          | W     |       | sc_focus_inputbar        | APPEND_URL      | ":winopen"   |
+|          | m     |       | sc_mark_add              |                 |              |
+| ctrl     | i     |       | sc_navigate_history      | NEXT            |              |
+| ctrl     | o     |       | sc_navigate_history      | PREVIOUS        |              |
+|          | L     |       | sc_navigate_history      | NEXT            |              |
+|          | H     |       | sc_navigate_history      | PREVIOUS        |              |
+|          | p     |       | sc_put                   |                 |              |
+|          | P     | "gP"  | sc_put                   | NEW_TAB         |              |
+|          | M     |       | sc_quickmark_add         |                 |              |
+|          |       | "go"  | sc_quickmark_evaluate    |                 |              |
+|          |       | "gn"  | sc_quickmark_evaluate    | NEW_TAB         |              |
+|          | r     |       | sc_reload                |                 |              |
+|          | R     |       | sc_reload                | BYPASS_CACHE    |              |
+|          | u     |       | sc_restore               |                 |              |
+|          | h     |       | sc_scroll                | LEFT            |              |
+|          | j     |       | sc_scroll                | DOWN            |              |
+|          | k     |       | sc_scroll                | UP              |              |
+|          | l     |       | sc_scroll                | RIGHT           |              |
+|          | Left  |       | sc_scroll                | LEFT            |              |
+|          | Up    |       | sc_scroll                | UP              |              |
+|          | Down  |       | sc_scroll                | DOWN            |              |
+|          | Right |       | sc_scroll                | RIGHT           |              |
+| ctrl     | d     |       | sc_scroll                | HALF_DOWN       |              |
+| ctrl     | u     |       | sc_scroll                | HALF_UP         |              |
+| ctrl     | f     |       | sc_scroll                | FULL_DOWN       |              |
+| ctrl     | b     |       | sc_scroll                | FULL_UP         |              |
+|          | Space |       | sc_scroll                | FULL_DOWN       |              |
+| shift    | Space |       | sc_scroll                | FULL_UP         |              |
+|          |       | "gg"  | sc_scroll                | TOP             |              |
+|          |       | "G"   | sc_scroll                | BOTTOM          |              |
+|          | 0     |       | sc_scroll                | BEGIN           |              |
+|          | $     |       | sc_scroll                | END             |              |
+|          | n     |       | sc_search                | FORWARDS        |              |
+|          | N     |       | sc_search                | BACKWARDS       |              |
+|          | A     |       | sc_toggle_bookmark       |                 |              |
+| ctrl     | p     |       | sc_toggle_proxy          |                 |              |
+|          |       | "gf"  | sc_toggle_source_mode    |                 |              |
+|          | y     |       | sc_yank                  |                 |              |
+|          | +     | "zI"  | sc_zoom                  | ZOOM_IN         |              |
+|          | -     | "zO"  | sc_zoom                  | ZOOM_OUT        |              |
+|          |       | "z0"  | sc_zoom                  | DEFAULT         |              |
+|          | Z     |       | sc_zoom                  | ZOOM_SPECIFIC   |              |
+|          | e     |       | sc_toggle_stylesheet     |                 |              |
+
+
+inputbar commands (prefaced with ":")
+| text          | shortened | command               | short command? | help text                                   |
+|---------------+-----------+-----------------------+----------------+---------------------------------------------|
+| "bmark"       |           | cmd_bookmark_add      |                | "Add a bookmark"                            |
+| "delbmarks"   |           | cmd_bookmark_delete   |                | "Delete a bookmark"                         |
+| "delmarks"    | "delm"    | cmd_marks_delete      |                | "Delete the specified marks"                |
+| "delqmarks"   | "delqm"   | cmd_quickmarks_delete |                | "Add quickmark"                             |
+| "downloads"   |           | cmd_downloads         |                | "Show downloads"                            |
+| "mark"        |           | cmd_marks_add         |                | "Mark current location within the web page" |
+| "open"        | "o"       | cmd_open              | cc_open        | "Open URL in the current tab"               |
+| "print"       |           | cmd_print             |                | "Show print dialog"                         |
+| "qmark"       |           | cmd_quickmarks_add    |                | "Add quickmark"                             |
+| "stop"        |           | cmd_stop              |                | "Stop loading the current page"             |
+| "tabopen"     | "t"       | cmd_tabopen           | cc_open        | "Open URL in a new tab"                     |
+| "winopen"     | "w"       | cmd_winopen           | cc_open        | "Open URL in a new window"                  |
+| "sessionsave" | "save"    | cmd_sessionsave       |                | "Save the current session"                  |
+| "sessionload" | "load"    | cmd_sessionload       |                | "Load a specific session"                   |
+
+commands
+| text               | command                  |
+|--------------------+--------------------------|
+| "focus_inputbar"   | sc_focus_inputbar        |
+| "goto_homepage"    | sc_goto_homepage         |
+| "goto_parent_dir"  | sc_goto_parent_directory |
+| "navigate_history" | sc_navigate_history      |
+| "put"              | sc_put                   |
+| "quit"             | sc_quit                  |
+| "reload"           | sc_reload                |
+| "restore"          | sc_restore               |
+| "scroll"           | sc_scroll                |
+| "show_source"      | sc_toggle_source_mode    |
+| "proxy"            | sc_toggle_proxy          |
+| "plugins"          | sc_toggle_plugins        |
+| "user_stylesheet"  | sc_toggle_stylesheet     |
+| "yank"             | sc_yank                  |
+| "zoom"             | sc_zoom                  |
+
+arguments
+| text         | argument      |
+|--------------+---------------|
+| "append_url" | APPEND_URL    |
+| "begin"      | BEGIN         |
+| "bottom"     | BOTTOM        |
+| "default"    | DEFAULT       |
+| "down"       | DOWN          |
+| "end"        | END           |
+| "full_down"  | FULL_DOWN     |
+| "full_up"    | FULL_UP       |
+| "half_down"  | HALF_DOWN     |
+| "half_up"    | HALF_UP       |
+| "in"         | ZOOM_IN       |
+| "left"       | LEFT          |
+| "next"       | NEXT          |
+| "no_cache"   | BYPASS_CACHE  |
+| "out"        | ZOOM_OUT      |
+| "previous"   | PREVIOUS      |
+| "right"      | RIGHT         |
+| "specific"   | ZOOM_SPECIFIC |
+| "tab"        | NEW_TAB       |
+| "top"        | TOP           |
+| "up"         | UP            |
+
+config
+| text         | config            |
+|--------------+-------------------|
+| searchengine | cmd_search_engine |
+| proxy        | cmd_proxy         |
+
 * Obconf from Larrson
-# Tint2 config file
-# For information on manually configuring tint2 see http://code.google.com/p/tint2/wiki/Configure
+|# Tint2 config file
+|# For information on manually configuring tint2 see http://code.google.com/p/tint2/wiki/Configure
 # To use this as default tint2 config: save as $HOME/.config/tint2/tint2rc
 
 panel_items = LTSBC
