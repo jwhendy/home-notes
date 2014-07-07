@@ -5,103 +5,6 @@
 #+latex_header: \usepackage{enumitem} \setlist{itemsep=0.05cm}
 #+latex_header: \usepackage{tikz}
 
-* Camping list
-
-** Clothing
-*** hats (5)
-*** coats (5)
-*** snowsuit (1)
-*** gloves (5, buy for amanda)					 :export:rei:
-*** long underwear (2-5, buy for kids)				 :export:rei:
-*** tennis shoes (5)
-*** sandals (5)
-*** hiking boots (1)
-*** socks (n * 3, buy some nice ones all around)		 :export:rei:
-*** undershirts (n * 3)
-*** underwear (n * 3)
-*** rain coats (4)						 :export:rei:
-*** pants (n * [2-3], look at dickies/carhart)
-*** short sleeved shirts (n * 2)
-*** long sleeved shirts (n * 2)
-*** mid layer (n * 1)
-
-** Sleeping
-*** sleeping bags (4)
-*** pillows (4)
-*** sleeping pads (have 2, buy 2)				 :buy:rei:
-*** Heater
-
-** Cooking/eating
-*** Big water jug						 :buy:rei:
-*** Cookware
-*** Eat ware (check what have)					 :buy:rei:
-*** Dishcloth
-*** Dish tub?
-*** Castille soap for dish soap
-*** Kitchen knives
-*** Buck knife + rubbery buck knife
-*** Aero press
-*** Coffee
-*** Nalgene (2)
-*** Cooler
-*** Trash bags (5)
-*** Tea?
-*** Silverware
-
-** Food
-*** Peanut butter					     :buy:grocery:
-*** Apples						     :buy:grocery:
-*** Bread						     :buy:grocery:
-*** Lunch meat						     :buy:grocery:
-*** Cheese						     :buy:grocery:
-*** Trail mix, nuts, dried fruit			     :buy:grocery:
-*** Water
-*** Cans of stew/soup (4)				     :buy:grocery:
-*** Noodles + spaghetti sauce				     :buy:grocery:
-*** white rice						     :buy:grocery:
-*** Hot chocolate
-*** oatmeal						     :buy:grocery:
-*** raisins						     :buy:grocery:
-*** cinnamon
-*** agave syrup						     :buy:grocery:
-*** fruit and vegetables				     :buy:grocery:
-*** eggs
-*** rice milk
-
-** Activities
-*** games: apples to apples, catch phrase, cards, robot turtles
-*** bug spray							 :buy:rei:
-*** binoculars							 :buy:rei:
-*** camera
-*** outlet converter
-*** umbrella
-*** sunscreen (check)
-*** head lamp (1 more; get batteries)				 :buy:rei:
-*** various LED lights
-*** lantern?
-*** kid carrier(s)
-*** Ergo baby
-*** sun hat(s) - try them on
-*** Kelty pack
-*** hand warmer packs						 :buy:rei:
-*** various batteries (check stuff bringing)		    :buy:anywhere:
-*** propane refills (ask how many at REI)			 :buy:rei:
-*** watch
-*** swiss army knife
-
-** Bathing
-*** travel containers (?)
-*** towels (2)
-*** wash cloths (2)
-*** wipes (pack)
-*** [0/6] toiletries
-**** shampoo
-**** bar soap
-**** face wash
-**** toothpaste
-**** kid's toothpaste
-*** laundry soap
-
 * Tech
 ** Screencasting
 - ffcast2 via someone on arch works alright, thought it seems that ffmpeg by itself might
@@ -311,7 +214,7 @@ config
 | searchengine | cmd_search_engine |
 | proxy        | cmd_proxy         |
 
-* Obconf from Larrson
+** Obconf from Larrson
 |# Tint2 config file
 |# For information on manually configuring tint2 see http://code.google.com/p/tint2/wiki/Configure
 # To use this as default tint2 config: save as $HOME/.config/tint2/tint2rc
@@ -671,7 +574,7 @@ Jumper all like symbols. This creates the following circuits:
 ** Learning python
 - [[http://mechanicalmooc.org/][A gentle introduction to python]]
 
-* EVO 4g s-off/unlock/root
+** EVO 4g s-off/unlock/root
 
 http://forum.xda-developers.com/showthread.php?t=2026938 helped unlock
 
@@ -808,8 +711,9 @@ version was also less than it was after I took the latest OTA from Sprint.
 
 Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]] (actual downloads are [[http://themikmik.com/showthread.php?13192-RADIOS-RECOVERY-FLASHABLE-Jewel-Radio-Collection&p=220556&viewfull=1#post220556][here]]). 
 
-* tea stuff
-** stovetop kettles
+* Tea/cups
+** tea stuff
+*** stovetop kettles
 
 - [[http://www.amazon.com/Chefs-Secret%C2%AE-Surgical-Stainless-Capsule/dp/B00407HE3U/ref=cm_cr_pr_product_top][Chef's Secret SS]]
 - [[http://www.amazon.com/Sori-Yanagi-Stainless-Steel-Kettle/dp/B0000DIJ6U/ref=sr_1_2?s=kitchen&ie=UTF8&qid=1392418435&sr=1-2&keywords=tea+kettle][Sori Yanagi]]
@@ -819,12 +723,12 @@ Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]]
 - [[http://www.amazon.com/OXO-Classic-Kettle-Brushed-Stainless/dp/B003L0OP20/ref=sr_1_29?s=kitchen&ie=UTF8&qid=1392418887&sr=1-29&keywords=tea+kettle][OXO Good Grips]]
 - [[http://www.amazon.com/Farberware-Victoria-Kettle-2-Quart-Green/dp/B0087RTTFU/ref=sr_1_14?s=kitchen&ie=UTF8&qid=1392418435&sr=1-14&keywords=tea+kettle][Faberware Victoria]]
 - [[http://www.amazon.com/Paula-Deen-2-Quart-Enamel-Teakettle/dp/B001CXEA46/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1392418435&sr=1-3&keywords=tea+kettle][Paula Deen Enamel]] 
-** info on gong fu
+*** info on gong fu
 
 - [[http://www.thechineseteashop.com/gong-fu-cha.html][nice article]]
 - [[http://terebess.hu/english/yixing1.html][bunch on yixing pots]]
 
-** tea pot sources
+*** tea pot sources
 
 - [[http://www.avenue18.ca/TEAPOT/Tokoname.htm][Ave 18]]
 - [[http://www.yuuki-cha.com/teaware/japanese-teapots][Yuuki-Cha]]
@@ -871,8 +775,7 @@ Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]]
   - [[http://stillhousenyc.com/store/index.php?route=product/product&path=24&product_id=482&root=home][Sawa in light blue]]
   - [[http://www.artisticnippon.com/product/arita/hakusan_porcelain/mistwhite.html][white mist]] at Artistic Nippon
 
-
-* Etsy sites for nice glazed things
+** Etsy sites for nice glazed things
 
 - [[https://www.etsy.com/listing/179758238/whiskey-cups-set-of-2?ref=related-0][really nice]] stone cups
 - [[https://www.etsy.com/listing/179222642/japanese-stoneware-teapot-indigo-blue?ref=sr_gallery_1&sref=sr_2b67284078d2090dd2159e25006e65f5076a9728b42d843e12a6cbbcfed55978_1393044718_14413911_teapot&sref2=MTc5MjIyNjQy%3AdGVhcG90%3AMTQ0MTM5MTE.%3AdGVhcG90IGphcGFuZXNl%3AdzA.%3AMTM5MzA0NDcxOA..%3AMjoxMzkzMDQ0NzE4OnM0MGpYaVNkekRBY3lqSGhhdHJkSWdQd2pHWl86NHctbjk5QWVVcHpTUURwQXE2blNTaXVOUktoUTozZTdkYWMwZmYxNmFiOGRiNTdkNGMxOWVhYTg4NmM3MjU2ZTkxYWY1%3Ab5e7a92baf3d75f24c8582d6bcc3436ea348903d&ga_search_query=teapot+japanese&ga_view_type=gallery&ga_ship_to=US&ga_search_type=all][stoneware teapot]] on etsy (blue, glazed, bamboo handle)
@@ -915,3 +818,33 @@ Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]]
 - [[http://users.sisqtel.net/losthiker/pikastove/][pika stove]]
 - [[http://seattlebackpackersmagazine.com/a-practical-ultralight-alcohol-stove-system/][article mentioning caldera cone]]
 - [[http://www.thermojetstove.com/photos.htm][thermojet]]
+* Plan for parents
+
+- Mon eve
+  - Dinner at our house/out?
+- Tues
+  - AAD picnic 12-5p
+  - Separate dinners, eat out, or crockpot meal here?
+- Weds
+  - Whole food shopping
+- Thurs
+- Fri
+- Sat
+- Sun
+
+- Stuff we want to do
+  - Hang out at local park
+  - Lake Calhoun
+  - Bonfire
+  - Science museum
+  - Surly tour
+  - Barbecue
+  - Trap shooting?
+  - Pictures of grandma with kids
+  - Como conservatory
+  - Minnehaha Falls or Taylors Falls
+  - Movie with dad?
+  - Go to the Y with Amanda
+  - Farmer's market?
+  - Thanh Truc (http://www.thanhtrucrestaurant.com/) or India Palace?
+  - Anything want/need to buy in a "big city" shop?
