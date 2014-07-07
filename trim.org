@@ -55,60 +55,80 @@ Hallway:
 
 * Trim
 ** Windows and doors (3.5")
-|            | l    |  raw | buffered | group     |   |
-|------------+------+------+----------+-----------+---|
-| front d    | df-l | 80.5 |       84 | m         |   |
-| front d    | df-r | 80.5 |       84 | n         |   |
-| front d    | df-t |   36 |       44 | s-new     |   |
-| closet     | dc-l |   80 |       84 | o         |   |
-| closet     | dc-r |   80 |       84 | p         |   |
-| closet     | dc-t |   49 |       57 | e         |   |
-| office     |      |   82 |       86 | 96        | x |
-| office     |      |   82 |       86 | 96        | x |
-| office     |      |   32 |       40 | 96        | x |
-| kitchen    |      |   83 |       88 | 96        | x |
-| kitchen    |      |   83 |       88 | 96        | x |
-| kitchen    |      | 32.5 |       41 | s-new (?) | x |
-|------------+------+------+----------+-----------+---|
-| connie     | wc-b | 32.5 |       40 | q-new     |   |
-| connie     | wc-t | 32.5 |       40 | r-new     |   |
-| connie     | wc-l | 53.5 |       62 | e         |   |
-| connie     | wc-r | 53.5 |       62 | 96        |   |
-| front lawn | wf-b | 45.5 |       54 | q-new     |   |
-| front lawn | wf-t | 45.5 |       54 | r-new     |   |
-| front lawn | wf-l | 46.5 |       55 | g         |   |
-| front lawn | wf-r | 46.5 |       55 | f         |   |
-|------------+------+------+----------+-----------+---|
-| din arch   |      |   94 |       99 | a         | x |
-| din arch   |      |   94 |       99 | b         | x |
-| din arch   |      |   54 |       63 | f         | x |
-| din arch   |      |   94 |       99 | c         | x |
-| din arch   |      |   94 |       99 | d         | x |
-| din arch   |      |   54 |       63 | g         | x |
-| entry arch |      | 94.5 |      100 | h         | x |
-| entry arch |      | 94.5 |      100 | j         | x |
-| entry arch |      |   67 |       75 | 96        | x |
-| entry arch |      |   67 |       75 | 96        |   |
-| entry arch |      | 94.5 |      100 | k         |   |
-| entry arch |      | 94.5 |      100 | l         |   |
-|------------+------+------+----------+-----------+---|
+|            | l    |  raw | buffered | group     |       |
+|------------+------+------+----------+-----------+-------|
+| front d    | df-l | 80.5 |       84 | m         | a     |
+| front d    | df-r | 80.5 |       84 | n         | b     |
+| front d    | df-t |   36 |       44 | s-new     | g     |
+| closet     | dc-l |   80 |       84 | o         | c     |
+| closet     | dc-r |   80 |       84 | p         | d     |
+| closet     | dc-t |   49 |       57 | e         |       |
+| office     |      |   82 |       86 | 96        | x     |
+| office     |      |   82 |       86 | 96        | x     |
+| office     |      |   32 |       40 | 96        | x     |
+| kitchen    |      |   83 |       88 | 96        | x     |
+| kitchen    |      |   83 |       88 | 96        | x     |
+| kitchen    |      | 32.5 |       41 | s-new (?) | x     |
+|------------+------+------+----------+-----------+-------|
+| connie     | wc-b | 32.5 |       40 | q-new     | h     |
+| connie     | wc-t | 32.5 |       40 | r-new     | i     |
+| connie     | wc-l | 53.5 |       62 | e         | h     |
+| connie     | wc-r | 53.5 |       62 | 96        | i     |
+| front lawn | wf-b | 45.5 |       54 | q-new     | g     |
+| front lawn | wf-t | 45.5 |       54 | r-new     | long? |
+| front lawn | wf-l | 46.5 |       55 | g         | long? |
+| front lawn | wf-r | 46.5 |       55 | f         |       |
+|------------+------+------+----------+-----------+-------|
+| din arch   |      |   94 |       99 | a         | x     |
+| din arch   |      |   94 |       99 | b         | x     |
+| din arch   |      |   54 |       63 | f         | x     |
+| din arch   |      |   94 |       99 | c         | x     |
+| din arch   |      |   94 |       99 | d         | x     |
+| din arch   |      |   54 |       63 | g         | x     |
+| entry arch |      | 94.5 |      100 | h         | x     |
+| entry arch |      | 94.5 |      100 | j         | x     |
+| entry arch |      |   67 |       75 | 96        | x     |
+| entry arch |      |   67 |       75 | 96        |       |
+| entry arch |      | 94.5 |      100 | k         | e     |
+| entry arch |      | 94.5 |      100 | l         | f     |
+|------------+------+------+----------+-----------+-------|
 
 44, 41, 40, 62, 62, 54, 55, 55, 40
 63, 63, 100, 100, 84, 84, 84, 84,
 54, 40, 75, 75, 86, 86, 88, 88, 57
 
+** Final run
+
+- [X] a (90)  
+- [X] b (90)
+- [X] c (90)
+- [X] d (95)
+- [X] e (101)
+- [X] f (101)
+- [ ] g (45/55)
+- [X] h (102)
+- [X] i (102)
+- [ ] j (102)
+- [ ] k (101)
+- [ ] l (101) 
+
+
 ** Re-reworked groups
 
-- [ ] a :: 75 = 120x
+This was the original grouping I created, but am not sure how it fits in with the new
+order or what I was tracking when I did the big run last year (kitchen, office, 3/4 arch
+sides). Created a headline above to reflect what I know I have and what I know remains to do.
+
+- [X] a :: 75 = 120x
 - [X] b :: 63 + 41 = 103x
-- [ ] c :: 100 = 101
+- [X] c :: 100 = 101
 - [X] d :: 63 + 40 = 101x
 - [ ] e :: 75 = 101
-- [ ] f :: 55 + 44 = 101 
+- [X] f :: 55 + 44 = 101 
 - [X] g :: 55 + 41u = 101 
 - [X] h :: 54 + 40u = 101
 - [ ] i :: 62 = 101
-- [ ] j :: 62 = 101
+- [X] j :: 62 = 101
 - [ ] k :: 100 = 101
 - [ ] l :: 57 + 40 = 98
 - [ ] m :: 84 = 97
