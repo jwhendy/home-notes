@@ -95,21 +95,3 @@ initialize alpm library...= if we don't create it's cache directories first.
 
 I add in =base-devel=, =wireless-tools=, and =net-tools= for now.
 
-
-* Packages
-openbox
-geeqie
-urxvt
-ncmpcpp
-mpd
-xorg-xinit
-xf86-input-mouse
-xf86-input-synaptics
-conky
-gimp
-r
-octave
-pcmanfm
-
-yaourt
-tint2

@@ -21,15 +21,6 @@
   - another helpful walkthrough: http://forums.freebsd.org/showthread.php?t=23826
   - final command I used: =code=ffcast ffmpeg -f alsa -ac 2 -i hw:0,0 -r 32 -vcodec mpeg2video -sameq -async 1 test.mpeg=code=  
 
-** idea generation software
-- [[http://www.eldos.com/vp/download-release.php][voxPopuli]]
-- [[https://github.com/BBYOpen/BBYIDX][bbyidx]]
-- [[http://www.useresponse.com/demo][useResponse]]
-- [[http://openmind.sourceforge.net/services.html][openMind]]
-- [[https://launchpad.net/ideatorrent][ideaTorrent]]
-- [[http://www.osqa.net/][osqa]]
-- [[http://stackoverflow.com/questions/1576935/open-source-alternative-to-uservoice-or-get-satisfaction][SO question inquiring about alternatives to UserVoice / Get Satisfaction]]
-
 ** jumanji configuration
 
 jumanji settings
@@ -525,44 +516,7 @@ battery_background_id = 0
     CLOSED: [2012-11-29 Thu 12:26]
 *** done reservation at Reve 324
     CLOSED: [2012-11-29 Thu 12:26]
-
     
-* Terminal blocks
-- DIN mount, 50cm, 35mm: [[http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043][link]]
-- 4 input terminal block: [[http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005][link]]
-
-Wiring diagram would be like so with 6 terminal blocks
-
-| block -> | 1  | 2  | 3  | 4  | 5  | 6  | 7  |
-|----------+----+----+----+----+----+----+----|
-| jumpers  | +  | +  | -  | -  | P1 | P1 | P1 |
-| feed     | T1 | R1 | M2 | P2 | R2 | R2 | R2 |
-|          | T1 | R1 | M2 |    | -- | -- | -- |
-|          | T1 | R1 | M2 |    | T2 | T2 | T2 |
-|          |    |    |    |    | M1 | M1 | M1 |
-
-Key:
-- R: Valve /relay/
-- T: Thermostat
-- M: Valve /motor/
-- P: Recirculation /pump/
-
-Jumper all like symbols. This creates the following circuits:
-
-+ -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
-+ -> relay (R1/R2) -> pump (P1/P2) -> -
-
-\begin{tikzpicture}
-\draw (0,0) to[voltmeter] (2,0);
-\draw (0,0)--(0,2);
-
-\end{tikzpicture}
-
-** Documentation
-
-- [[http://www.luxproducts.com/support/TX500b_Eng_WebManual.pdf][Upstairs; LUX TX500b]]
-- [[https://customer.honeywell.com/resources/techlit/TechLitDocuments/60-0000s/60-2133.pdf][Valves, V8043E/F]]
-
 * Software
 ** Learning d3
 - [[http://enjalot.github.com/dot-enter/][Enjalot tutorial videos]]
@@ -571,229 +525,15 @@ Jumper all like symbols. This creates the following circuits:
 - [[http://square.github.com/crossfilter/][related: crossfilter]]
 - [[http://www.dashingd3js.com/][Dashing d3 tutorial]]
 
-** Learning python
+** Learning python/programming
 - [[http://mechanicalmooc.org/][A gentle introduction to python]]
-
-** EVO 4g s-off/unlock/root
-
-http://forum.xda-developers.com/showthread.php?t=2026938 helped unlock
-
-Downloaded files from [[http://forum.xda-developers.com/showthread.php?t=2026938][this XDA post]]. Unzip the download and cd into the directory from a
-terminal. Needed files:
-- fastboot-linux
-- openrecovery-twrp-2.5.0.0-jewel.img
-
-Some people have problems with various versions of TWRP. The full list of versions is
-[[http://techerrata.com/browse/twrp2/jewel][here]] if you'd like to try some different ones.
-
-Pretty simple after that:
-- Follow [[http://www.htcdev.com/bootloader][HTC Dev instructions]] to unlock bootloader
-- Boot into fastboot (power + vol down), power on "fastboot" menu entry, plug in usb
-  cable
-- Install TWRP:
-
-#+begin_example
-$ sudo ./fastboot-linux flash recovery openrecovery-twrp-2.5.0.0-jewel.img
-$ sudo ./fastboot-linux erase cache
-#+end_example
-
-The instructions say to choose the "bootloader" menu option and then the "recovery" menu
-option. This didn't work for my and my phone just rebooted, so I just powered off again,
-then powered on (holding vol down) and then chose "recovery" from the main bootloader
-menu. From there, TWRP started up just fine.
-
-Now we're at step 6b from the Unlimited.io instructions. Download and unzip the
-babyracun.zip files, then boot into recovery. What wasn't clear for me is that this means
-you're booting into TWRP (I guess it's implied, but I checked on their IRC channel to
-verify and you should be looking at the TWRP main menu when you issue the =adb= commands).
-
-If the reboot takes you back to the bootloader screen and you see =fastboot usb= in red,
-issue the =sudo ./fastboot oem lock= command. Step 9 was straightforward (though took
-quite a long time to flash the RUU.zip file). My attempt did, indeed, fail with the error:
-
-#+begin_quote
-FAILED (remote: 90 hboot pre-update! please flush image again immediately)
-#+end_quote
-
-I simply pressed the up arrow from Linux and hit enter and it was successful the second
-time. Proceed with the HTC Dev unlock process you already went through, which I believe
-shut my device down after I accepted to unlock via the phone when asked. Boot up normally
-(I skipped all the setup stuff), then enable USB Debugging from the Settings -> Developer
-Options menu.
-
-Now type =sudo ./RabiesShot= from the terminal and wait. My first attempt looked like
-this:
-
-#+begin_example
-Starting up...
-Testing connection...
-Test 1: Rebooting into bootloader
-Waiting fastboot (17/60)
-Waiting...
-Test 2: Booting device...
-Waiting ADB... (60/60)
-Test 2: Booting FAILED
-Reboot device manually
-Connection test failed!
-#+end_example
-
-I believe this left my phone off, so I simply started back up, verified that USB
-debugging was still enabled, and then re-ran the command. The full output looked like
-this (successful):
-
-#+begin_example
-
-
-Starting up...
-Testing connection...
-Test 1: Rebooting into bootloader
-Waiting fastboot (17/60)
-Waiting...
-Test 2: Booting device...
-Waiting ADB... (10/60)
-Device detected.....................
-Test 3: Rebooting into bootloader (again)
-Waiting fastboot (17/60)
-Connection test OK!
-Waiting ADB... (21/60)
-Waiting for device to settle....................
-Searching for the device...
-Found the device...
-
-
-Racun is sneaking...
-It's a long way to sneak this will take several minutes...
-Hiding behind a wall..
-Checking for competition...
-Checking for predators...
-...........................
-Hiding under your Mercedes...
-Looking for a way in...
-Windows are closed.. found a cat door instead.
-Cat door is open! Peeking inside...
-Racun has spotted the fridge!
-Success! Racun has crawled into the fridge!
-.......................
-Scavenging...
-Looking for leftovers.
-Is that a corndog?
-......................................
-.............................
-Eating all your leftovers
-[                                             ]
-SUCCESS - Taking a nibble.
-SUCCESS - Taking another nibble.
-SUCCESS - Taking another nibble.
-SUCCESS - Taking another nibble.
-SUCCESS - Taking another nibble.
-SUCCESS - Feeling full!
-Paneer Butter Masala is delicious...
-Leftovers are good...
-Aaaah, nice scavenged dinner!!
-
-Tidying up your fridge.. leaving no evidence behind.
-...................
-Sneaking out of the house.
-Racun has escaped!
-...........
-Fastboot detected.
-DirtyRacun S-OFF Success!!
-#+end_example
-
-At one point I was prompted on whether I wanted to activate my device. I reacted and
-tapped OK, but am not sure if the program would have done that itself or not. Everything
-finished just fine.
-
-Then I re-flashed TWRP using the method above. Next, to look for a custom ROM. I settled
-on Mean Bean based on good reviews/opinions and being pretty stock/simple. At this point,
-I noticed I was now on software 3.15.651.16 instead of my former 3.16.351.3. My radio
-version was also less than it was after I took the latest OTA from Sprint.
-
-Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]] (actual downloads are [[http://themikmik.com/showthread.php?13192-RADIOS-RECOVERY-FLASHABLE-Jewel-Radio-Collection&p=220556&viewfull=1#post220556][here]]). 
-
-* Tea/cups
-** tea stuff
-*** stovetop kettles
-
-- [[http://www.amazon.com/Chefs-Secret%C2%AE-Surgical-Stainless-Capsule/dp/B00407HE3U/ref=cm_cr_pr_product_top][Chef's Secret SS]]
-- [[http://www.amazon.com/Sori-Yanagi-Stainless-Steel-Kettle/dp/B0000DIJ6U/ref=sr_1_2?s=kitchen&ie=UTF8&qid=1392418435&sr=1-2&keywords=tea+kettle][Sori Yanagi]]
-- [[http://www.amazon.com/KitchenAid-Teakettle-2-Quart-Essentials-Stainless/dp/B0009U5MYK/ref=sr_1_23?s=kitchen&ie=UTF8&qid=1392418255&sr=1-23&keywords=tea+kettle][KitchenAid]]
-- [[http://www.amazon.com/Joyce-Chen-90-0010-Ceramic-Kettle/dp/B00004RBTN/ref=sr_1_57?s=kitchen&ie=UTF8&qid=1392418926&sr=1-57&keywords=tea+kettle][Joyce Chen ceramic]]
-- [[http://www.amazon.com/All-Clad-E8619964-Stainless-Specialty-Cookware/dp/B00B5EDWL4/ref=sr_1_49?s=kitchen&ie=UTF8&qid=1392418926&sr=1-49&keywords=tea+kettle][All Clad]]
-- [[http://www.amazon.com/OXO-Classic-Kettle-Brushed-Stainless/dp/B003L0OP20/ref=sr_1_29?s=kitchen&ie=UTF8&qid=1392418887&sr=1-29&keywords=tea+kettle][OXO Good Grips]]
-- [[http://www.amazon.com/Farberware-Victoria-Kettle-2-Quart-Green/dp/B0087RTTFU/ref=sr_1_14?s=kitchen&ie=UTF8&qid=1392418435&sr=1-14&keywords=tea+kettle][Faberware Victoria]]
-- [[http://www.amazon.com/Paula-Deen-2-Quart-Enamel-Teakettle/dp/B001CXEA46/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1392418435&sr=1-3&keywords=tea+kettle][Paula Deen Enamel]] 
-*** info on gong fu
-
-- [[http://www.thechineseteashop.com/gong-fu-cha.html][nice article]]
-- [[http://terebess.hu/english/yixing1.html][bunch on yixing pots]]
-
-*** tea pot sources
-
-- [[http://www.avenue18.ca/TEAPOT/Tokoname.htm][Ave 18]]
-- [[http://www.yuuki-cha.com/teaware/japanese-teapots][Yuuki-Cha]]
-- [[http://www.o-cha.com/green-teas/teapots/][O-cha]] (only SS mesh style)
-- [[http://zentealife.com/tag/product/list/tagId/15/][Zen tea life]]
-- [[http://www.artisticnippon.com/product/tokoname/tokonameindex.htm][Artistic Nippon]]
-  - [[http://www.artisticnippon.com/product/tokoname/kenji/texturedteapot.html][nicked ovals]]
-  - [[http://www.artisticnippon.com/product/tokoname/koshin/marbleround.html][super clean]]
-  - [[http://www.artisticnippon.com/product/tokoname/houryu/kokudei_pinebarkteapot.html][pine bark texture]]
-
-- [[http://www.zencha.net/green_tea_pots.php][zencha]]
-- [[http://www.rishi-tea.com/product/ceramic-tea-mug-with-infuser-sky/ceramic-teapots][start simple]] with infuser cup?
-- [[http://www.hibiki-an.com/product_info.php/cPath/23/products_id/818][nice white]] kyusu that's glazed. simple. 
-- [[http://shop.samovarlife.com/Samovar-Wabi-Sabi-Teacup-p/1002wasa.htm][super nice stone cups]]
-
-- comparison table
-
-| source     | size     | strain   | price | shipping | notes                                      |
-|------------+----------+----------+-------+----------+--------------------------------------------|
-| [[http://www.artisticnippon.com/product/tokoname/houryu/kokudei_pinebarkteapot.html][nippon]]     | 360/12.1 | ceramic  |    46 |       25 | black, shortish, red rim, straw pattern    |
-| [[http://www.artisticnippon.com/product/tokoname/koshin/marbleround.html][nippon]]     | 290/9.8  | ceramic  |    58 |       25 | eggplant looking, textured body/smooth top |
-| [[http://zentealife.com/kyusu-beehive.html][zentealife]] | 350/11.8 | ??       |    60 |        8 | shortish, beehive hex pattern              |
-| [[http://zentealife.com/teaware/type/teapots/kyusu-morimasa1.html][zentealife]] | 340/11.5 | ??       |    30 |        8 | pan looking, tight outer pattern           |
-| [[http://zentealife.com/teaware/type/teapots/kyusu-kosho2.html][zentealife]] | 300/10   | ceramic  |    60 |        8 | pretty classic, red rim, tight lines       |
-| [[http://www.o-cha.com/greenteateapot.html][o-cha]]      | 360/12   | ss swing |    41 |       10 | nicks in line around outside, shortish     |
-| [[http://www.o-cha.com/tokoname-teapot-16408.html][o-cha]]      | 270/9    | ss 270   |    29 |       10 | stone looking, red lines                   |
-
-
-- [[http://www.youtube.com/watch?v=y1AbiyzFMK4][vitamix vs. blendtec]]
-
-- [[http://yunnansourcing.com/en/gaiwans/1559-cracked-celadon-gaiwan-for-gong-fu-tea-brewing-130ml.html][nice heavy gaiwan]]
-- [[http://yunnansourcing.com/en/strainers/145-naturalclaystrainerforgongfuchabrewingw-stand.html][stoneware strainer]]
-
-
-- [[http://www.everyonestea.com/product/152][white porcelain kyusu]]: pretty nice, modern looking ($49 + 15 shipping)
-- [[http://www.kinto.co.jp/en/products/drinkware/couleur/][neat tea set]]: stackable cup, built-in ceramic strainer, pretty elegant!
-- [[http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=281267281312][nice ceramic strainer one]]
-
-- Hakusan
-  - [[http://shop.umamimart.com/products/sawa-teapot][Hakusan kyusu, light blue]], $49
-  - [[http://www.lupiciausa.com/product_p/41400411.htm][Hakusan, white]], $49
-  - [[http://www.outofgray.com/brand_hakusan-1.html][Out of Gray]] Hakusan stuff
-  - [[http://www.common-webshop.com/artist/hakusan-porcelain][site with all hakusan]]
-  - [[http://stillhousenyc.com/store/index.php?route=product/product&path=24&product_id=482&root=home][Sawa in light blue]]
-  - [[http://www.artisticnippon.com/product/arita/hakusan_porcelain/mistwhite.html][white mist]] at Artistic Nippon
-
-** Etsy sites for nice glazed things
-
-- [[https://www.etsy.com/listing/179758238/whiskey-cups-set-of-2?ref=related-0][really nice]] stone cups
-- [[https://www.etsy.com/listing/179222642/japanese-stoneware-teapot-indigo-blue?ref=sr_gallery_1&sref=sr_2b67284078d2090dd2159e25006e65f5076a9728b42d843e12a6cbbcfed55978_1393044718_14413911_teapot&sref2=MTc5MjIyNjQy%3AdGVhcG90%3AMTQ0MTM5MTE.%3AdGVhcG90IGphcGFuZXNl%3AdzA.%3AMTM5MzA0NDcxOA..%3AMjoxMzkzMDQ0NzE4OnM0MGpYaVNkekRBY3lqSGhhdHJkSWdQd2pHWl86NHctbjk5QWVVcHpTUURwQXE2blNTaXVOUktoUTozZTdkYWMwZmYxNmFiOGRiNTdkNGMxOWVhYTg4NmM3MjU2ZTkxYWY1%3Ab5e7a92baf3d75f24c8582d6bcc3436ea348903d&ga_search_query=teapot+japanese&ga_view_type=gallery&ga_ship_to=US&ga_search_type=all][stoneware teapot]] on etsy (blue, glazed, bamboo handle)
-- [[https://www.etsy.com/listing/154474284/electric-fired-teapot-with-built-in?ref=sr_gallery_32&ga_search_query=kyusu&ga_view_type=gallery&ga_ship_to=US&ga_search_type=all][stoneware]] teapot on etsy (black, speckled, built-in strainer)
-- [[http://www.etsy.com/shop/brookhousepottery][brookhousepottery]]: mugs and shaving scuttles
-- [[https://www.etsy.com/shop/LivingEarthCeramics][LivingEarthCeramics]]: mugs and teacups
-  - [[https://www.etsy.com/listing/178604252/ready-to-ship-set-of-four-stoneware-mug][teacups]]: set of four, purpoe around rim ($54)
-  - [[https://www.etsy.com/listing/175759802/ready-to-ship-set-of-two-stoneware-mug][teacups]]: set of two, flared rim, purple dripped glaze... Amanda loves!
-  - [[https://www.etsy.com/listing/173421632/ready-to-ship-unique-stoneware-mug][teacups]]: set of two, flared rim, greenish/brown... could match Amanda's
-  - [[https://www.etsy.com/listing/170297323/ceramic-pottery-garden-pot-for-herbs-or][pots]]: nice blue small pots for herbs or other
-- [[https://www.etsy.com/shop/hughespottery][HughesPottery]]: amazing coffee mugs
-- [[https://www.etsy.com/shop/CenterHillClayWorks][CenterHillClayWorks]]: nice mugs
-  - [[https://www.etsy.com/listing/175215342/seaside-blue-pottery-mug-handmade][coffee mug]]: I bet Amanda would love these
-- [[https://www.etsy.com/shop/SwampFires][SwampFires]]: larger mugs and even beer steins
-- [[https://www.etsy.com/shop/jeffbrownpottery][JeffBrownPottery]]: mugs/tea cups, including "carved" mugs with a really neat look!
-- [[https://www.etsy.com/shop/AspenPottery][AspenPottery]]: one nice set of cups
-- [[https://www.etsy.com/shop/lorenhoward78][LorenHoward]]: nice mugs
-- [[https://www.etsy.com/shop/yezpottery][YezPottery]]: soap dispensers!
+- [[http://pythonturtle.org/][python turtle]]
+- [[http://stackoverflow.com/questions/3088/best-ways-to-teach-a-beginner-to-program?page=1&tab=votes#tab-top][SO suggestions]]
+- [[https://www.quora.com/For-anyone-who-did-Learn-Python-the-Hard-Way-how-long-did-it-take-you][Quora suggestions]]
+- [[http://inventwithpython.com/][invent with python]]
+- [[https://docs.python.org/3/tutorial/][official tutorial]]
+- [[http://www.diveintopython3.net/][dive into python3]]
+- [[http://learnpythonthehardway.org/book/][learn python the hard way]]
 
 * Notes on food
 - [[http://www.eatingwell.com/healthy_cooking/budget_cooking/the_best_foods_for_eating_well_on_a_budget][Eating well on a budget]] lists the lowest cost/healthiest foods by type
@@ -808,43 +548,110 @@ Used firmware [[http://forum.xda-developers.com/showthread.php?t=1704612][here]]
 - [[http://www.eatingwell.com/healthy_cooking/healthy_cooking_101_basics_and_techniques/12_superfoods_to_help_you_eat_healthy_for_1_or_less][Foods that cost less than $1/serving]] lists cheap superfoods: lentils, oats, kale,
   almonds, tea, oranges, tuna (chunk light << white albacore wrt mercury), PB, apples,
   eggs, carrots, sweet potatoes, cabbages
-* Camp stove stuff
-- [[http://packafeather.com/stove.html][feather lite]]
-- [[http://hikinghq.net/stoves/stove_compare.html][scientific testing]]
-- [[http://hikinghq.net/ionstove/about.htm][ion stove]]
-- [[http://flatcatgear.com/page3.php][flatcat gear]]
-- [[http://scottbryce.com/yaas_stove/][yaas]]
-- [[http://users.sisqtel.net/losthiker/pikastove/laminarflow.txt][laminar vs. turbulent]]
-- [[http://users.sisqtel.net/losthiker/pikastove/][pika stove]]
-- [[http://seattlebackpackersmagazine.com/a-practical-ultralight-alcohol-stove-system/][article mentioning caldera cone]]
-- [[http://www.thermojetstove.com/photos.htm][thermojet]]
-* Plan for parents
+* projects
+** Washer/dryers
 
-- Mon eve
-  - Dinner at our house/out?
-- Tues
-  - AAD picnic 12-5p
-  - Separate dinners, eat out, or crockpot meal here?
-- Weds
-  - Whole food shopping
-- Thurs
-- Fri
-- Sat
-- Sun
+*** Washers
 
-- Stuff we want to do
-  - Hang out at local park
-  - Lake Calhoun
-  - Bonfire
-  - Science museum
-  - Surly tour
-  - Barbecue
-  - Trap shooting?
-  - Pictures of grandma with kids
-  - Como conservatory
-  - Minnehaha Falls or Taylors Falls
-  - Movie with dad?
-  - Go to the Y with Amanda
-  - Farmer's market?
-  - Thanh Truc (http://www.thanhtrucrestaurant.com/) or India Palace?
-  - Anything want/need to buy in a "big city" shop?
+ #+latex: \small
+ | Make      | Model     | Price (L/HD) | Size | Rating (L/HD) | N (L/HD) | Steam | Warranty |  CR |
+ |-----------+-----------+--------------+------+---------------+----------+-------+----------+-----|
+ | Whirlpool | WFW94HEAW | 1079/-       |  4.3 | 4.5/-         | 93/-     | X     | 1yr      | 87* |
+ | LG        | WM2650HWA | 809/727      |  3.6 | 4.9/4.7       | 113/213  | X     | 1yr      |  85 |
+ | LG        | WM3470HWA | 999/988      |    4 | 4.8/4.7       | 82/267   | X     | 1yr      |  84 |
+ | LG        | WM3070HWA | -/899        |  3.7 | -/4.7         | -/64     | X     |          |  87 |
+ #+latex: \normalsize
+ *Note:* Highest CR rating for any washwer was 90.
+
+*** Matching Dryers
+
+ #+latex: \small
+ | Make      | Model     | Lowes    | HD       | Size | R L (g/e) | N L (g/e) | R HD (g/e) | N HD (g/e) | CR (g/e) |
+ |-----------+-----------+----------+----------+------+-----------+-----------+------------+------------+----------|
+ | Whirlpool | WFW94HEAW |          |          |  7.3 |           |           |            |            |          |
+ | LG        | WM2650HWA | 889/809  | 799/727  |  7.3 | 4.8/4.8   | 13/50     | 4.3/4.8    | 30/84      | 76/76    |
+ | LG        | WM3470HWA | 1099/999 | 1078/988 |  7.3 | 5/4.9     | 11/31     | 4.8/4.7    | 46/83      | 79/79    |
+ | LG        | WM3070HWA | -        | 989/899  |  7.3 | -         | -         | 4.8/4.9    | 5/26       | -        |
+ #+latex: \normalsize
+
+ *Note:* Highest CR rating of any dryer (gas or electric) was 79.
+
+
+*** Notes
+ - Whirlpool WFW94HEAW: 6/93 reviews are 3 stars or less and for
+   complaints about holes in clothes, cycle time, a water problem of
+   some sort, and a bad bearing. Not bad. HD doesn't carry that model,
+   but the reviews are much, much lower for the Whirlpools they do
+   carry (3.9/72, 2.7/19, and 3.6/17)
+ - LG2650 paired dryer gets not so hot reviews on reliability with the
+   gas, but the electric has 85 reviews and 4.8/5 average. Odd.
+ - LG3070 has 4.8 (gas, n=5) and 4.9 (elec, n=26) reviews on dryers (HD).
+ - LG3470 has 5.0 (gas, n=11) and 4.9 (elec, n=31) reviews on dryers
+   (Lowes), and 4.8 (gas, n=46) and 4.7 (elec, n=83) at HD. 
+
+ In general, LG was featured quite heavily in the top rated washers via
+ Consumer Reports, however the only local place they're sold appears
+ to be Sears, which has a much smaller sample size for the ratins
+ (~20-30). LG, in contrast, has some 4-500 reviews for various models
+ from Lowes/HD ratings alone, and they are unbelievably high (4.8-4.9).
+
+ Looking at HD, there were a lot of lower (< 4.0, reasonable N)
+ ratings for Whirlpool, whereas all the ~3.5 f^{3} LGs (4 of them)
+ weren't lower than 4.5, with sample sizes of 64, 213, 267,
+ and 349. Impressive.
+
+*** References
+ - [[http://applianceassistant.com/news/washerBrandReliability.php][reliability ratings]]: not sure where they get their data, but LG,
+   Whirlpool, and Frigidaire are the best rated for front load washer
+   reliability (9-11% major repair rate).
+
+ - [[http://www.warnersstellian.com/washer-buying-guide#capacity][size needed for queen/king sized comforter]]
+
+
+ #+begin_quote 
+ As a rule of thumb, to accomodate a king-sized comforter, a washer
+ capacity of 3.8 cu. ft. (IEC) or greater is required. For a
+ queen-sized comforter, approximately 3.5 cu. ft. (IEC) or more is
+ needed. 
+ #+end_quote
+
+ - [[http://www.theworldofwashers.com/2009/03/lowdown-on-capacity-frontload-washers.html][size guide]]: says 2.9 DOE = 3.5 IEC, 3.3 DOE = 4.2 IEC. So, 3.6 f^3
+   should be plenty for big loads (> 4.2).
+
+
+ Bosch clip conf. number: 13058617
+** Terminal blocks
+ - DIN mount, 50cm, 35mm: [[http://www.newark.com/omron-industrial-automation/pfp-50n/din-mounting-rail-35mm-aluminium/dp/93B2043][link]]
+ - 4 input terminal block: [[http://www.newark.com/wago/2001-1401/terminal-block-din-rail-4pos-22/dp/28K2005][link]]
+
+ Wiring diagram would be like so with 6 terminal blocks
+
+ | block -> | 1  | 2  | 3  | 4  | 5  | 6  | 7  |
+ |----------+----+----+----+----+----+----+----|
+ | jumpers  | +  | +  | -  | -  | P1 | P1 | P1 |
+ | feed     | T1 | R1 | M2 | P2 | R2 | R2 | R2 |
+ |          | T1 | R1 | M2 |    | -- | -- | -- |
+ |          | T1 | R1 | M2 |    | T2 | T2 | T2 |
+ |          |    |    |    |    | M1 | M1 | M1 |
+
+ Key:
+ - R: Valve /relay/
+ - T: Thermostat
+ - M: Valve /motor/
+ - P: Recirculation /pump/
+
+ Jumper all like symbols. This creates the following circuits:
+
+ + -> thermostat (T1/T2) -> valve motor (M1/M2) -> -
+ + -> relay (R1/R2) -> pump (P1/P2) -> -
+
+ \begin{tikzpicture}
+ \draw (0,0) to[voltmeter] (2,0);
+ \draw (0,0)--(0,2);
+
+ \end{tikzpicture}
+
+*** Documentation
+
+ - [[http://www.luxproducts.com/support/TX500b_Eng_WebManual.pdf][Upstairs; LUX TX500b]]
+ - [[https://customer.honeywell.com/resources/techlit/TechLitDocuments/60-0000s/60-2133.pdf][Valves, V8043E/F]]
